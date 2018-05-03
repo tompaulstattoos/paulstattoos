@@ -1,0 +1,25 @@
+*::selection {
+  background-color: #F66728;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #F66728;
+}
+.slider {
+    .slides {
+        .caption {
+            color: rgb(241, 70, 70);
+            position: absolute;
+            top: 40%;
+            left: 0%;
+            width: 70%;
+            opacity: 0;
+        }
+    }
+}
+
