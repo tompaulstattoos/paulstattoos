@@ -48,25 +48,16 @@
     <!--    START NAVBAR    -->
     <!-- ================== -->
     <nav class="main-nav" style="z-index: 2">
-      <div class="nav-wrapper grey lighten-3 black-text">
+      <div class="nav-wrapper blue-grey darken-3 white-text">
         <div class="container">
-          <a href="{{ site.baseurl }}" class="brand-logo"><img style="height: 60px; padding: 4px 0;" src="{{ '/assets/img/logo-mds-small.png' | relative_url }}" alt=""></a>  
-          <a href="#" data-target="slide-out-menu" class="button-collapse sidenav-trigger hide-on-large-only"><i class="material-icons mdsorange-text">menu</i></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            {% for item in site.data.default.navbar.nav %}
-              <li><a href="{{ item.url }}" class="dropdown-trigger mdsorange-text" data-target="{{ item.title }}_dropdown" style="font-size: 25px; font-weight: 600">{{ item.title }}</a></li>
+          <a href="{{ site.baseurl }}" class="brand-logo"><img style="height: 60px; padding: 4px 0;" src="{{ 'http://via.placeholder.com/150x60' | relative_url }}" alt=""></a>  
+          <ul id="nav-mobile" class="right">
+              <li><a href="{{ item.url }}" class="dropdown-trigger mdsorange-text" data-target="{{ item.title }}_dropdown" style="font-size: 25px; font-weight: 600"><i class="material-icons">menu</i></a></li>
               <ul id="{{ item.title }}_dropdown" class="dropdown-content">
-                {% for dropdown in item.dropdown %}
-                  <li><a href="{{ site.baseurl }}/{{ dropdown.url }}">{{ dropdown.title }}</a></li>
+                {% for dropdown in site.data.default.navbar.nav.dropdown %}
+                  <li><a href="{{ site.baseurl }}/{{ dropdown.url }}">{{ dropdown.title }}</a></li>{{ item.title }}
                 {% endfor %}
               </ul>
-            {% endfor %}
-            <li><a href="#!" class="dropdown-trigger" data-target="tv_dropdown" style="padding: 0; margin: 0; height: 65px;"><img src="{{ 'assets/img/tv/logo.jpg' | relative_url}}" alt="" style="height: 65px;"></a></li>
-            <ul id="tv_dropdown" class="dropdown-content">
-              {% for item in site.data.tv.tv %}
-              <li><a href="{{ item.url }}" class="blue-text">{{ item.title }}</a></li>
-              {% endfor %}
-            </ul>
           </ul>
         </div>
       </div>
@@ -158,13 +149,3 @@
   var instance = M.Slider.init(elem, { height: 900, indicators: false });
 
 </script>
-
-<style>
-  .tv {
-    z-index: 9999;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 70px;
-  }
-</style>
