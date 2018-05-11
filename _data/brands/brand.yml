@@ -1,0 +1,26 @@
+brands:
+  - title: Nike
+    #img-url: text.jpg
+    #info: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    menu:
+      - title: Geschichte
+        url: nike_history
+
+      - title: Impressionen
+        url: nike_impression
+
+      - title: Shop
+        url: nike_shop
+
+  # - title: Adiddas
+  #   img-url: text.jpg
+  #   info: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  #   menu:
+  #     - title: Geschichte
+  #       url: Adiddas_history
+  #
+  #     - title: Impressionen
+  #       url: Adiddas_impression
+  #
+  #     - title: Shop
+  #       url: Adiddas_shop

@@ -19,7 +19,7 @@
     <!-- ================== -->
     <!--    START BANNER    -->
     <!-- ================== -->
-    <img src="{{ '/assets/img/logo-mds-small.png' | relative_url }}" alt="mds logo " class="hide-on-small-only top-right-logo">
+    <img src="{{ '/assets/img/logo-mds-small.png' | relative_url }}" alt="brandstore tirol logo " class="hide-on-small-only top-right-logo">
     <!-- | append: site.github.build_revision -->
     <div class="slider hide-on-small-only">
       <div class="slider-arrows">
@@ -42,7 +42,7 @@
     <!--     END BANNER     -->
     <!-- ================== -->
 
-    
+
 
     <!-- ================== -->
     <!--    START NAVBAR    -->
@@ -50,41 +50,20 @@
     <nav class="main-nav" style="z-index: 2">
       <div class="nav-wrapper blue-grey darken-3 white-text">
         <div class="container">
-          <a href="{{ site.baseurl }}" class="brand-logo"><img style="height: 60px; padding: 4px 0;" src="{{ 'http://via.placeholder.com/150x60' | relative_url }}" alt=""></a>  
+          <a href="{{ site.baseurl }}" class="brand-logo"><img style="height: 60px; padding: 4px 0;" src="{{ 'http://via.placeholder.com/150x60' | relative_url }}" alt=""></a>
           <ul id="nav-mobile" class="right">
-              <li><a href="{{ item.url }}" class="dropdown-trigger mdsorange-text" data-target="{{ item.title }}_dropdown" style="font-size: 25px; font-weight: 600"><i class="material-icons">menu</i></a></li>
-              <ul id="{{ item.title }}_dropdown" class="dropdown-content">
-                {% for dropdown in site.data.default.navbar.nav.dropdown %}
-                  <li><a href="{{ site.baseurl }}/{{ dropdown.url }}">{{ dropdown.title }}</a></li>{{ item.title }}
-                {% endfor %}
+              <li><a href="#!" class="dropdown-trigger" data-target="main_dropdown" style="font-size: 25px; font-weight: 600"><i class="material-icons">menu</i></a></li>
+              <ul id="main_dropdown" class="dropdown-content">
+                <li><a href="#!">Über uns</a></li>
+                <li><a href="#!">Brands</a></li>
+                <li><a href="#!">Kontakt</a></li>
+                <!-- <li><a href="#!">Shop</a></li> -->
               </ul>
           </ul>
         </div>
       </div>
     </nav>
 
-    <ul id="slide-out-menu" class="sidenav">
-      <li>
-        <img src="{{ '/assets/img/logo-mds-small.png' | relative_url }}" alt="" style="width: 100%; padding: 2% 2% 0 2%;">
-      </li>
-      <li class="divider"></li>
-      {% for item in site.data.default.navbar.nav %}
-      <li class="no-padding">
-        <ul class="collapsible collapsible-accordion">
-          <li><div class="collapsible-header">{{ item.title }}</div>
-          <div class="collapsible-body">
-            <ul>
-              {% for dropdown in item.dropdown %}
-              <li><a href="/{{ dropdown.url }}">{{ dropdown.title }}</a></li>
-              {% endfor %}
-              <li class="divider"></li>
-            </ul>
-          </div>
-        </li>
-        </ul>  
-      </li>
-      {% endfor %}
-    </ul>
     <!-- ================== -->
     <!--     END NAVBAR     -->
     <!-- ================== -->
@@ -96,11 +75,11 @@
     <!-- ================== -->
     <!--    START FOOTER    -->
     <!-- ================== -->
-    <footer class="page-footer">
+    <footer class="page-footer blue-grey darken-3">
       <div class="container">
         <div class="row">
             {% for item in site.data.default.footer.footer %}
-              <div class="col s12 m6 l3">
+              <div class="col s12 m6">
                 <h5 class="footer-header white-text">{{ item.title }}</h5>
                 <ul>
                   {% for content in item.content %}
@@ -108,7 +87,7 @@
                   {% endfor %}
                 </ul>
               </div>
-            {% endfor %}  
+            {% endfor %}
         </div>
       </div>
       <div class="footer-copyright">
@@ -130,13 +109,14 @@
   var instance = M.Pushpin.init(elem, { top: 900 });
 
   // Dropdown
-  var elem = document.querySelectorAll('.dropdown-trigger');
-  //var elem = document.getElementsByClassName("dropdown-trigger");
-  var instance = M.Dropdown.init(elem, { coverTrigger: false, hover: true });
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, { hover: true, coverTrigger: false });
+  });
 
   // $('.dropdown-trigger').dropdown({ coverTrigger: false, hover: true });
 
-  var elem = document.querySelector('.sidenav');
+  var elems = document.querySelector('.sidenav');
   var instance = M.Sidenav.init(elem);
 
    // Initialize collapsible (uncomment the lines below if you use the dropdown variation)

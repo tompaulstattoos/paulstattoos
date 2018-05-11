@@ -1,5 +1,5 @@
 *::selection {
-  background-color: #F66728;
+  background-color: #546E7A;
   color: #fff;
 }
 
@@ -8,18 +8,19 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #F66728;
+  background-color: #546E7A;
 }
 .slider {
     .slides {
+      li {
         .caption {
-            color: rgb(241, 70, 70);
-            position: absolute;
-            top: 40%;
-            left: 0%;
-            width: 70%;
-            opacity: 0;
+          position: absolute;
+          top: 10%;
+          left: 8%;
+          width: 70%;
+          height: 60vh;
+          opacity: 0;
         }
+      }
     }
 }
-
