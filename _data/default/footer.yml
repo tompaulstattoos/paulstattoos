@@ -3,8 +3,11 @@ footer:
     content:
       - title: Impressum
         url: /impressum
-
-  - title: Cockie-Richtlinie
     content:
       - title: Cockie-Richtlinie
         url: /cookie
+
+  #- title: Cockie-Richtlinie
+   # content:
+    #  - title: Cockie-Richtlinie
+     #   url: /cookie
