@@ -1,10 +1,10 @@
 footer:
-  - title: Warum wir?
+  - title: Impressum
     content:
-      - title: Über uns
-        url: /about
+      - title: Impressum
+        url: /impressum
 
-  - title: Kontakt
+  - title: Cockie-Richtlinie
     content:
-      - title: Kontaktieren Sie uns
-        url: /contact_imprint
+      - title: Cockie-Richtlinie
+        url: /cookie
