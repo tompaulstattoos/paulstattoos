@@ -6,7 +6,9 @@ footer:
       - title: Cockie-Richtlinie
         url: /cookie
     
-  #- title: Cockie-Richtlinie
-  #  content:
-  #    - title: Cockie-Richtlinie
-  #      url: /cookie
+  - title: Kontakt
+    content:
+      - title: Persönlich
+        url: /persoenlich
+      - title: Unpersönlich
+        url: /unpersönlich
