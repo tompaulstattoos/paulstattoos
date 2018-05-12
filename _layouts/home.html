@@ -11,7 +11,7 @@ title: Home
     <div class="card">
       <div class="card-image">
         <img src="{{ brand.img-url }}">
-        <a class="btn-floating halfway-fab waves-effect waves-light red dropdown-trigger" data-target="brand_dropdown"><i class="material-icons">menu</i></a>
+        <a class="btn-floating halfway-fab waves-effect waves-light red dropdown-trigger" data-target="{{ brand.title }}_dropdown"><i class="material-icons">menu</i></a>
       </div>
 
       <div class="card-content">
@@ -24,12 +24,12 @@ title: Home
     </div>
   </div>
 
+  <ul id="{{ brand.title }}_dropdown" class="dropdown-content" style="color: black;">
+    <li><a href="#!" class="activator">Geschichte</a></li>
+    <li><a href="#!">Impressionen</a></li>
+    <li><a href="{{ site.baseurl }}">Home</a></li>
+  </ul>  
+
   {% endfor %}
 
 </div>
-
-<ul id="brand_dropdown" class="dropdown-content">
-  <li><a href="#!" class="activator">Geschichte</a></li>
-  <li><a href="#!">Impressionen</a></li>
-  <li><a href="{{ site.baseurl }}">Home</a></li>
-</ul>
