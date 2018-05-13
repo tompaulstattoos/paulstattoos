@@ -108,16 +108,19 @@
   }
 </style>
 
-<script>
-  // var BannerHeight = $('#BannerHeight').innerHeight();
+<script>  
 
-  var elem = document.querySelector('.main-nav');
-  var instance = M.Pushpin.init(elem, { top: 900 });
-
-  // Dropdown
   document.addEventListener('DOMContentLoaded', function() {
+
+    // Dropdown
     var elems = document.querySelectorAll('.dropdown-trigger');
     var instances = M.Dropdown.init(elems, { hover: false, coverTrigger: false });
+
+    // Fixed Nav
+    var BannerHeight = $('.slider').innerHeight();
+
+    var elem = document.querySelector('.main-nav');
+    var instance = M.Pushpin.init(elem, { top: BannerHeight });
   });
 
   // $('.dropdown-trigger').dropdown({ coverTrigger: false, hover: true });
