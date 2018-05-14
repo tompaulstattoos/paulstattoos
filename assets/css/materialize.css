@@ -6976,6 +6976,9 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
 ::-webkit-scrollbar-thumb {
   background-color: #546E7A; }
 
+.slider .slides li .logo-banner {
+  width: 40px; }
+
 .slider .slides li .caption {
   max-width: 800px;
   background-color: rgba(0, 0, 0, 0.7);
@@ -6986,18 +6989,29 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   top: 10%;
   left: 8%;
   width: 70%;
-  height: 80%;
-  max-height: 100%;
   opacity: 0; }
 
 @media only screen and (max-width: 670px) {
-  .slider .slides li .caption {
-    top: 5%;
-    left: 5%;
-    padding: 10px;
-    width: 90%;
-    overflow-x: hidden;
-    max-height: 500px; } }
+  .slider {
+    height: 1000px !important; }
+    .slider .slides {
+      height: 1000px !important; }
+      .slider .slides li .caption {
+        top: 5%;
+        left: 5%;
+        padding: 10px;
+        width: 90%; } }
+
+@media only screen and (max-width: 380px) {
+  .slider {
+    height: 1200px !important; }
+    .slider .slides {
+      height: 1200px !important; }
+      .slider .slides li .caption {
+        top: 5%;
+        left: 5%;
+        padding: 10px;
+        width: 90%; } }
 
 .dropdown-content {
   color: black; }
