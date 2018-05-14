@@ -29,7 +29,7 @@
       <ul class="slides">
         {% for banner in site.data.default.banner.banner %}
         <li>
-          <img src="{{ site.baseurl }}/{{ banner.img-url }}" alt="">
+          <img src="{{ banner.img-url }}" alt="">
           <div class="caption banner-text hoverable" style="text-align: justify;">
             <h4>{{ banner.title }}</h4>
             <p class="light grey-text text-lighten-3 flow-text">{{ banner.text }}</p>
@@ -115,13 +115,10 @@
     // Dropdown
     var elems = document.querySelectorAll('.dropdown-trigger');
     var instances = M.Dropdown.init(elems, { hover: false, coverTrigger: false });
-
-    // Fixed Nav
-    var BannerHeight = $('.slider').innerHeight();
-
-    var elem = document.querySelector('.main-nav');
-    var instance = M.Pushpin.init(elem, { top: BannerHeight });
   });
+
+  var elem = document.querySelector('.main-nav');
+  var instance = M.Pushpin.init(elem, { top: 700 });
 
   // $('.dropdown-trigger').dropdown({ coverTrigger: false, hover: true });
 
