@@ -6977,13 +6977,27 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   background-color: #546E7A; }
 
 .slider .slides li .caption {
+  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 20px;
   position: absolute;
   top: 10%;
   left: 8%;
   width: 70%;
-  height: 100%;
-  max-height: 70vh;
+  height: 80%;
+  max-height: 100%;
   opacity: 0; }
+
+@media only screen and (max-width: 670px) {
+  .slider .slides li .caption {
+    top: 5%;
+    left: 5%;
+    padding: 10px;
+    width: 90%;
+    overflow-x: hidden;
+    max-height: 500px; } }
 
 .dropdown-content {
   color: black; }
@@ -6991,17 +7005,12 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
 /*
  * Banner Styling
 */
-.banner-text {
-  max-width: 800px;
-  background-color: rgba(0, 0, 0, 0.7);
-  border: 2px solid white;
-  border-radius: 5px;
-  padding: 20px; }
-  .banner-text h3 {
-    text-align: left;
-    font-size: 1em; }
-  .banner-text p {
-    font-size: 1.1em; }
+.banner-text h3 {
+  text-align: justify;
+  font-size: 1em; }
+
+.banner-text p {
+  font-size: 1.1em; }
 
 /*
  * Navbar Styling
@@ -7016,6 +7025,13 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   border-radius: 5px;
   -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); }
+
+@media only screen and (max-width: 670px) {
+  .top-right-logo {
+    display: none;
+    padding: 0;
+    width: 30%;
+    border-radius: 0px; } }
 
 .slider-arrows .left-arrow {
   z-index: 999;
