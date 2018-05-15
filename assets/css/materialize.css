@@ -6986,9 +6986,10 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   border-radius: 5px;
   padding: 20px;
   position: absolute;
-  top: 1000px;
+  top: 5%;
   left: 8%;
-  width: 70%; }
+  width: 70%;
+  opacity: 1; }
 
 .brandstore-quer {
   top: 0;
