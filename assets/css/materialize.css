@@ -6963,48 +6963,100 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
     margin-top: 1.2rem; } }
 
 *::-moz-selection {
-  background-color: #F66728;
+  background-color: #546E7A;
   color: #fff; }
 
 *::selection {
-  background-color: #F66728;
+  background-color: #546E7A;
   color: #fff; }
 
 ::-webkit-scrollbar {
   width: 6px; }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #F66728; }
+  background-color: #546E7A; }
 
-.slider .slides .caption {
-  color: #f14646;
+.slider .slides li .logo-banner {
+  width: 70px; }
+
+.slider .slides li .caption {
+  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 20px;
   position: absolute;
-  top: 40%;
-  left: 0%;
+  top: 5%;
+  left: 8%;
   width: 70%;
-  opacity: 0; }
+  opacity: 1; }
+
+.brandstore-quer {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  border: 0; }
+
+@media only screen and (max-width: 1022px) {
+  .slider {
+    height: 1000px !important; }
+    .slider .slides {
+      height: 1000px !important; } }
+
+@media only screen and (max-width: 799px) {
+  .slider {
+    height: 1100px !important; }
+    .slider .slides {
+      height: 1100px !important; } }
+
+@media only screen and (max-width: 673px) {
+  .slider {
+    height: 1200px !important; }
+    .slider .slides {
+      height: 1200px !important; } }
+
+@media only screen and (max-width: 567px) {
+  .slider {
+    height: 1300px !important; }
+    .slider .slides {
+      height: 1300px !important; } }
+
+@media only screen and (max-width: 503px) {
+  .slider {
+    height: 1400px !important; }
+    .slider .slides {
+      height: 1400px !important; } }
+
+@media only screen and (max-width: 461px) {
+  .slider {
+    height: 1500px !important; }
+    .slider .slides {
+      height: 1500px !important; } }
+
+@media only screen and (max-width: 380px) {
+  .slider .slides li .caption {
+    top: 5%;
+    left: 5%;
+    padding: 10px;
+    width: 90%; } }
+
+.dropdown-content {
+  color: black; }
 
 /*
  * Banner Styling
 */
-.banner-text {
-  max-width: 800px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 2px solid white;
-  border-radius: 5px;
-  padding: 20px; }
-  .banner-text h3 {
-    text-align: left;
-    font-size: 1em; }
-  .banner-text p {
-    font-size: 1.1em; }
+.banner-text h3 {
+  text-align: justify;
+  font-size: 1em; }
+
+.banner-text p {
+  font-size: 1.1em; }
 
 /*
  * Navbar Styling
 */
-.dropdown-content li > a {
-  color: #F66728; }
-
 .top-right-logo {
   position: absolute;
   top: 0;

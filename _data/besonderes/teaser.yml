@@ -1,0 +1,15 @@
+teaser:
+  - title: Intelligente Lösungen
+    content: Ob Event- oder Facility Management, professionelle Beratung oder Systemanpassung, Schnittstellen-Design oder Business Intelligence, Serverhosting oder Support Bei <span class="mds-bold-text">more dimensions</span> erhalten Sie integrierte Werkzeuge und eine nachhaltige Betreuung für Ihren Arbeitsalltag. Durch die Kombination von Standardlösungen für Ihre Branche und individueller Anpassung befreien wir Ihre Mitarbeiter von Dingen, die eine intelligente Software für Sie erledigen kann – damit Sie sich wieder jenen Tätigkeiten widmen können, bei denen der Mensch gefragt ist.
+    img-url: pictogram_intelligence_orange_bitmap.png
+    url: /intelligence
+  
+  - title: Veranstaltungs Management
+    content:  Mit unserer Branchen-Lösung <span class="mds-bold-text">evis</span> bilden wir die Basis für das integrierte Management von Eventlocations, Konzerthäusern, Orchestern und Festivals. Ob Sie Ihre Projekte künstlerisch und organisatorisch planen und budgetieren, über die <span class="mds-bold-text">evis</span>-Kommunikationstools mit ihrem Publikum kommunizieren oder ihr Personal disponieren wollen – <span class="mds-bold-text">evis</span> bildet durch die richtige Auswahl der Module nahezu jede Konstellation des Veranstaltungsmanagements ab.
+    img-url: pictogram_stage_curtains_bitmap.png
+    url: /event_management
+
+  - title: Facility Management
+    content: Mit der Standard-Lösung <span class="mds-bold-text">e.kus</span> unseres Partners pit-cup GmbH sowie zahlreichen von uns entwickelten Erweiterungen steht Ihnen eine erweiterbare Plattform zur Verfügung, in der Gebäude- und Flächenmanagement, Instandhaltung, Investitionsplanung sowie Schnittstellen zu weiteren Systemen für einen reibungslosen und effektiven Informationsfluss im Facility Management sorgen.
+    img-url: pictogram_factory_green_bitmap.png
+    url: /factory_green

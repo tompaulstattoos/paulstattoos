@@ -1,65 +1,14 @@
 footer:
-  - title: Warum wir?
-    content: 
-      - title: Über uns
-        url: /about
-      
-      - title: Technologie
-        url: /technology
-
-  - title: Zielgruppen
-    content: 
-      - title: Veranstaltungsbetriebe
-        url: ""
-
-      - title: Konzerthäuser
-        url: ""
-
-      - title: Orchester
-        url: ""
-
-      - title: Festivals
-        url: ""
-
-      - title: Facillity Managements
-        url: ""
-
-      - title: Serverhosting
-        url: ""
-
-  - title: Module
-    content: 
-      - title: Veranstaltungs- und Raummanagement
-        url: ""
-
-      - title: Vermietung
-        url: ""
-
-      - title: Adress- und Kontaktmanagement
-        url: ""
-
-      - title: Marketing-Tools
-        url: ""
-
-      - title: Werke, Interpreten, Noten & Instrumente
-        url: ""
-
-      - title: Orchestermanagement
-        url: ""
-      
-      - title: Kalkulation, Budgetierung & Controlling
-        url: ""
-
-      - title: Mobile Applications
-        url: ""
-
-      - title: Facillity Management
-        url: ""
-
-      - title: Serverhosting
-        url: ""
-
+  - title: Impressum
+    content:
+      - title: Impressum
+        url: /impressum
+      - title: Cockie-Richtlinie
+        url: /cookie
+    
   - title: Kontakt
-    content: 
-      - title: Kontaktieren Sie uns
-        url: /contact_imprint
+    content:
+      - title: Persönlich
+        url: /persoenlich
+      - title: Unpersönlich
+        url: /unpersönlich

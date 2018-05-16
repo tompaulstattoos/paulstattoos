@@ -19,72 +19,55 @@
     <!-- ================== -->
     <!--    START BANNER    -->
     <!-- ================== -->
-    <img src="{{ '/assets/img/logo-mds-small.png' | relative_url }}" alt="mds logo " class="hide-on-small-only top-right-logo">
+    <img src="{{ '/assets/img/logos/bs_logo_black_quer_2.png' | relative_url }}" alt="brandstore tirol logo" class="brandstore-quer hide-on-med-and-up">
+    <img src="{{ '/assets/img/logos/bs_logo_black_hoch.png' | relative_url }}" alt="brandstore tirol logo" class="top-right-logo hide-on-small-only" style="width: 20%;">
     <!-- | append: site.github.build_revision -->
-    <div class="slider hide-on-small-only">
-      <div class="slider-arrows">
+    <div class="slider">
+      <!-- <div class="slider-arrows">
         <div class="left-arrow"><i class="material-icons" onclick="instance.next()">keyboard_arrow_right</i></div>
         <div class="right-arrow"><i class="material-icons" onclick="instance.prev()">keyboard_arrow_left</i></div>
-      </div>
+      </div> -->
       <ul class="slides">
         {% for banner in site.data.default.banner.banner %}
         <li>
-          <img src="{{ site.baseurl }}/{{ banner.img-url }}" alt="">
-          <div class="caption banner-text hoverable">
+          <img src="assets/img/banner/{{banner.img-url}}" alt="">
+          <div class="caption banner-text hoverable" style="text-align: justify;">
             <h4>{{ banner.title }}</h4>
             <p class="light grey-text text-lighten-3 flow-text">{{ banner.text }}</p>
+            <p class="hashtag light grey-text text-lighten-3 flow-text" style="text-align: left;">{{ banner.hashtag }}</p>
+            <p class="light grey-text text-lighten-3 flow-text">{{ banner.greetings }}</p>
+            <img src="{{ 'assets/img/logos/bs_symbol_white.png' | relative_url }}" alt="" class="logo-banner">
           </div>
         </li>
         {% endfor %}
       </ul>
     </div>
-    <!-- ================== -->
+    ================== -->
     <!--     END BANNER     -->
     <!-- ================== -->
 
-    
+
 
     <!-- ================== -->
     <!--    START NAVBAR    -->
     <!-- ================== -->
-    <nav class="main-nav" style="z-index: 2">
-      <div class="nav-wrapper blue-grey darken-3 white-text">
+    <nav style="z-index: 2">
+      <div class="nav-wrapper black white-text">
         <div class="container">
-          <a href="{{ site.baseurl }}" class="brand-logo"><img style="height: 60px; padding: 4px 0;" src="{{ 'http://via.placeholder.com/150x60' | relative_url }}" alt=""></a>  
+          <a href="{{ site.baseurl }}" class="brand-logo"><img style="height: 60px; padding: 4px 0;" src="{{ 'assets/img/logos/bs_logo_black_quer_2.png' | relative_url }}" alt=""></a>
           <ul id="nav-mobile" class="right">
-              <li><a href="{{ item.url }}" class="dropdown-trigger mdsorange-text" data-target="{{ item.title }}_dropdown" style="font-size: 25px; font-weight: 600"><i class="material-icons">menu</i></a></li>
-              <ul id="{{ item.title }}_dropdown" class="dropdown-content">
-                {% for dropdown in site.data.default.navbar.nav.dropdown %}
-                  <li><a href="{{ site.baseurl }}/{{ dropdown.url }}">{{ dropdown.title }}</a></li>{{ item.title }}
-                {% endfor %}
+              <li><a href="#!" class="dropdown-trigger btn-floating red" data-target="main_dropdown" style="font-size: 25px; font-weight: 600; color: black;"><i class="material-icons">menu</i></a></li>
+              <ul id="main_dropdown" class="dropdown-content">
+                <li><a href="{{site.baseurl}}/news">NEWS</a></li>
+                 <!--<li><a href="{{site.baseurl}}/brands">UNSERE BRANDS</a></li> -->
+                <li><a href="{{site.baseurl}}/besonderes">BESONDERES</a></li>
+                <!-- <li><a href="#!">Shop</a></li> -->
               </ul>
           </ul>
         </div>
       </div>
     </nav>
 
-    <ul id="slide-out-menu" class="sidenav">
-      <li>
-        <img src="{{ '/assets/img/logo-mds-small.png' | relative_url }}" alt="" style="width: 100%; padding: 2% 2% 0 2%;">
-      </li>
-      <li class="divider"></li>
-      {% for item in site.data.default.navbar.nav %}
-      <li class="no-padding">
-        <ul class="collapsible collapsible-accordion">
-          <li><div class="collapsible-header">{{ item.title }}</div>
-          <div class="collapsible-body">
-            <ul>
-              {% for dropdown in item.dropdown %}
-              <li><a href="/{{ dropdown.url }}">{{ dropdown.title }}</a></li>
-              {% endfor %}
-              <li class="divider"></li>
-            </ul>
-          </div>
-        </li>
-        </ul>  
-      </li>
-      {% endfor %}
-    </ul>
     <!-- ================== -->
     <!--     END NAVBAR     -->
     <!-- ================== -->
@@ -96,24 +79,24 @@
     <!-- ================== -->
     <!--    START FOOTER    -->
     <!-- ================== -->
-    <footer class="page-footer">
+    <footer class="page-footer black">
       <div class="container">
         <div class="row">
             {% for item in site.data.default.footer.footer %}
-              <div class="col s12 m6 l3">
+              <div class="col s12 m6">
                 <h5 class="footer-header white-text">{{ item.title }}</h5>
                 <ul>
                   {% for content in item.content %}
-                    <li><a href="{{ content.url }}" class="footer-links grey-text text-lighten-3">{{ content.title }}<a></li>
+                    <li><a href="{{ content.url }}" class="footer-links grey-text text-lighten-3">{{ content.title }}</a></li>
                   {% endfor %}
                 </ul>
               </div>
-            {% endfor %}  
+            {% endfor %}
         </div>
       </div>
       <div class="footer-copyright">
         <div class="container">
-          &copy; 2018 More Dimensions GmbH
+          &copy; 2018 TM.BRAND.STORE GmbH - BRANDSTORE.TIROL
         </div>
       </div>
     </footer>
@@ -123,26 +106,19 @@
   </body>
 </html>
 
-<script>
-  // var BannerHeight = $('#BannerHeight').innerHeight();
+<style>
+  .dropdown-content li > a, .dropdown-content li > span {
+    color: black;
+  }
+</style>
 
-  var elem = document.querySelector('.main-nav');
-  var instance = M.Pushpin.init(elem, { top: 900 });
+<script>  
+
+
 
   // Dropdown
-  var elem = document.querySelectorAll('.dropdown-trigger');
-  //var elem = document.getElementsByClassName("dropdown-trigger");
-  var instance = M.Dropdown.init(elem, { coverTrigger: false, hover: true });
-
-  // $('.dropdown-trigger').dropdown({ coverTrigger: false, hover: true });
-
-  var elem = document.querySelector('.sidenav');
-  var instance = M.Sidenav.init(elem);
-
-   // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
-  var elem = document.querySelectorAll('.collapsible');
-  var instance = M.Collapsible.init(elem);
-  // $('.collapsible').collapsible();
+  var elems = document.querySelectorAll('.dropdown-trigger');
+  var instances = M.Dropdown.init(elems, { hover: false, coverTrigger: false });
 
   // Slider
   var elem = document.querySelector('.slider');

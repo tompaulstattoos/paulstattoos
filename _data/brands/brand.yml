@@ -1,0 +1,26 @@
+brands:
+  - title: MARTINI SPORTSWEAR
+    img-url: assets/img/banner/martini_sportswear_brandlogo.png
+    info: Selbst wenn man alleine on Tour ist, muss man sich als Alpinist auf jemanden verlassen können. Und das sind die Menschen, die hinter der Ausrüstung stehen. Daher ist alpiner Bergsport immer ein Teamsport. Dasselbe gilt für unser Unternehmen - Erfolgreich sind wir nur als Team. Und auf dieses sind wir bei MARTINI SPORTSWEAR ausgesprochen stolz.
+    menu:
+      - title: Geschichte
+        url: martini_history
+
+      - title: Impressionen
+        url: martini_impression
+
+      - title: Shop
+        url: martini_shop
+
+  - title: SUSI KIMMEL
+    img-url: assets/img/banner/susi_kimmel_brandlogo.png
+    info: Zahme Vögel träumen von der Freiheit, wilde Vögel fliegen.
+    menu:
+      - title: Geschichte
+        url: kimmel_history
+
+      - title: Impressionen
+        url: kimmel_impression
+
+      - title: Shop
+        url: kimml_shop
