@@ -1,30 +1,12 @@
 teaser:
-  - title: Intelligente Lösungen
-    content: Ob Event- oder Facility Management, professionelle Beratung oder Systemanpassung, Schnittstellen-Design oder Business Intelligence, Serverhosting oder Support Bei <span class="mds-bold-text">more dimensions</span> erhalten Sie integrierte Werkzeuge und eine nachhaltige Betreuung für Ihren Arbeitsalltag. Durch die Kombination von Standardlösungen für Ihre Branche und individueller Anpassung befreien wir Ihre Mitarbeiter von Dingen, die eine intelligente Software für Sie erledigen kann – damit Sie sich wieder jenen Tätigkeiten widmen können, bei denen der Mensch gefragt ist.
+  - title: Firmen
+    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, animi. Dolorum nesciunt, officia culpa minus, doloribus ut ad dicta fugiat architecto veniam minima nobis molestiae, odit recusandae quidem a earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque reiciendis tempora excepturi placeat! Nisi suscipit eos, delectus repudiandae quisquam reprehenderit quis, possimus modi odit debitis expedita voluptatem maiores molestias!
     img-url: pictogram_intelligence_orange_bitmap.png
-    url: /intelligence
   
-  - title: Veranstaltungs Management
-    content:  Mit unserer Branchen-Lösung <span class="mds-bold-text">evis</span> bilden wir die Basis für das integrierte Management von Eventlocations, Konzerthäusern, Orchestern und Festivals. Ob Sie Ihre Projekte künstlerisch und organisatorisch planen und budgetieren, über die <span class="mds-bold-text">evis</span>-Kommunikationstools mit ihrem Publikum kommunizieren oder ihr Personal disponieren wollen – <span class="mds-bold-text">evis</span> bildet durch die richtige Auswahl der Module nahezu jede Konstellation des Veranstaltungsmanagements ab.
+  - title: Test lol
+    content:  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, animi. Dolorum nesciunt, officia culpa minus, doloribus ut ad dicta fugiat architecto veniam minima nobis molestiae, odit recusandae quidem a earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque reiciendis tempora excepturi placeat! Nisi suscipit eos, delectus repudiandae quisquam reprehenderit quis, possimus modi odit debitis expedita voluptatem maiores molestias!
     img-url: pictogram_stage_curtains_bitmap.png
-    url: /event_management
 
-  - title: Facility Management
-    content: Mit der Standard-Lösung <span class="mds-bold-text">e.kus</span> unseres Partners pit-cup GmbH sowie zahlreichen von uns entwickelten Erweiterungen steht Ihnen eine erweiterbare Plattform zur Verfügung, in der Gebäude- und Flächenmanagement, Instandhaltung, Investitionsplanung sowie Schnittstellen zu weiteren Systemen für einen reibungslosen und effektiven Informationsfluss im Facility Management sorgen.
+  - title: Lololol
+    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, animi. Dolorum nesciunt, officia culpa minus, doloribus ut ad dicta fugiat architecto veniam minima nobis molestiae, odit recusandae quidem a earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque reiciendis tempora excepturi placeat! Nisi suscipit eos, delectus repudiandae quisquam reprehenderit quis, possimus modi odit debitis expedita voluptatem maiores molestias!
     img-url: pictogram_factory_green_bitmap.png
-    url: /factory_green
-
-  - title: Business Intelligence
-    content: Auf Basis der Power-BI-Tools von Microsoft verdichten wir Ihre Daten – ob mit <span class="mds-bold-text">evis</span> oder <span class="mds-bold-text">e.kus</span> als Quelle oder zusätzlichen Datenbanken, die bei Ihnen im Einsatz sind. Wir schaffen die Verbindung zu Ihren Detailinformationen aus Rechnungswesen, Ticketing, Personalmanagement sowie öffentlichen Datenquellen und verdichten diese in Form intuitiver Dashboards, die Ihnen in Sekundenschnelle einen Überblick über Ihr unternehmerisches Handeln verschaffen. 
-    img-url: pictogram_business_intelligence_orange_bitmap.png
-    url: /business_intelligence
-
-  - title: Hosting
-    content: Mit unserer eigenen Serverfarm können wir die von uns angebotenen Systeme hosten, ohne dass Sie sich im Alltag mit der dahinterliegenden Infrastruktur aus Hardware, Datenbanken, Lizenzen, Backups und Sicherheitsvorkehrungen befassen müssen. Wir liefern Ihnen ein Gesamtpaket aus Hard- und Software als Blackbox, das pro Mitarbeiter pro Monat einfach skalier- und kalkulierbar ist.
-    img-url: pictogram_hosting_orange_bitmap.png
-    url: /hosting
-
-  - title: Dienstleistung
-    content: Ob Schulung, Beratung, Programmierung, Schnittstellen-Design oder Support – ein Software-System ist immer nur so gut wie die Implementierung im organisatorischen Zusammenhang. Mit einem Team von fachlich versierten Mitarbeitern kümmern wir uns um die zielgerechte Einführung unserer Systeme – stets im persönlichen Kontakt zwischen Kunde und Mitarbeiter. Wir sprechen nicht nur Programmiersprachen, sondern auch die Sprachen unserer Branchen – damit wir ohne Umwege gemeinsam zu effektiven Lösungen gelangen.
-    img-url: pictogram_service_orange_bitmap.png
-    url: service

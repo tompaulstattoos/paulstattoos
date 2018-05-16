@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Besonderes
+brand: banner.banner
 permalink: /besonderes
 ---
 
@@ -8,6 +9,7 @@ permalink: /besonderes
   {% for teaser in site.data.besonderes.teaser.teaser %}
     <div class="col s12 m6 l4">
       <div class="card teaser">
+        
         <div class="card-content">
           <img src="{{ site.baseurl }}/assets/img/teaser/{{ teaser.img-url }}" alt="">
           <h5>{{ teaser.title }}</h5>
@@ -16,8 +18,15 @@ permalink: /besonderes
             <p>{{ teaser.content }}</p>
           </article>
         </div>
+
         <div class="card-action">
-          <a href="{{ teaser.url }}" class="red--text">Weiterlesen</a>
+          <a href="#!" class="red--text activator" >Weiterlesen</a>
+        </div>
+
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-3">{{ teaser.title }} <i class="material-icons right">close</i></span>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, in! Repellendus blanditiis nulla cum officiis veniam molestiae quo voluptates quasi impedit praesentium, cupiditate eius iusto ex molestias eligendi! Quam, facere!</p>
         </div>
       </div>
     </div>
