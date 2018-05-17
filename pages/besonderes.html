@@ -1,41 +1,40 @@
 ---
 layout: default
 title: Besonderes
-brand: banner.banner
 permalink: /besonderes
 ---
 
 <div class="row">
 
-    <h3>Besonderes</h3>
-    <hr>
-  
-    {% for besonderes in site.data.besonderes.besonderes.besonderes %}
-  
-    <div class="col s12 m6">
-      <div class="card">
-        <div class="card-image">
-          <img src="{{ besonderes.img-url }}">
-          <a class="btn-floating halfway-fab waves-effect waves-light red dropdown-trigger" data-target="{{ brand.title }}_dropdown"><i class="material-icons">menu</i></a>
-        </div>
-  
-        <div class="card-content">
-          <span class="card-title">{{ besonderes.title }}</span>
-        </div>
-  
-        <div class="card-reveal">
-          <span class="card-title black-text">{{ besonderes.title}} <i class="material-icons right">close</i></span>
-          <p>{{ besonderes.info }}</p>
-        </div>
+  <h3>Besonderes</h3>
+  <hr>
+
+  {% for besonderes in site.data.besonderes.besonderes.besonderes %}
+
+  <div class="col s12 m6">
+    <div class="card">
+      <div class="card-image">
+        <img src="{{ besonderes.img-url }}">
+        <a class="btn-floating halfway-fab waves-effect waves-light red dropdown-trigger" data-target="{{ besonderes.title }}_dropdown"><i class="material-icons">menu</i></a>
+      </div>
+
+      <div class="card-content">
+        <span class="card-title">{{ besonderes.title }}</span>
+      </div>
+
+      <div class="card-reveal">
+        <span class="card-title black-text">{{ besonderes.title}} <i class="material-icons right">close</i></span>
+        <p>{{ besonderes.info }}</p>
       </div>
     </div>
-  
-    <ul id="{{ besonderes.title }}_dropdown" class="dropdown-content" style="color: black;">
-      <li><a href="#!" class="activator">Geschichte</a></li>
-      <li><a href="#!">Impressionen</a></li>
-      <li><a href="{{ site.baseurl }}">Home</a></li>
-    </ul>  
-  
-    {% endfor %}
-  
   </div>
+
+  <ul id="{{ besonderes.title }}_dropdown" class="dropdown-content" style="color: black;">
+    <li><a href="#!" class="activator">Geschichte</a></li>
+    <li><a href="#!">Impressionen</a></li>
+    <li><a href="{{ site.baseurl }}">Home</a></li>
+  </ul>  
+
+  {% endfor %}
+
+</div>
