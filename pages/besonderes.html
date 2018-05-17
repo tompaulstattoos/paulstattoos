@@ -7,30 +7,30 @@ permalink: /besonderes
 
 <div class="row">
 
-    <h3>Unsere Brands</h3>
+    <h3>Besonderes</h3>
     <hr>
   
-    {% for brand in site.data.brands.brand.brands %}
+    {% for besonderes in site.data.besonderes.besonderes.besonderes %}
   
     <div class="col s12 m6">
       <div class="card">
         <div class="card-image">
-          <img src="{{ brand.img-url }}">
+          <img src="{{ besonderes.img-url }}">
           <a class="btn-floating halfway-fab waves-effect waves-light red dropdown-trigger" data-target="{{ brand.title }}_dropdown"><i class="material-icons">menu</i></a>
         </div>
   
         <div class="card-content">
-          <span class="card-title">{{ brand.title }}</span>
+          <span class="card-title">{{ besonderes.title }}</span>
         </div>
   
         <div class="card-reveal">
-          <span class="card-title black-text">{{ brand.title}} <i class="material-icons right">close</i></span>
-          <p>{{ brand.info }}</p>
+          <span class="card-title black-text">{{ besonderes.title}} <i class="material-icons right">close</i></span>
+          <p>{{ besonderes.info }}</p>
         </div>
       </div>
     </div>
   
-    <ul id="{{ brand.title }}_dropdown" class="dropdown-content" style="color: black;">
+    <ul id="{{ besonderes.title }}_dropdown" class="dropdown-content" style="color: black;">
       <li><a href="#!" class="activator">Geschichte</a></li>
       <li><a href="#!">Impressionen</a></li>
       <li><a href="{{ site.baseurl }}">Home</a></li>
