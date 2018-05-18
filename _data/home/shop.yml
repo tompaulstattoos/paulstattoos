@@ -5,8 +5,10 @@ shop:
     info: Öffnungszeiten &#058;
           <br>
           Mo - Fr von 10.00 - 19.00 Uhr
+          <br>
           Sa von 08.00 - 12.00 Uhr
-          und nach Vereinbarung
+          <br>
+          und nach Vereinbarung - dein persönliches Shopping-Erlebnis
     menu:
       - title: Info
         url: shop_info
