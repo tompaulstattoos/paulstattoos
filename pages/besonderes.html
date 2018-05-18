@@ -24,15 +24,15 @@ permalink: /besonderes
 
       <div class="card-reveal">
         <span class="card-title black-text">{{ besonderes.title}} <i class="material-icons right">close</i></span>
-        <p>{{ besonderes.info }}</p>
+        <p style="text-align: justify">{{ besonderes.info }}</p>
       </div>
     </div>
   </div>
 
   <ul id="{{ besonderes.title }}_dropdown" class="dropdown-content" style="color: black;">
-    <li><a href="#!" class="activator">Info</a></li>
-    <li><a href="#!">Impressionen</a></li>
-    <li><a href="{{ site.baseurl }}">Home</a></li>
+    <li><a href="#!" class="activator">INFO</a></li>
+    <li><a href="#!">IMPRESSIONEN</a></li>
+    <li><a href="{{ site.baseurl }}">HOME</a></li>
   </ul>  
 
   {% endfor %}

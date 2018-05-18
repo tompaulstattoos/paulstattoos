@@ -38,7 +38,7 @@
             <ul id="main_dropdown" class="dropdown-content">
               <li><a href="{{site.baseurl}}/news">NEWS</a></li>
               <li><a href="{{site.baseurl}}/besonderes">BESONDERES</a></li>
-              <!-- <li><a href="#!">Shop</a></li> -->
+              <li><a href="{{site.baseurl}}">HOME</a></li>
             </ul>
           </ul>
         </div>
@@ -64,7 +64,7 @@
                 <h5 class="footer-header white-text">{{ item.title }}</h5>
                 <ul>
                   {% for content in item.content %}
-                    <li><a href="{{ content.url }}" class="footer-links grey-text text-lighten-3">{{ content.title }}</a></li>
+                    <li><a href="{{ site.baseurl }}{{ content.url }}" class="footer-links grey-text text-lighten-3">{{ content.title }}</a></li>
                   {% endfor %}
                 </ul>
               </div>

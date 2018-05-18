@@ -1,0 +1,11 @@
+shop:
+
+  - title: Shop
+    img-url: assets/img/shop/shop_entwurf.png
+    info: Öffnungszeiten &#058;
+    menu:
+      - title: Info
+        url: shop_info
+
+      - title: Impressionen
+        url: shop_impression
