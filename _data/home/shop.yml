@@ -9,9 +9,3 @@ shop:
           Sa von 08.00 - 12.00 Uhr
           <br>
           und nach Vereinbarung - Dein persönliches Shopping-Erlebnis
-    menu:
-      - title: Info
-        url: shop_info
-
-      - title: Impressionen
-        url: shop_impression
