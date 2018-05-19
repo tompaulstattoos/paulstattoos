@@ -19,7 +19,7 @@ brands:
         url: martini_shop
 
   - title: SUSI KIMMEL
-    img-url: assets/img/banner/susi_kimmel.png
+    img-url: assets/img/banner/susi_kimmel_brandlogo.png
     info: Zahme Vögel träumen von der Freiheit, wilde Vögel fliegen.
     menu:
       - title: Geschichte
