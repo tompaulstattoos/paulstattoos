@@ -1,2 +1,8 @@
-title: News
-content: lorem ipsum
+news:
+  - title: Eröffnungsfeier
+    #img-url: assets/img/banner/martini_sportswear_brandlogo.png
+    info: am 13.10.2018
+
+ # - title: Test
+    #img-url: assets/img/banner/susi_kimmel_brandlogo.png
+  #  info: Zahme Vögel träumen von der Freiheit, wilde Vögel fliegen.

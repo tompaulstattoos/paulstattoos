@@ -3796,7 +3796,7 @@ small {
     position: absolute;
     bottom: 0;
     height: 2px;
-    background-color: #f99b71;
+    background-color: #000;
     will-change: left, right; }
 
 @media only screen and (max-width: 992px) {
