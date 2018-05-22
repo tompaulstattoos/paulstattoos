@@ -1,11 +1,13 @@
 <!doctype html>
 <html lang="{{ site.lang | default: "de-DE" }}">
   <head>
-    <title> {% if page.title != null %} 
-      {{ page.title }} | {{ site.title }} 
-    {% else %} 
-      TOM | {{ site.title }} 
-    {% endif %} </title>
+    <title>
+      {% if page.title != null %} 
+        {{ page.title }} | {{ site.title }} 
+      {% else %} 
+        TOM | {{ site.title }} 
+      {% endif %} 
+    </title>
     <meta charset="uf8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,10 +15,12 @@
     <!-- Styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="{{ '/assets/css/materialize.css ' | relative_url }}">
-
+    <link  href="https://unpkg.com/nanogallery2@2.1.0/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="{{ '/assets/js/bin/materialize.js' | relative_url }}"></script>
+    <script  type="text/javascript" src="https://unpkg.com/nanogallery2@2.1.0/dist/jquery.nanogallery2.min.js"></script>
   </head>
   <body>
 
@@ -95,8 +99,6 @@
 
 <script>  
 
-
-
   // Dropdown
   var elems = document.querySelectorAll('.dropdown-trigger');
   var instances = M.Dropdown.init(elems, { hover: false, coverTrigger: false });
@@ -104,5 +106,14 @@
   // Slider
   var elem = document.querySelector('.slider');
   var instance = M.Slider.init(elem, { height: 900, indicators: false });
+
+  $('.tabs').tabs();
+
+  // Amazon Drive REST-API
+  // var xhr = new XMLHttpRequest();
+  // xhr.open("GET", "https://www.amazon.com/ap/oa?amzn1.devportal.webapp.0b11294ea83a4c9683299dc53a42d0f1&scope=clouddrive%3Aread_all%20clouddrive%3Awrite&response_type=token&redirect_uri=http://localhost");
+  // xhr.send()
+
+  // console.log(xhr.status)
 
 </script>
