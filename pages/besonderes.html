@@ -1,110 +1,38 @@
 ---
 layout: default
-title: Besonderes
+title: BESONDERES
 permalink: /besonderes
 ---
 
 <div class="row">
-  {% for teaser in site.data.besonderes.teaser.teaser %}
-    <div class="col s12 m6 l4">
-      <div class="card teaser">
-        <div class="card-content">
-          <img src="{{ site.baseurl }}/assets/img/teaser/{{ teaser.img-url }}" alt="">
-          <h5>{{ teaser.title }}</h5>
-          <hr>
-          <article>
-            <p>{{ teaser.content }}</p>
-          </article>
-        </div>
-        <div class="card-action">
-          <a href="{{ teaser.url }}" class="red--text">Weiterlesen</a>
-        </div>
+
+  <h3>BESONDERES</h3>
+  <hr>
+
+  {% for besonderes in site.data.besonderes.besonderes.besonderes %}
+
+  <div class="col s12 m6">
+    <div class="card">
+      <div class="card-image">
+        <img src="{{ besonderes.img-url }}">
+        <a class="btn-floating halfway-fab waves-effect waves-light red dropdown-trigger" data-target="{{ besonderes.title }}_dropdown"><i class="material-icons">menu</i></a>
+      </div>
+
+      <div class="card-content">
+        <span class="card-title">{{ besonderes.title }}</span>
+      </div>
+
+      <div class="card-reveal">
+        <span class="card-title black-text">{{ besonderes.title}} <i class="material-icons right">close</i></span>
+        <p style="text-align: justify">{{ besonderes.info }}</p>
       </div>
     </div>
+  </div>
+
+  <ul id="{{ besonderes.title }}_dropdown" class="dropdown-content" style="color: black;">
+    <li><a href="#!" class="activator">INFO</a></li>
+    <li><a href="impressionen">IMPRESSIONEN</a></li>
+    <li><a href="{{ site.baseurl }}">HOME</a></li>
+  </ul>  
   {% endfor %}
 </div>
-
-<style scoped>
-  .teaser img {
-    width: 30%;
-    transform: translate(100%, 0);
-  }
-  
-  .teaser h5 {
-    text-align: center;
-  }
-
-  /* styles for '...' */ 
-  .teaser p {
-  /* hide text if it more than N lines  */
-  overflow: hidden;
-  /* for set '...' in absolute position */
-  position: relative; 
-  /* use this value to count block height */
-  line-height: 1.2em;
-  /* max-height = line-height (1.2) * lines max number (3) */
-  max-height: 9.5em; 
-  /* fix problem when last visible word doesn't adjoin right side  */
-  text-align: justify;  
-  /* place for '...' */
-  margin-right: -1em;
-  padding-right: 1em;
-  }
-  /* create the ... */
-  .teaser p:before {
-    /* points in the end */
-    content: '...';
-    /* absolute position */
-    position: absolute;
-    /* set position to right bottom corner of block */
-    right: 0;
-    bottom: 0;
-  }
-  /* hide ... if we have text, which is less than or equal to max lines */
-  .teaser p:after {
-    /* points in the end */
-    content: '';
-    /* absolute position */
-    position: absolute;
-    /* set position to right bottom corner of text */
-    right: 0;
-    /* set width and height */
-    width: 1em;
-    height: 1em;
-    margin-top: 0.2em;
-    /* bg color = bg color under block */
-    background: white;
-  }
-
-  .card p {
-    white-space: pre-line;
-  }
-
-  @media screen and (max-width: 1637px) {
-    .teaser h5 {
-      font-size: 110%;
-    }
-  }
-
-  @media screen and (max-width: 1165px) {
-    .teaser h5 {
-      font-size: 80%;
-    }
-  }
-
-  @media screen and (max-width: 992px) {
-    .teaser h5 {
-      font-size: 130%;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .teaser h5 {
-      font-size: 200%;
-    }
-
-    .teaser p {
-      max-height: 9em; 
-    }
-  }
-</style>
