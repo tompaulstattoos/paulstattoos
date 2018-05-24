@@ -30,11 +30,7 @@ brands:
 
       - title: IMPRESSIONEN
         class:   
-<<<<<<< HEAD
         url: kimmel_impressionen
-=======
-        url: impressionen_susi_kimmel
->>>>>>> f0ee6e6df720b385aa591930187de52136379a93
 
       #- title: SHOP
       #  url: kimml_shop
