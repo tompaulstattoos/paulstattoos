@@ -30,9 +30,10 @@ permalink: /besonderes
   </div>
 
   <ul id="{{ besonderes.title }}_dropdown" class="dropdown-content" style="color: black;">
-    <li><a href="#!" class="activator">INFO</a></li>
-    <li><a href="impressionen">IMPRESSIONEN</a></li>
-    <li><a href="{{ site.baseurl }}">HOME</a></li>
+    {% for dropdown in besonderes.menu %}
+      <li><a href="{{ dropdown.url }}" class="{{ dropdown.class }}">{{ dropdown.title }}</a></li>
+      <!--<li><a href="{{ site.baseurl }}">HOME</a></li>-->
+    {% endfor %}
   </ul>  
   {% endfor %}
 </div>
