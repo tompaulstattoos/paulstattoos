@@ -21,7 +21,7 @@ besonderes:
         class: 
         url: "/"
 
-  - title: Individuelle Firmenbekleidung
+  - title: Individuelles Firmenbranding
     img-url: assets/img/logos/bs_logo_black_hoch.png
     info: Text Text Text Text
     menu:
@@ -32,7 +32,7 @@ besonderes:
 
       - title: IMPRESSIONEN
         class:
-        url: impressionen_firmenbekleidung
+        url: impressionen_firmenbranding
         
       - title: HOME
         class: 
