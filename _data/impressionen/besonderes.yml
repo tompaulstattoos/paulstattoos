@@ -1,11 +1,11 @@
 shopping_erlebnis:
    
-  - collections: AKTUELLES
+  - collections: GEILE ZEIT
     id: aktuelles
     albumID: "6559047385526062609"
 
 firmenbranding:
 
-  - collections: AKTUELLES
+  - collections: IMPRESSIONEN
     id: aktuelles
     albumID: "6559047085115023249"
