@@ -25,6 +25,6 @@ shop:
 
       - title: IMPRESSIONEN
         class: 
-        url: "shop_impressionen"
+        url: "impressionen_shop"
 
 

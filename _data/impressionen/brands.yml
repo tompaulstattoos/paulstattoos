@@ -1,4 +1,4 @@
-brands: 
+martini_sportswear: 
 
   - collections: AKTUELL
     id: aktuell
@@ -14,4 +14,10 @@ brands:
 
   - collections: ACTION
     id: action
-    albumID: "6558349085782258129" 
+    albumID: "6558392027930808369" 
+
+susi_kimmel: 
+
+  - collections: AKTUELL
+    id: aktuell
+    albumID: "6558372398095072897"
