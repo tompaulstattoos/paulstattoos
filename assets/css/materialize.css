@@ -6340,7 +6340,7 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   height: 400px;
   width: 100%; }
   .slider.fullscreen {
-    height: 450px;
+    height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
@@ -6348,7 +6348,7 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
     right: 0;
     bottom: 0; }
     .slider.fullscreen ul.slides {
-      height: 450px; }
+      height: 100%; }
     .slider.fullscreen ul.indicators {
       z-index: 2;
       bottom: 30px; }
@@ -6366,7 +6366,7 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
       height: inherit;
       overflow: hidden; }
       .slider .slides li img {
-        height: 450px;
+        height: 100%;
         width: 100%;
         background-size: cover;
         background-position: center; }
