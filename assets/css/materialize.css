@@ -3212,14 +3212,14 @@ nav ul a span.badge {
 
 nav {
   color: #fff;
-  background-color: #fff;
+  background-color: #F66728;
   width: 100%;
-  height: 80px;
-  line-height: 80px; }
+  height: 56px;
+  line-height: 56px; }
   nav.nav-extended {
     height: auto; }
     nav.nav-extended .nav-wrapper {
-      min-height: 80px;
+      min-height: 56px;
       height: auto; }
     nav.nav-extended .nav-content {
       position: relative;
@@ -3231,8 +3231,8 @@ nav {
   nav i.material-icons {
     display: block;
     font-size: 24px;
-    height: 80px;
-    line-height: 80px; }
+    height: 56px;
+    line-height: 56px; }
   nav .nav-wrapper {
     position: relative;
     height: 100%; }
@@ -3243,11 +3243,11 @@ nav {
     float: left;
     position: relative;
     z-index: 1;
-    height: 80px;
+    height: 56px;
     margin: 0 18px; }
     nav .sidenav-trigger i {
-      height: 80px;
-      line-height: 80px; }
+      height: 56px;
+      line-height: 56px; }
   nav .brand-logo {
     position: absolute;
     color: #fff;
@@ -3344,19 +3344,19 @@ nav {
 
 .navbar-fixed {
   position: relative;
-  height: 80px;
+  height: 56px;
   z-index: 997; }
   .navbar-fixed nav {
     position: fixed; }
 
 @media only screen and (min-width: 601px) {
   nav.nav-extended .nav-wrapper {
-    min-height: 80px; }
+    min-height: 64px; }
   nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
-    height: 80px;
-    line-height: 80px; }
+    height: 64px;
+    line-height: 64px; }
   .navbar-fixed {
-    height: 80px; } }
+    height: 64px; } }
 
 a {
   text-decoration: none; }
@@ -3558,7 +3558,7 @@ small {
   transition: box-shadow .25s, -webkit-box-shadow .25s;
   border-radius: 2px; }
   .card .card-title {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 300; }
     .card .card-title.activator {
       cursor: pointer; }
@@ -6506,22 +6506,11 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
     visibility: visible;
     -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
     animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-    -webkit-transition: opacity .3s,
- visibility 0s 1s,
- -webkit-transform .3s;
-    transition: opacity .3s,
- visibility 0s 1s,
- -webkit-transform .3s;
-    -o-transition: opacity .3s,
- transform .3s,
- visibility 0s 1s;
-    transition: opacity .3s,
- transform .3s,
- visibility 0s 1s;
-    transition: opacity .3s,
- transform .3s,
- visibility 0s 1s,
- -webkit-transform .3s; }
+    -webkit-transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
+    transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
+    -o-transition: opacity .3s, transform .3s, visibility 0s 1s;
+    transition: opacity .3s, transform .3s, visibility 0s 1s;
+    transition: opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s; }
 
 .tap-target {
   position: absolute;
@@ -6569,22 +6558,11 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
     transition: transform .3s, -webkit-transform .3s; }
   .tap-target-wave::after {
     visibility: hidden;
-    -webkit-transition: opacity .3s,
- visibility 0s,
- -webkit-transform .3s;
-    transition: opacity .3s,
- visibility 0s,
- -webkit-transform .3s;
-    -o-transition: opacity .3s,
- transform .3s,
- visibility 0s;
-    transition: opacity .3s,
- transform .3s,
- visibility 0s;
-    transition: opacity .3s,
- transform .3s,
- visibility 0s,
- -webkit-transform .3s;
+    -webkit-transition: opacity .3s, visibility 0s, -webkit-transform .3s;
+    transition: opacity .3s, visibility 0s, -webkit-transform .3s;
+    -o-transition: opacity .3s, transform .3s, visibility 0s;
+    transition: opacity .3s, transform .3s, visibility 0s;
+    transition: opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;
     z-index: -1; }
 
 .tap-target-origin {
@@ -7004,7 +6982,7 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
 .slider .slides li .caption {
   max-width: 800px;
   background-color: rgba(0, 0, 0, 0.7);
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 5px;
   padding: 20px;
   position: absolute;
@@ -7020,51 +6998,86 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   padding: 0;
   border: 0; }
 
+.dropdown-content {
+  color: black; }
+
+nav {
+  background-color: #fff;
+  height: 80px;
+  line-height: 80px; }
+
+nav.nav-extended .nav-wrapper {
+  min-height: 80px; }
+
+nav i.material-icons {
+  height: 80px;
+  line-height: 80px; }
+
+nav .sidenav-trigger {
+  height: 80px; }
+
+nav .sidenav-trigger i {
+  height: 80px;
+  line-height: 80px; }
+
+.navbar-fixed {
+  height: 80px; }
+
+@media only screen and (min-width: 601px) {
+  nav.nav-extended .nav-wrapper {
+    min-height: 80px; }
+  nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+    height: 80px;
+    line-height: 80px; }
+  .navbar-fixed {
+    height: 80px; } }
+
+.card {
+  font-size: 18px; }
+
+.card .card-title {
+  font-size: 20px; }
+
 @media only screen and (max-width: 1022px) {
   .slider {
     height: 450px !important; }
-    .slider .slides {
-      height: 450px !important; } }
+  .slider .slides {
+    height: 450px !important; } }
 
 @media only screen and (max-width: 799px) {
   .slider {
     height: 450px !important; }
-    .slider .slides {
-      height: 450px !important; } }
+  .slider .slides {
+    height: 450px !important; } }
 
 @media only screen and (max-width: 673px) {
   .slider {
     height: 450px !important; }
-    .slider .slides {
-      height: 450px !important; } }
+  .slider .slides {
+    height: 450px !important; } }
 
 @media only screen and (max-width: 567px) {
   .slider {
     height: 450px !important; }
-    .slider .slides {
-      height: 450px !important; } }
+  .slider .slides {
+    height: 450px !important; } }
 
 @media only screen and (max-width: 503px) {
   .slider {
     height: 450px !important; }
-    .slider .slides {
-      height: 450px !important; } }
+  .slider .slides {
+    height: 450px !important; } }
 
 @media only screen and (max-width: 461px) {
   .slider {
     height: 450px !important; }
-    .slider .slides {
-      height: 450px !important; } }
+  .slider .slides {
+    height: 450px !important; } }
 
-@media only screen and (max-width: 380px) {
-  .slider .slides li .caption {
-    top: 5%;
-    left: 5%;
-    padding: 10px;
-    width: 90%; } }
-
-.dropdown-content {
-  color: black; }
+@media only screen and (max-width: 360px) {
+  .brand-logo img {
+    height: 76px;
+    width: 95%; } }
 
 /*
  * Banner Styling
@@ -7109,3 +7122,7 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   .slider-arrows .right-arrow i {
     font-size: 80px;
     cursor: pointer; }
+
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url(../assets/fonts/MyriadPro-Regular.otf); }

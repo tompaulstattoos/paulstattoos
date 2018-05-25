@@ -11,6 +11,24 @@ title: Home
   }
 </style> -->
 
+</div>
+
+<!-- banner nur bei home -->
+<!-- <div class="slider">
+    <ul class="slides">
+      {% for banner in site.data.default.banner.banner %}
+      <li>
+        <img src="assets/img/banner/{{banner.img-url}}" alt="">
+      </li>
+      {% endfor %}
+    </ul>
+  </div> -->
+
+<!-- home teaser   -->
+{% include home-teaser.html %}
+
+<div class="container">
+
 <div class="row">
 
   <h5>UNSERE BRANDS</h5>
@@ -18,7 +36,7 @@ title: Home
 
   {% for brand in site.data.brands.brand.brands %}
 
-  <div class="col s12 m6">
+  <div class="col s12 m4">
     <div class="card">
       <div class="card-image">
         <img src="{{ brand.img-url }}">
@@ -53,7 +71,7 @@ title: Home
 
   {% for shop in site.data.home.shop.shop %}
 
-  <div class="col s12 m6">
+  <div class="col s12 m8">
     <div class="card" id="shop">
       <div class="card-image">
         <img src="{{ shop.img-url }}">
