@@ -3212,14 +3212,14 @@ nav ul a span.badge {
 
 nav {
   color: #fff;
-  background-color: #F66728;
+  background-color: #fff;
   width: 100%;
-  height: 56px;
-  line-height: 56px; }
+  height: 80px;
+  line-height: 80px; }
   nav.nav-extended {
     height: auto; }
     nav.nav-extended .nav-wrapper {
-      min-height: 56px;
+      min-height: 80px;
       height: auto; }
     nav.nav-extended .nav-content {
       position: relative;
@@ -3231,8 +3231,8 @@ nav {
   nav i.material-icons {
     display: block;
     font-size: 24px;
-    height: 56px;
-    line-height: 56px; }
+    height: 80px;
+    line-height: 80px; }
   nav .nav-wrapper {
     position: relative;
     height: 100%; }
@@ -3243,11 +3243,11 @@ nav {
     float: left;
     position: relative;
     z-index: 1;
-    height: 56px;
+    height: 80px;
     margin: 0 18px; }
     nav .sidenav-trigger i {
-      height: 56px;
-      line-height: 56px; }
+      height: 80px;
+      line-height: 80px; }
   nav .brand-logo {
     position: absolute;
     color: #fff;
@@ -3344,7 +3344,7 @@ nav {
 
 .navbar-fixed {
   position: relative;
-  height: 56px;
+  height: 80px;
   z-index: 997; }
   .navbar-fixed nav {
     position: fixed; }
