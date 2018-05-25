@@ -21,7 +21,7 @@
             {% endfor %}
         </div>
         <div class="col s12">
-            <img src="/assets/img/logos/bs_symbol_white_transparent.png" alt="" style="width: 80px; float: right;">
+            <img src="{{ '/assets/img/logos/bs_symbol_white_transparent.png' | relative_url }}" alt="" style="width: 80px; float: right;">
             {% for banner in site.data.default.banner.banner %}
             <p style="float: right; margin-top: 47px;">{{banner.greetings}}</p>
             {% endfor %}
