@@ -7,12 +7,12 @@
         } 
 </script> 
 
-<div class="row" style="background-color: #000; color: #fff; padding: 10px 0; text-align: center">
+<div class="row" style="background-color: #000; color: #fff; padding: 10px 0">
     
     <a style="font-size: 25px; text-align: center; color: #fff"; href="" onclick="javascript:show('divText'); return false;"> X</a> 
         <div style="display: none" id="divText">
 
-    <div class="container">
+    <div class="container" style="text-align: justify">
        <div class="col s12">
             {% for banner in site.data.default.banner.banner %}
             <h5>{{ banner.title }}</h5>
