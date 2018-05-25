@@ -82,17 +82,21 @@
     <!--     END NAVBAR     -->
     <!-- ================== -->
 
-    <div class="caption banner-text hoverable" style="text-align: justify;" "font-size: 12px; color: black;"></div>>
-        <h4>{{ banner.title }}</h4>
-        <p class="light grey-text text-lighten-3 flow-text">{{ banner.text }}</p>
-        <p class="hashtag light grey-text text-lighten-3 flow-text" style="text-align: left;">{{ banner.hashtag }}</p>
-        <p class="light grey-text text-lighten-3 flow-text">{{ banner.greetings }}</p>
-        <!--<img src="{{ 'assets/img/logos/bs_symbol_white_transparent.png' | relative_url }}" alt="" class="logo-banner">-->
-    </div>
-
-    <div class="container">
-      {{ content }}
-    </div>
+    <div class="slider">
+        <ul class="slides">
+          {% for banner in site.data.default.banner.banner %}
+          <li>
+            <img src="assets/img/banner/{{banner.img-url}}" alt="">
+            <div class="caption banner-text hoverable" style="text-align: justify;">
+              <h4>{{ banner.title }}</h4>
+              <p class="light grey-text text-lighten-3 flow-text">{{ banner.text }}</p>
+              <p class="hashtag light grey-text text-lighten-3 flow-text" style="text-align: left;">{{ banner.hashtag }}</p>
+              <p class="light grey-text text-lighten-3 flow-text">{{ banner.greetings }}</p>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
 
     <!-- ================== -->
     <!--    START FOOTER    -->
