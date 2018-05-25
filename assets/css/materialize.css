@@ -7038,6 +7038,12 @@ nav .sidenav-trigger i {
 .card .card-title {
   font-size: 20px; }
 
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  color: #000; }
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+  color: #000; }
+
 @media only screen and (max-width: 1022px) {
   .slider {
     height: 450px !important; }
