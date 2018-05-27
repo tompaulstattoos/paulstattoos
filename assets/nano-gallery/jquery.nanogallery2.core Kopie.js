@@ -1873,7 +1873,7 @@
     // author: underscore.js - http://underscorejs.org/docs/underscore.html
     // Returns a function, that, when invoked, will only be triggered at most once during a given window of time.
     // Normally, the throttled function will run as much as it can, without ever going more than once per wait duration;
-    // but if youï¿½d like to disable the execution on the leading edge, pass {leading: false}.
+    // but if you’d like to disable the execution on the leading edge, pass {leading: false}.
     // To disable execution on the trailing edge, ditto.
     var throttle = function(func, wait, options) {
       var context, args, result;
@@ -7214,7 +7214,7 @@
         };
       }
 
-      // requestAnimationFrame polyfill by Erik Mï¿½ller. fixes from Paul Irish and Tino Zijdel
+      // requestAnimationFrame polyfill by Erik Möller. fixes from Paul Irish and Tino Zijdel
       // http://paulirish.com/2011/requestanimationframe-for-smart-animating/
       // http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
       // MIT license
@@ -7701,7 +7701,7 @@
       var vimg = new VImg(ngy2ItemIdx);
       G.VOM.items.push(vimg);
       items.push(G.I[ngy2ItemIdx]);
-      //TODO -> danger? -> pourquoi reconstruire la liste si dï¿½jï¿½ ouvert (back/forward)     
+      //TODO -> danger? -> pourquoi reconstruire la liste si déjà ouvert (back/forward)     
       var l = G.I.length;
       for( var idx = ngy2ItemIdx+1; idx < l ; idx++) {
         var item = G.I[idx];
@@ -8320,25 +8320,24 @@
 
       var content = '<div class="nGY2PopupOneItemText">' + item.title + '</div>';
       content    += '<div class="nGY2PopupOneItemText">' + item.description + '</div>';
-      //wird nicht benÃ¶tig 180527 TM
-      //if( item.author != '' ) {
-      //  content  += '<div class="nGY2PopupOneItemText">' + G.O.icons.user + ' ' + item.author + '</div>';
-      //}
-      //if( item.exif.model != '' ) {
-      //  content  += '<div class="nGY2PopupOneItemText">' + G.O.icons.config + ' ' + item.exif.model + '</div>';
-      //}
-      //var sexif = '';
-      //sexif += item.exif.flash == '' ? '' : ' &nbsp; ' + item.exif.flash;
-      //sexif += item.exif.focallength == '' ? '' : ' &nbsp; ' + item.exif.focallength+'mm';
-      //sexif += item.exif.fstop == '' ? '' : ' &nbsp; f' + item.exif.fstop;
-      //sexif += item.exif.exposure == '' ? '' : ' &nbsp; ' + item.exif.exposure+'s';
-      //sexif += item.exif.iso == '' ? '' : ' &nbsp; ' + item.exif.iso+' ISO';
-      //if( item.exif.time != '' ) {
+      if( item.author != '' ) {
+        content  += '<div class="nGY2PopupOneItemText">' + G.O.icons.user + ' ' + item.author + '</div>';
+      }
+      if( item.exif.model != '' ) {
+        content  += '<div class="nGY2PopupOneItemText">' + G.O.icons.config + ' ' + item.exif.model + '</div>';
+      }
+      var sexif = '';
+      sexif += item.exif.flash == '' ? '' : ' &nbsp; ' + item.exif.flash;
+      sexif += item.exif.focallength == '' ? '' : ' &nbsp; ' + item.exif.focallength+'mm';
+      sexif += item.exif.fstop == '' ? '' : ' &nbsp; f' + item.exif.fstop;
+      sexif += item.exif.exposure == '' ? '' : ' &nbsp; ' + item.exif.exposure+'s';
+      sexif += item.exif.iso == '' ? '' : ' &nbsp; ' + item.exif.iso+' ISO';
+      if( item.exif.time != '' ) {
         // var date = new Date(parseInt(item.exif.time));
         // sexif += ' &nbsp; '+date.toLocaleDateString();
-        //sexif += ' &nbsp; ' + item.exif.time;
-      //}
-      //content += '<div class="nGY2PopupOneItemText">' + sexif + '</div>';
+        sexif += ' &nbsp; ' + item.exif.time;
+      }
+      content += '<div class="nGY2PopupOneItemText">' + sexif + '</div>';
 
       if( item.exif.location != '' ) {
         content += '<div class="nGY2PopupOneItemText">'+G.O.icons.location+' <a href="http://maps.google.com/maps?z=12&t=m&q='+encodeURIComponent(item.exif.location)+'" target="_blank">'+item.exif.location+'</a></div>';
