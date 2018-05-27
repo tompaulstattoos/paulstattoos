@@ -17,9 +17,6 @@ brands:
         class: 
         url: impressionen_martini_sportswear
 
-      #- title: SHOP
-      #  url: martini_shop
-
   - title: SUSI KIMMEL
     img-url: assets/img/banner/susi_kimmel_brandlogo.png
     info: Zahme Vögel träumen von der Freiheit, wilde Vögel fliegen.
@@ -31,6 +28,3 @@ brands:
       - title: IMPRESSIONEN
         class:   
         url: impressionen_susi_kimmel
-
-      #- title: SHOP
-      #  url: kimml_shop
