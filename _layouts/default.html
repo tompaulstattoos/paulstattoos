@@ -87,6 +87,14 @@
           {% for banner in site.data.default.banner.banner %}
           <li>
             <img src="assets/img/banner/{{banner.img-url}}" alt="">
+
+            <div class="caption banner-text hoverable" style="text-align: justify;">
+                <h4>{{ banner.title }}</h4>
+                <p class="light grey-text text-lighten-3 flow-text">{{ banner.text }}</p>
+
+              </div>
+
+
           </li>
           {% endfor %}
         </ul>
