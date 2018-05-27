@@ -1,5 +1,13 @@
 shop: 
 
-  - collections: AKTUELLE KOLLEKTION
-    id: aktuelle_kollektion
-    albumID: "6557711833212610481"
+  - collections: DAMEN
+    id: damen
+    albumID: "6560260242893629377"
+
+  - collections: HERREN
+    id: herren
+    albumID: "6560260344570582193"
+
+  - collections: KINDER
+    id: kinden
+    albumID: "6560260408849047905"
