@@ -13,16 +13,16 @@ title: Home
 
 </div>
 
-<!-- banner nur bei home -->
+<!-- banner nur bei home 
   <div class="slider">
     <ul class="slides">
-      {% for homebanner in site.data.default.banner.banner %}
+      {% for banner in site.data.default.banner.banner %}
       <li>
         <img src="assets/img/banner/{{banner.img-url}}" alt="">
       </li>
       {% endfor %}
     </ul>
-  </div>
+  </div> -->
 
 <!-- home teaser   -->
 {% include home-teaser.html %}
