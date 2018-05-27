@@ -121,7 +121,7 @@
         <div class="row">
             {% for item in site.data.default.footer.footer %}
               <div class="col s12 m6">
-                <h5 class="footer-header white-text">{{ item.title }}</h5>
+                <h6 class="footer-header white-text">{{ item.title }}</h6>
                 <ul>
                   {% for content in item.content %}
                     <li><a href="{{ site.baseurl }}{{ content.url }}" class="footer-links grey-text text-lighten-3">{{ content.title }}</a></li>
