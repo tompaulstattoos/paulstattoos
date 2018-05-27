@@ -145,11 +145,6 @@ nav .sidenav-trigger i {
   .brand-logo img {
     height: 76px;
     width: 95%;
-    nav .brand-logo {
-      left: 50%;
-      -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-      transform: translateX(-50%); }
   }         
 }
 
@@ -157,7 +152,7 @@ nav .sidenav-trigger i {
 //
 @media only screen and (max-width: 360px) {
   nav .brand-logo {
-    left: 50%;
+    left: 38%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%); }
