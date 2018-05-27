@@ -3261,7 +3261,7 @@ nav {
       transform: translateX(-50%); }
     @media only screen and (max-width: 360px) {
       nav .brand-logo {
-        left: 35%;
+        left: 30%;
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
         transform: translateX(-50%); }
