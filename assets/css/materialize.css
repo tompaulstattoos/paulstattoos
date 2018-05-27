@@ -1678,7 +1678,9 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */ }
+  /* 2 */ 
+  margin-left:  8px;
+  margin-right:  8px; }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
