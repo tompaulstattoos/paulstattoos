@@ -38,4 +38,20 @@ besonderes:
         class: 
         url: "/"
 
+  - title: Susi Kimmel
+    img-url: assets/img/banner/susi_kimmel_brandlogo.png
+    info: Zahme Vögel träumen von der Freiheit, wilde Vögel fliegen.
+    menu:
+
+      - title: INFO
+        class: activator
+        url: "#!"
+
+      - title: IMPRESSIONEN
+        class:
+        url: impressionen_susi_kimmel
+        
+      - title: HOME
+        class: 
+        url: "/"
 
