@@ -1,46 +1,51 @@
 <!-- ein- ausblenden -->
-<script> 
-        function show(id) { 
-            if(document.getElementById) { 
-                var mydiv = document.getElementById(id); 
-                mydiv.style.display = (mydiv.style.display=='block'?'none':'block'); 
-            } 
-        } 
+<script>
+
+  function hide_starter_text() {
+    $(".starter_text").hide("slow");
+  }
+
+  function show_starter_text() {
+    $(".starter_text").show("slow");
+  }
 </script> 
 
-<div class="row" style="background-color: #000; color: #fff; padding: 10px 0; text-align: justify">
+<div class="row starter_text" style="background-color: #000; color: #fff; padding: 10px 0; text-align: justify">
     
-    <!-- ein- ausblenden -->
-    <!-- <a style="font-size: 25px; color: #fff"; href="" onclick="javascript:show('divText'); return false;"> X</a> 
-    <div style="display: none" id="divText"> -->
+  <!-- ein- ausblenden -->
+  <!-- <a style="font-size: 25px; color: #fff"; href="" onclick="javascript:show('divText'); return false;"> X</a> 
+  <div style="display: none" id="divText"> -->
 
-        <div class="container">
-        <div class="col s12">
-                {% for banner in site.data.default.banner.banner %}
-                <h6>{{ banner.title }}</h6>
-                {% endfor %}
-        </div>
-            <div class="col s12 m6">
-                {% for banner in site.data.default.banner.banner %}
-                <p>{{ banner.text }}</p>
-                {% endfor %}
-            </div>
-            <div class="col s12 m6">
-                {% for banner in site.data.default.banner.banner %}
-                <p>{{ banner.text2 }}</p>
-                {% endfor %}
-            </div>
-            <div class="col s12">
-                {% for banner in site.data.default.banner.banner %}
-                <p style="font-size: 15px; text-align: center;">{{ banner.hashtag }}</p>
-                {% endfor %}
-            </div>
-            <div class="col s12">
-                <img src="{{ '/assets/img/logos/bs_symbol_white_transparent.png' | relative_url }}" alt="" style="width: 80px; float: right;">
-                {% for banner in site.data.default.banner.banner %}
-                <p style="float: right; margin-top: 47px;">{{banner.greetings}}</p>
-                {% endfor %}
-            </div>
-        <!--</div>-->
+  <div class="container">
+    <div class="col s12">
+      <i class="material-icons right" style="margin-top: 10px; cursor: pointer;" onclick="hide_starter_text()">close</i>
+    </div>
+    <div class="col s12">
+        {% for banner in site.data.default.banner.banner %}
+        <h6>{{ banner.title }}</h6>
+        {% endfor %}
+      </div>
+      <div class="col s12 m6">
+        {% for banner in site.data.default.banner.banner %}
+        <p>{{ banner.text }}</p>
+        {% endfor %}
+      </div>
+      <div class="col s12 m6">
+        {% for banner in site.data.default.banner.banner %}
+        <p>{{ banner.text2 }}</p>
+        {% endfor %}
+      </div>
+      <div class="col s12">
+        {% for banner in site.data.default.banner.banner %}
+        <p style="font-size: 15px; text-align: center;">{{ banner.hashtag }}</p>
+        {% endfor %}
+      </div>
+      <div class="col s12">
+        <img src="{{ '/assets/img/logos/bs_symbol_white_transparent.png' | relative_url }}" alt="" style="width: 80px; float: right;">
+        {% for banner in site.data.default.banner.banner %}
+        <p style="float: right; margin-top: 47px;">{{banner.greetings}}</p>
+        {% endfor %}
+      </div>
+    <!--</div>-->
    </div>
 </div>
