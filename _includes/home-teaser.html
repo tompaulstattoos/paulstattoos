@@ -2,11 +2,15 @@
 <script>
 
   function hide_starter_text() {
-    $(".starter_text").hide("slow");
+    $(".show-hide-text").hide();
+    $(".less").hide();
+    $(".more").show();
   }
 
   function show_starter_text() {
-    $(".starter_text").show("slow");
+    $(".show-hide-text").show();
+    $(".more").hide();
+    $(".less").show();
   }
 </script> 
 
@@ -18,13 +22,17 @@
 
   <div class="container">
     <div class="col s12">
-      <i class="material-icons right" style="margin-top: 10px; cursor: pointer;" onclick="hide_starter_text()">close</i>
-    </div>
-    <div class="col s12">
+      <div class="col s6">
         {% for banner in site.data.default.banner.banner %}
         <h6>{{ banner.title }}</h6>
         {% endfor %}
       </div>
+     <div class="col s6">
+      <i class="material-icons right less" style="margin-top: 15px; cursor: pointer;" onclick="hide_starter_text()">expand_less</i>
+      <i class="material-icons right more" style="margin-top: 15px; cursor: pointer; display: none;" onclick="show_starter_text()">expand_more</i>
+     </div>
+    </div>
+    <div class="show-hide-text">
       <div class="col s12 m6">
         {% for banner in site.data.default.banner.banner %}
         <p>{{ banner.text }}</p>
@@ -45,6 +53,7 @@
         {% for banner in site.data.default.banner.banner %}
         <p style="float: right; margin-top: 47px;">{{banner.greetings}}</p>
         {% endfor %}
+      </div>
       </div>
     <!--</div>-->
    </div>
