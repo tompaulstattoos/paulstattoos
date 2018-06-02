@@ -9,11 +9,11 @@ permalink: /news_main
   <hr>
 
   {% for news in site.data.news.news.news %}
-    <div class="col s12 m8">
+    <div class="col s12 m8 l4">
       <div class="card news">
         
         <div class="card-content">
-          <img src="{{ site.baseurl }}/assets/img/logos/{{ news.img-url }}" alt="">
+          <img src="{{ site.baseurl }}/assets/img/news/{{ news.img-url }}" alt="">
           <h5>{{ news.title }}</h5>
           <hr>
           <article>
@@ -42,7 +42,7 @@ permalink: /news_main
   }
   
   .news h5 {
-    text-align: center;
+    text-align: left;
   }
 
   /* styles for '...' */ 
