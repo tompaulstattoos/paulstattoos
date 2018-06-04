@@ -9,31 +9,7 @@ permalink: /specials_main
   <h5>BESONDERES</h5>
   <hr>
 
-  {% for besonderes in site.data.besonderes.besonderes.besonderes %}
+  {% assign specials = site.data.besonderes.besonderes %}
+  {% include card.html item=specials size="s12 m4" %}
 
-  <div class="col s12 m4">
-    <div class="card">
-      <div class="card-image">
-        <img src="{{ besonderes.img-url }}">
-        <a class="btn-floating halfway-fab waves-effect waves-light black dropdown-trigger" data-target="{{ besonderes.title }}_dropdown"><i class="material-icons">menu</i></a>
-      </div>
-
-      <div class="card-content">
-        <span class="card-title">{{ besonderes.title }}</span>
-      </div>
-
-      <div class="card-reveal">
-        <span class="card-title black-text">{{ besonderes.title}} <i class="material-icons right">close</i></span>
-        <p style="text-align: justify">{{ besonderes.info }}</p>
-      </div>
-    </div>
-  </div>
-
-  <ul id="{{ besonderes.title }}_dropdown" class="dropdown-content" style="color: black;">
-    {% for dropdown in besonderes.menu %}
-      <li><a href="{{ dropdown.url }}" class="{{ dropdown.class }}">{{ dropdown.title }}</a></li>
-      <!--<li><a href="{{ site.baseurl }}">HOME</a></li>-->
-    {% endfor %}
-  </ul>  
-  {% endfor %}
 </div>
