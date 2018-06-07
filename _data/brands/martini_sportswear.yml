@@ -19,7 +19,7 @@ martini_sportswear:
   greetings: Euer Tom!
 
   # Impressionen
-  impressionen_martini_sportswear: 
+
 
   - collections: AKTUELL
     id: aktuell
