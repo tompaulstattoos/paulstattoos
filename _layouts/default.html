@@ -129,7 +129,7 @@
                 {% for content in item.content %}
                   <li>
                     {% if content.target == null %}
-                      <a href="{{ site.baseurl }}" class="footer-links grey-text text-lighten-3">{{ content.title }}</a>
+                      <a href="{{ site.baseurl }}{{ content.url }}" class="footer-links grey-text text-lighten-3">{{ content.title }}</a>
                     {% else %}
                       <a href="{{ content.url }}" class="footer-links grey-text text-lighten-3" target="{{ content.target }}">{{ content.title }}</a>
                     {% endif %}
