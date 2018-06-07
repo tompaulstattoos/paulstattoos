@@ -19,19 +19,20 @@ martini_sportswear:
   greetings: Euer Tom!
 
   # Impressionen
-  impressionen: 
-    - collections: AKTUELL
-      id: aktuell
-      albumID: "6558372398095072897"
+  impressionen_martini_sportswear: 
 
-    - collections: SOMMER
-      id: sommer
-      albumID: "6558348975185761921" 
+  - collections: AKTUELL
+    id: aktuell
+    albumID: "6558372398095072897"
 
-    - collections: WINTER
-      id: winter
-      albumID: "6558349085782258129" 
+  - collections: SOMMER
+    id: sommer
+    albumID: "6558348975185761921" 
 
-    - collections: ACTION
-      id: action
-      albumID: "6558392027930808369"
+  - collections: WINTER
+    id: winter
+    albumID: "6558349085782258129" 
+
+  - collections: ACTION
+    id: action
+    albumID: "6558392027930808369" 
