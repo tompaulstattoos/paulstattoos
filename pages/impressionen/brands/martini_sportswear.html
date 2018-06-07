@@ -2,15 +2,11 @@
 layout: default
 title: IMPRESSIONEN MARTINI SPORTSWEAR
 permalink: /impressionen_martini_sportswear
-brand: brands.martini_sportswear.martini_sportswear
 ---
 
-  {% capture brand %}
-    {{page.brand}}
-  {% endcapture %}
-
   </div>
-  {% include brand-teaser.html brand=brand %}
+  {% assign brand = site.data.brands.brands.martini_sportswear %}
+  {% include teaser.html items=site.data.brands.brands.martini_sportswear %}
   <div class="container">
 
   <div class="row">

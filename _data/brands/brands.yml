@@ -1,5 +1,6 @@
 # MARTINI SPORTSWEAR
-- title: MARTINI SPORTSWEAR
+- id: martini_sportswear
+  title: MARTINI SPORTSWEAR
   url: impressionen_martini_sportswear   
   img-url: assets/img/banner/martini_sportswear_brandlogo.png
   info: Die Martini-Geschichte ist eine Geschichte permanenter Entwicklungen. Alles begann mit der Hose - 1958 startete Martin Hornegger sen. in Annaberg mit seiner Sporthosen-Maßschneiderei. Das Engagement ist ausgeprägt, das Qualitätsdenken ebenfalls. Das spricht sich herum, bis in die Spitzen des Sports. In den 60er-Jahren stellte Martin Hornegger sen. die Sprunganzüge für die österreichische Nationalmannschaft her.
@@ -36,8 +37,8 @@
       albumID: "6558392027930808369" 
 
 # SUSI KIMMEL
-- title: SUSI KIMMEL
-  url: impressionen_susi_kimmel
-  img-url: assets/img/banner/susi_kimmel_brandlogo.png
-  info: Zahme Vögel träumen von der Freiheit, wilde Vögel fliegen.
+# - title: SUSI KIMMEL
+#   url: impressionen_susi_kimmel
+#   img-url: assets/img/banner/susi_kimmel_brandlogo.png
+#   info: Zahme Vögel träumen von der Freiheit, wilde Vögel fliegen.
   

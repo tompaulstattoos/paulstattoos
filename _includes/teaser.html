@@ -26,7 +26,8 @@
 
   <div class="container">
     
-    {% for item in site.data.brands.martini_sportswear.martini_sportswear %}
+    {% assign items = include.items %}
+    {% for item in items %}
     <div class="col s12">
       <div class="col s6" style="padding-left: 0">
         <h6>{{ item.title }}</h6>
@@ -37,7 +38,7 @@
      </div>
     </div>
     <div class="show_hide_text">
-      <div class="col s12">
+      <div class="col s12">x
         <hr style="padding-left: 0; margin-left: 0; padding-right: 0; margin-right: 0;">
       </div>
       <div class="col s12 m6">
