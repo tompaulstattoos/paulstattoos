@@ -2,7 +2,7 @@
 shop_info:
 - title: SHOP
   img-url: assets/img/shop/shop_entwurf.png
-  url: shop
+  url: shop_ebbs
   info: Öffnungszeiten &#058;
         <br>
         Mo - Fr von 10.00 - 19.00 Uhr,
