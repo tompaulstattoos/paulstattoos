@@ -1,3 +1,5 @@
+# YOUR SHOP
+your_shop:
 - title: Dein Shop
   img-url: assets/img/logos/bs_logo_black_hoch.png
   info: Mach Shopping zu deinem ganz persönlichen Erlebnis! Wenn du Lust hast, alleine oder mit Freunden,
@@ -8,12 +10,8 @@
         Die persönliche und kompetente Beratung versteht sich ja von selbst! &#35;aufaguadezeit
   url: your_shop
 
-- title: Individuelles Firmenbranding
-  img-url: assets/img/logos/bs_logo_black_hoch.png
-  info: Text Text Text Text
-  url: individual_companybranding
-
-- title: Susi Kimmel
-  img-url: assets/img/banner/susi_kimmel_brandlogo_color.png
-  info: Zahme Vögel träumen von der Freiheit, wilde Vögel fliegen
-  url: susi_kimmel
+# YOUR SHOP
+impressionen_your_shop:
+  - collections: GEILE ZEIT
+    id: aktuelles
+    albumID: "6559047385526062609"
