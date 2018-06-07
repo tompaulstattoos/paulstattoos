@@ -1,8 +1,7 @@
+- title: Eröffnungsfeier
+  img-url: assets/img/logos/bs_logo_black_hoch_neu.png
+  info: Eröffnung am 13.10.2018
 
-  - title: Eröffnungsfeier
-    img-url: assets/img/logos/bs_logo_black_hoch_neu.png
-    info: Eröffnung am 13.10.2018
-
-  - title: Eröffnungsfeier 2
-      img-url: assets/img/logos/bs_logo_black_hoch_neu.png
-      info: Eröffnung am 13.10.2019
+- title: Eröffnungsfeier 2
+  img-url: assets/img/logos/bs_logo_black_hoch_neu.png
+  info: Eröffnung am 13.10.2019
