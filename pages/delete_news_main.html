@@ -1,0 +1,121 @@
+---
+layout: default
+title: NEWS
+permalink: /news_main
+---
+
+<div class="row">
+  <h5>NEWS</h5>
+  <hr>
+
+  {% for news in site.data.news.news.news %}
+    <div class="col s12 m8 l4">
+      <div class="card news">
+        
+        <div class="card-content">
+          <img src="{{ site.baseurl }}/assets/img/news/{{ news.img-url }}" alt="">
+          <h5>{{ news.title }}</h5>
+          <hr>
+          <article>
+            <p>{{ news.info }}</p>
+          </article>
+        </div>
+
+        <div class="card-action">
+          <a href="#!" class="activator" >Weiterlesen</a>
+        </div>
+
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-3">{{ news.title }} <i class="material-icons right">close</i></span>
+          <hr>
+          <p>{{ news.info }}</p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<style scoped>
+  .news img {
+    width: 30%;
+    transform: translate(100%, 0);
+  }
+  
+  .news h5 {
+    text-align: left;
+  }
+
+  /* styles for '...' */ 
+  .news p {
+  /* hide text if it more than N lines  */
+  overflow: hidden;
+  /* for set '...' in absolute position */
+  position: relative; 
+  /* use this value to count block height */
+  line-height: 1.2em;
+  /* max-height = line-height (1.2) * lines max number (3) */
+  max-height: 9.5em; 
+  /* fix problem when last visible word doesn't adjoin right side  */
+  text-align: justify;  
+  /* place for '...' */
+  margin-right: -1em;
+  padding-right: 1em;
+  }
+  /* create the ... */
+  .news p:before {
+    /* points in the end */
+    content: '...';
+    /* absolute position */
+    position: absolute;
+    /* set position to right bottom corner of block */
+    right: 0;
+    bottom: 0;
+  }
+  /* hide ... if we have text, which is less than or equal to max lines */
+  .news p:after {
+    /* points in the end */
+    content: '';
+    /* absolute position */
+    position: absolute;
+    /* set position to right bottom corner of text */
+    right: 0;
+    /* set width and height */
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    /* bg color = bg color under block */
+    background: white;
+  }
+
+  .card p {
+    white-space: pre-line;
+  }
+
+  @media screen and (max-width: 1637px) {
+    .news h5 {
+      font-size: 110%;
+    }
+  }
+
+  @media screen and (max-width: 1165px) {
+    .news h5 {
+      font-size: 80%;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .news h5 {
+      font-size: 130%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .news h5 {
+      font-size: 200%;
+    }
+
+    .news p {
+      max-height: 9em; 
+    }
+  }
+</style>
