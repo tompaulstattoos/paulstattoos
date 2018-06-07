@@ -26,7 +26,7 @@
 
   <div class="container">
     
-    {% for item in site.data.brands.martini_sportswear.martini_sportswear %}
+    {% for item in site.data.shops.shop_info.shop_info %}
     <div class="col s12">
       <div class="col s6" style="padding-left: 0">
         <h6>{{ item.title }}</h6>
@@ -50,8 +50,8 @@
         <p style="font-size: 15px; text-align: center;">{{ item.hashtag }}</p>
       </div>
       <div class="col s12">
-        <img src="{{ '/assets/img/logos/bs_symbol_white_transparent.png' | relative_url }}" alt="" style="width: 80px; float: right;">
-        <p style="float: right; margin-top: 47px;">{{ item.greetings }}</p>
+       <!-- <img src="{{ '/assets/img/logos/bs_symbol_white_transparent.png' | relative_url }}" alt="" style="width: 80px; float: right;">
+        <p style="float: right; margin-top: 47px;">{{ item.greetings }}</p>>-->
       </div>
     </div>
     {% endfor %}
