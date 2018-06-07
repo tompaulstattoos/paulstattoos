@@ -1678,7 +1678,10 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */ }
+  /* 2 */ 
+  margin-left:  10px;
+  margin-right: 10px;
+  }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -3406,6 +3409,7 @@ h4 {
 h5 {
   font-size: 1.64rem;
   line-height: 110%;
+  margin-left: 10px;
   margin: 1.09333rem 0 0.656rem 0; }
 
 h6 {
