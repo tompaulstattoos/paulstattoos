@@ -2,10 +2,10 @@ footer:
   - title: Impressum
     content:
       - title: Impressum
-        url: /impressum
+        url: /brandstore-tirol/impressum
         target: ''
       - title: Cookie-Richtlinie
-        url: /cookie
+        url: /brandstore-tirol/cookie
         target: ''
     
   - title: Kontakt
