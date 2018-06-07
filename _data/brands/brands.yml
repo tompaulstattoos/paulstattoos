@@ -1,6 +1,30 @@
 # MARTINI SPORTSWEAR
-- title: MARTINI SPORTSWEAR
-  url: martini_sportswear
+- id: martini_sportswear
+  title: MARTINI SPORTSWEAR
+  url: impressionen_martini_sportswear   
   img-url: assets/img/banner/martini_sportswear_brandlogo.png
 
-# BRAND 2
+  # Impressionen
+  impressionen: 
+    - collections: AKTUELL
+      id: aktuell
+      albumID: "6558372398095072897"
+
+    - collections: SOMMER
+      id: sommer
+      albumID: "6558348975185761921" 
+
+    - collections: WINTER
+      id: winter
+      albumID: "6558349085782258129" 
+
+    - collections: ACTION
+      id: action
+      albumID: "6558392027930808369" 
+
+# SUSI KIMMEL
+# - title: SUSI KIMMEL
+#   url: impressionen_susi_kimmel
+#   img-url: assets/img/banner/susi_kimmel_brandlogo.png
+#   info: Zahme Vögel träumen von der Freiheit, wilde Vögel fliegen.
+  
