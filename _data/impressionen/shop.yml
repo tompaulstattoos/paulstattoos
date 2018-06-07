@@ -1,5 +1,25 @@
-shop: 
+#shop: 
+# SHOP
+- title: SHOP
+  img-url: assets/img/shop/shop_entwurf.png
+  url: impressionen_shop
+  info: Öffnungszeiten &#058;
+        <br>
+        Mo - Fr von 10.00 - 19.00 Uhr,
+        <br>
+        Sa von 08.00 - 12.00 Uhr,
+        <br>
+        oder komm zu deinem ganz persönlichen Shopping-Erlebnis! Nähere Infos findest du unter "BESONDERES"
+        <br>
+        <br>
+        Du findest uns in der
+        <br>
+        Wildbichler Strasse 2D, 6341 Ebbs/Tirol
+        <br>
+        <br>
+        <a href="https://www.google.at/maps/place/Wildbichler+Str.+2,+6341+Ebbs/@47.6231451,12.2116969,17z/data=!3m1!4b1!4m5!3m4!1s0x477639a89665c4ff:0xa7fbdcd7153e1df1!8m2!3d47.6231451!4d12.2138856/" target="_blank">Google Maps</a>
 
+# IMPRESSIONEN
   - collections: DAMEN
     id: damen
     albumID: "6560260242893629377"
