@@ -15,7 +15,7 @@ title: Home
   </div> -->
 
   <!-- home teaser   -->
-  {% include home-teaser.html %}
+  {% include teaser/home-teaser.html %}
 
   <!-- BRANDS  -->
   <div class="row">
@@ -36,6 +36,6 @@ title: Home
     <hr>
 
     {% assign shop = site.data.shops.shop %}
-    {% include card.html item=shop size="s12 m8" %}
+    {% include card.html item=shop size="s12 m6" %}
 
   </div>

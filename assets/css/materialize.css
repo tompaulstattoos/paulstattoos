@@ -1678,7 +1678,10 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */ }
+  /* 2 */ 
+  margin-left:  10px;
+  margin-right: 10px;
+  }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -3259,7 +3262,7 @@ nav {
       -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
       transform: translateX(-50%); }
-    @media only screen and (max-width: 992px) {
+    @media only screen and (max-width: 360px) {
       nav .brand-logo {
         left: 50%;
         -webkit-transform: translateX(-50%);
@@ -3406,6 +3409,7 @@ h4 {
 h5 {
   font-size: 1.64rem;
   line-height: 110%;
+  margin-left: 10px;
   margin: 1.09333rem 0 0.656rem 0; }
 
 h6 {
@@ -6506,11 +6510,22 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
     visibility: visible;
     -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
     animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-    -webkit-transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-    transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-    -o-transition: opacity .3s, transform .3s, visibility 0s 1s;
-    transition: opacity .3s, transform .3s, visibility 0s 1s;
-    transition: opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s; }
+    -webkit-transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+    transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+    -o-transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s;
+    transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s;
+    transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s; }
 
 .tap-target {
   position: absolute;
@@ -6558,11 +6573,22 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
     transition: transform .3s, -webkit-transform .3s; }
   .tap-target-wave::after {
     visibility: hidden;
-    -webkit-transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-    transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-    -o-transition: opacity .3s, transform .3s, visibility 0s;
-    transition: opacity .3s, transform .3s, visibility 0s;
-    transition: opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;
+    -webkit-transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+    transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+    -o-transition: opacity .3s,
+ transform .3s,
+ visibility 0s;
+    transition: opacity .3s,
+ transform .3s,
+ visibility 0s;
+    transition: opacity .3s,
+ transform .3s,
+ visibility 0s,
+ -webkit-transform .3s;
     z-index: -1; }
 
 .tap-target-origin {

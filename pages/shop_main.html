@@ -1,13 +1,13 @@
 ---
 layout: default
-title: SHOP
+title: UNSER SHOP
 permalink: /shop_main
 ---
 
-<div class="row">
+<h5>{{ page.title }}</h5>
+<hr>
 
-  <h5>Shop</h5>
-  <hr>
+<div class="row">
 
   {% assign shop = site.data.shops.shop %}
   {% include card.html item=shop size="s12 m6" %}
