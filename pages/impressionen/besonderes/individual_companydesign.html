@@ -25,12 +25,12 @@ individual_companydesign: specials.individual_companydesign.individual_companyde
 <div class="row">
   <div class="col s12">
     <div class="tabs">
-      {% for impression in site.data.specials.individual_companydesign.individual_companydesign %}
+      {% for impression in site.data.specials.individual_companydesign.impressionen_individual_companydesgin %}
         <li class="tab col s3"><a href="#{{impression.id}}" class="black-text" style="border-bottom-color: black;">{{impression.collections}}</a></li>
       {% endfor %}
     </div>    
   </div>
-  {% for impression in site.data.specials.individual_companydesign.individual_companydesign %}
+  {% for impression in site.data.specials.individual_companydesign.impressionen_individual_companydesgin %}
   <div class="col s12 gallery-wrapper" id="{{impression.id}}">
     <div data-nanogallery2='{
       "userID": "102674011871822108337",
