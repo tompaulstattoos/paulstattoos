@@ -2,7 +2,7 @@
 shop_info:
 - title: UNSER SHOP
   url: shop
-  info: Öffnungszeiten &#058;
+  info: Öffnungszeiten&#058;
         <br>
         Mo - Fr von 10.00 - 19.00 Uhr,
         <br>
@@ -19,9 +19,9 @@ shop_info:
         <br>
         Wildbichler Strasse 2D, 6341 Ebbs/Tirol
         <br>
-        Mobil &#058; class="grey-text" 0043 699 18333891
+        Mobil&#058; <a class="grey-text" 0043 699 18333891</a>
         <br>
-        Mail &#058; <u><a class="grey-text" href="mailto:info@brandstore.tirol">info@brandstore.tirol</a></u>
+        Mail&#058; <u><a class="grey-text" href="mailto:info@brandstore.tirol">info@brandstore.tirol</a></u>
         <br>
   info2: ''
   hashtag: 

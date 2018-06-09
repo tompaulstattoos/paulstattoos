@@ -10,9 +10,9 @@ ambassador:
         <br>
         Tom Moser
         <br>
-        Mobil &#058; 0043 699 18333891
+        Mobil&#058; <a class="grey-text" 0043 699 18333891</a>
         <br>
-        Mail &#058; <u><a class="grey-text" href="mailto:tom@brandstore.tirol">tom@brandstore.tirol</a></u>
+        Mail&#058; <u><a class="grey-text" href="mailto:tom@brandstore.tirol">tom@brandstore.tirol</a></u>
   url: ambassador
   hashtag: "<b>&#35;designyoursports</b>"
   greetings:
