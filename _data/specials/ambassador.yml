@@ -12,7 +12,7 @@ ambassador:
         <br>
         Mobil &#058; 0043 699 18333891
         <br>
-        Mail &#058; <a href="mailto:tom@brandstore.tirol">tom</a>
+        Mail &#058; <a class="grey-text" href="mailto:tom@brandstore.tirol">tom@brandstore.tirol</a>
   url: ambassador
   hashtag: "<b>&#35;designyoursports</b>"
   greetings:
