@@ -4,15 +4,19 @@ footer:
       - title: Impressum
         url: /impressum
         target: ''
+        type: internal
       - title: Cookie-Richtlinie
         url: /cookie
         target: ''
+        type: internal
     
   - title: Kontakt
     content:
       - title: Persönlich
         url: /shop
         target: ''
+        type: internal
       - title: Unpersönlich
         url: https://www.facebook.com/tom.brandstore.tirol
         target: _blank
+        type: external
