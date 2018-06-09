@@ -127,12 +127,12 @@
               <h6 class="footer-header white-text">{{ item.title }}</h6>
               <ul>
                 {% for content in item.content %}
-                <li>
-                  {% if content.type == internal %}
-                  <a href="{{ site.baseurl }}{{ content.url }}" class="footer-links grey-text text-lighten-3">{{ content.title }}</a>
-                  {% else %}
-                  <a href="{{ content.url }}" class="footer-links grey-text text-lighten-3" target="{{ content.target }}">{{ content.title }}</a>
-                  {% endif %}
+                  <li>
+                    {% if content.type == internal %}
+                    <a href="{{ site.baseurl }}/{{ content.url }}" class="footer-links grey-text text-lighten-3">{{ content.title }}</a>
+                    {% else %}
+                    <a href="{{ content.url }}" class="footer-links grey-text text-lighten-3" target="{{ content.target }}">{{ content.title }}</a>
+                    {% endif %}
                   </li>
                 {% endfor %}
               </ul>
