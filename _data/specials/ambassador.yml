@@ -3,12 +3,12 @@ ambassador:
 - title: WERDE BOTSCHAFTER
   info: text1
   info2: text2
-  url: your_shop
-  hashtag: "<b>&#35;aufaguadezeit</b>"
+  url: ambassador
+  hashtag: "<b>&#35;designyoursports</b>"
   greetings:
 
 # IMPRESSIONEN
 impressionen_ambassador:
-  - collections: "&#35;aufaguadezeit"
+  - collections: "&#35;designyoursports"
     id: aktuelles
-    albumID: "6559047385526062609"
+    albumID: "6565168299633493377"
