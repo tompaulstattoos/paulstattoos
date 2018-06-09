@@ -3774,8 +3774,7 @@ small {
     line-height: 48px;
     height: 48px;
     padding: 0;
-    margin: 0;
-    text-transform: uppercase; }
+    margin: 0; }
     .tabs .tab a {
       color: rgba(246, 103, 40, 0.7);
       display: block;
@@ -7186,3 +7185,12 @@ h6 {
 hr {
   margin-left: 10px;
   margin-right: 10px; }
+
+.tabs .tab {
+  display: inline-block;
+  text-align: center;
+  line-height: 48px;
+  height: 48px;
+  padding: 0;
+  margin: 0;
+  }
