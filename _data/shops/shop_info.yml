@@ -8,7 +8,7 @@ shop_info:
         <br>
         Sa von 08.00 - 12.00 Uhr,
         <br>
-        oder komm zu deinem ganz persönlichen Shopping-Erlebnis! Nähere Infos findest du unter <a class="white-text" href="https://brandstoretirol.github.io/brandstore-tirol/your_shop">"BESONDERES"</a>
+        oder komm zu deinem ganz persönlichen Shopping-Erlebnis! Nähere Infos findest du unter <a class="grey-text" href="https://brandstoretirol.github.io/brandstore-tirol/your_shop">"BESONDERES"</a>
         <br>
         <br>
         Du findest uns in der
@@ -17,7 +17,7 @@ shop_info:
         <br>
         Mobil &#058; 0043 699 18333891
         <br>
-        Mail &#058; <a href="mailto:info@brandstore.tirol">info@brandstore.tirol</a>
+        Mail &#058; <a class="grey-text" href="mailto:info@brandstore.tirol">info@brandstore.tirol</a>
         <br>
   info2: ''
   hashtag: 
