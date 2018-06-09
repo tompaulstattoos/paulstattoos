@@ -15,6 +15,6 @@ your_shop:
 
 # IMPRESSIONEN
 impressionen_your_shop:
-  - collections: GUADE ZEIT
+  - collections: "&#35;aufaguadezeit"
     id: aktuelles
     albumID: "6559047385526062609"
