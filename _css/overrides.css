@@ -112,3 +112,7 @@ nav .sidenav-trigger i {
   .brand-logo img {
     height: 30px;
     width: 70%; } }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: black;
+    }
