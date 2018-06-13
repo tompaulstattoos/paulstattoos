@@ -1,0 +1,38 @@
+---
+layout: default
+---
+      <div class="page post">
+        <article>
+          <header>
+            <h2 class="heading"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.info }}</a></h2>
+            <!--<p class="post-meta">{% include date.html date=page.date %}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>-->
+          </header>
+          {{ content }}
+		  {% if page.albumID %}
+		  <br/>
+			<div class="col s12 gallery-wrapper" id="aktuell">
+			  <div data-nanogallery2='{
+				"userID": "102674011871822108337",
+				"kind": "google2",
+				"google2URL": "https://brandstore.tirol/nanogp/nanogp.php",
+				"album": "{{page.albumID}}",
+				"thumbnailWidth": "auto",
+				  "thumbnailBorderVertical": 1,
+				  "thumbnailBorderHorizontal": 1,
+				  "colorScheme": {
+					"thumbnail": {
+					  "background": "rgba(0,0,0,1)"
+					}
+				  },
+				  "thumbnailLabel": {
+					"display": false
+				  },
+				  "galleryDisplayMode": "pagination",
+				  "galleryMaxRows": 3,
+				  "thumbnailAlignment": "center"
+			  }'>
+			  </div>
+			</div>
+		  {% endif %}
+        </article>
+      </div>
