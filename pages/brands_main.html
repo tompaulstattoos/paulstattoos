@@ -1,36 +1,15 @@
 ---
 layout: default
-title: BRANDS
+title: UNSERE BRANDS
 permalink: /brands_main
 ---
 
+<h5>{{ page.title }}</h5>
+<hr>
+
 <div class="row">
 
-    <h5>UNSERE BRANDS</h5>
-    <hr>
-    {% for brand in site.data.brands.brand.brands %}
-    <div class="col s12 m8">
-      <div class="card">
-        <div class="card-image">
-          <img src="{{ brand.img-url }}">
-          <a class="btn-floating halfway-fab waves-effect waves-light black dropdown-trigger" data-target="{{ brand.title }}_dropdown"><i class="material-icons">menu</i></a>
-        </div>
-        <div class="card-content">
-          <span class="card-title">{{ brand.title }}</span>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title black-text">{{ brand.title}} <i class="material-icons right">close</i></span>
-          <p style="text-align: justify">{{ brand.info }}</p>
-        </div>
-      </div>
-    </div>
-  
-    <ul id="{{ brand.title }}_dropdown" class="dropdown-content brand_dropdown" style="color: black;">
-      {% for dropdown in brand.menu %}
-        <li><a href="{{ dropdown.url }}" class="{{ dropdown.class }}">{{ dropdown.title }}</a></li>
-        <!--<li><a href="{{ site.baseurl }}">HOME</a></li>-->
-      {% endfor %}
-    </ul>
-  
-    {% endfor %}  
+  {% assign brands = site.data.brands.brands %}
+  {% include card.html item=brands size="s12 m6" %}
+
 </div>

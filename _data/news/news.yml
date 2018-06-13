@@ -1,8 +1,13 @@
-news:
-  - title: Eröffnungsfeier
-    #img-url: assets/img/banner/martini_sportswear_brandlogo.png
-    info: am 13.10.2018
+- title: Eröffnungsfeier
+  img-url: assets/img/logos/bs_logo_black_hoch_neu.png
+  info: Eröffnung am 13.10.2018
+  collections: AKTUELL
+  id: aktuell
+  albumID: "6558372398095072897"
 
- # - title: Test
-    #img-url: assets/img/banner/susi_kimmel_brandlogo.png
-  #  info: Zahme Vögel träumen von der Freiheit, wilde Vögel fliegen.
+- title: Eröffnungsfeier 2
+  img-url: assets/img/logos/bs_logo_black_hoch_neu.png
+  info: Eröffnung am 13.10.2019
+  collections: AKTUELL
+  id: aktuell
+  albumID: "6558372398095072897"

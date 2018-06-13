@@ -20,16 +20,12 @@
 
 <div class="row starter_text" style="background-color: #000; color: #fff; padding: 10px 0; text-align: justify">
 
-  <!-- ein- ausblenden -->
-  <!-- <a style="font-size: 25px; color: #fff"; href="" onclick="javascript:show('divText'); return false;"> X</a> 
-  <div style="display: none" id="divText"> -->
-
   <div class="container">
+    
+    {% for item in site.data.shops.shop_info.shop_info %}
     <div class="col s12">
       <div class="col s6" style="padding-left: 0">
-        {% for banner in site.data.default.banner.banner %}
-        <h6>{{ banner.title }}</h6>
-        {% endfor %}
+        <h6>{{ item.title }}</h6>
       </div>
      <div class="col s6">
       <i class="material-icons right less" style="margin-top: 15px; cursor: pointer;" onclick="hide_starter_text()">expand_less</i>
@@ -37,28 +33,26 @@
      </div>
     </div>
     <div class="show_hide_text">
-      <div class="col s12 m6">
-        {% for banner in site.data.default.banner.banner %}
-        <p>{{ banner.text }}</p>
-        {% endfor %}
+      <div class="col s12">
+        <hr style="padding-left: 0; margin-left: 0; padding-right: 0; margin-right: 0;">
       </div>
       <div class="col s12 m6">
-        {% for banner in site.data.default.banner.banner %}
-        <p>{{ banner.text2 }}</p>
-        {% endfor %}
+        <p>{{ item.info }}</p>
+      </div>
+      <!--<div class="col s12 m6">
+        <p>{{ item.info2 }}</p>
+      </div>-->
+      <div class="col s12 m6">
+          {% include map.html key="AIzaSyAbNd0_aUpH52S_onk4u93W9iEz30fX_cU" %}
       </div>
       <div class="col s12">
-        {% for banner in site.data.default.banner.banner %}
-        <p style="font-size: 15px; text-align: center;">{{ banner.hashtag }}</p>
-        {% endfor %}
+        <p style="font-size: 15px; text-align: center;">{{ item.hashtag }}</p>
       </div>
       <div class="col s12">
-        <img src="{{ '/assets/img/logos/bs_symbol_white_transparent.png' | relative_url }}" alt="" style="width: 80px; float: right;">
-        {% for banner in site.data.default.banner.banner %}
-        <p style="float: right; margin-top: 47px;">{{banner.greetings}}</p>
-        {% endfor %}
+       <!-- <img src="{{ '/assets/img/logos/bs_symbol_white_transparent.png' | relative_url }}" alt="" style="width: 80px; float: right;">
+        <p style="float: right; margin-top: 47px;">{{ item.greetings }}</p> -->
       </div>
-      </div>
-    <!--</div>-->
+    </div>
+    {% endfor %}
    </div>
 </div>

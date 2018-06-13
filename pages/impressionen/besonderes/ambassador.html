@@ -1,21 +1,36 @@
 ---
 layout: default
-title: FIRMENBRANDING
-permalink: /impressionen_firmenbranding
+title: BOTSCHAFTER
+permalink: /ambassador
+ambassador: specials.ambassador.ambassador
 ---
 
-<h5>{{ page.title }}</h5>
-<hr>
+{% capture ambassador %}
+{{page.ambassador}}
+{% endcapture %}
+
+</div>
+{% include teaser/ambassador-teaser.html ambassador=ambassador %}
+<div class="container">
+
+<div class="row">
+  <div class="col s12">
+  {% for ambassador in site.data.specials.ambassador.ambassador %}
+    <h6>IMPRESSIONEN</h6>
+    <hr style="margin-left: 0px;margin-right: 0px;">
+  {% endfor %}
+  </div>
+</div>
 
 <div class="row">
   <div class="col s12">
     <div class="tabs">
-      {% for impression in site.data.impressionen.besonderes.firmenbranding %}
+      {% for impression in site.data.specials.ambassador.impressionen_ambassador %}
         <li class="tab col s3"><a href="#{{impression.id}}" class="black-text" style="border-bottom-color: black;">{{impression.collections}}</a></li>
       {% endfor %}
     </div>    
   </div>
-  {% for impression in site.data.impressionen.besonderes.firmenbranding %}
+  {% for impression in site.data.specials.ambassador.impressionen_ambassador %}
   <div class="col s12 gallery-wrapper" id="{{impression.id}}">
     <div data-nanogallery2='{
       "userID": "102674011871822108337",
@@ -40,4 +55,7 @@ permalink: /impressionen_firmenbranding
     </div>
   </div>
   {% endfor %}
+</div>
+
+</div>
 </div>

@@ -35,14 +35,14 @@
     <nav style="z-index: 2">
       <div class="nav-wrapper black white-text">
         <div class="container">
-          <a href="{{ site.baseurl }}" class="brand-logo"><img style="height: 80px; margin-left: 8px;" src="{{ 'assets/img/logos/bs_adresse_white_black_small.png' | relative_url }}" alt=""></a>
+          <a href="{{ site.baseurl }}" class="brand-logo"><img style="height: 80px; margin-left: 10px;" src="{{ 'assets/img/logos/bs_adresse_white_black_small.png' | relative_url }}" alt=""></a>
           <ul id="nav-mobile" class="right">
             <li><a href="#!" class="dropdown-trigger" data-target="main_dropdown" style="font-size: 25px; font-weight: 600; color: white;"><i class="material-icons">menu</i></a></li>
             <ul id="main_dropdown" class="dropdown-content">
               <li><a href="{{site.baseurl}}">HOME</a></li>
               <li><a href="{{site.baseurl}}/news_main">NEWS</a></li>
-              <li><a href="{{site.baseurl}}/brands_main">BRANDS</a></li>
-              <li><a href="{{site.baseurl}}/shop_main">SHOP</a></li>
+              <li><a href="{{site.baseurl}}/brands_main">UNSERE BRANDS</a></li>
+              <li><a href="{{site.baseurl}}/shop_main">UNSERE SHOPS</a></li>
               <li><a href="{{site.baseurl}}/specials_main">BESONDERES</a></li>
             </ul>
           </ul>
@@ -50,21 +50,20 @@
       </div>
     </nav>
   </div>
-    <!-- ================== -->
-    <!--     END NAVBAR     -->
-    <!-- ================== -->
+  <!-- ================== -->
+  <!--     END NAVBAR     -->
+  <!-- ================== -->
 
     <!-- ================== -->
     <!--    START BANNER    -->
     <!-- ================== -->
     
     <!-- animation -->
-     <!-- ================== -->
-    {% include Parallax.html height="400px" image="assets/img/banner/banner_main3.png" %}
+    <!-- ================== -->
+ 
     
-    <!--<img src="{{ '/assets/img/logos/bs_adresse_white_black.png' | relative_url }}" alt="brandstore tirol logo" class="brandstore-quer hide-on-med-and-up">
+    <!-- <img src="{{ '/assets/img/logos/bs_adresse_white_black.png' | relative_url }}" alt="brandstore tirol logo" class="brandstore-quer hide-on-med-and-up">
     <img src="{{ '/assets/img/logos/bs_logo_black_hoch.png' | relative_url }}" alt="brandstore tirol logo" class="top-right-logo hide-on-small-only" style="width: 20%;">
-    <!- | append: site.github.build_revision --
     <div class="slider">
       <div class="slider-arrows">
         <div class="left-arrow"><i class="material-icons" onclick="instance.next()">keyboard_arrow_right</i></div>
@@ -74,16 +73,16 @@
         {% for banner in site.data.default.banner.banner %}
         <li>
           <img src="assets/img/banner/{{banner.img-url}}" alt="">
-          <div class="caption banner-text hoverable" style="text-align: justify;">
-            <h4>{{ banner.title }}</h4>
-            <p class="light grey-text text-lighten-3 flow-text">{{ banner.text }}</p>
-            <p class="hashtag light grey-text text-lighten-3 flow-text" style="text-align: left;">{{ banner.hashtag }}</p>
-            <p class="light grey-text text-lighten-3 flow-text">{{ banner.greetings }}</p>
-            <img src="{{ 'assets/img/logos/bs_symbol_white_transparent.png' | relative_url }}" alt="" class="logo-banner">
+          
+          <!-- bei bedarf aktivieren-->
+          <!--div class="caption banner-text hoverable" style="text-align: justify;">
+            <p class="light grey-text text-lighten-3 flow-text">{{ banner.text3 }}</p>
           </div>
-        </li>
+          
+        <!-- </li>
         {% endfor %}
       </ul>
+<<<<<<< HEAD
     </div> -->
     
     <!-- ================== -->
@@ -108,45 +107,75 @@
     <!-- ================== -->
     <!--     END BANNER     -->
     <!-- ================== -->
-
-    <!-- ================== -->
-    <!--    START content    -->
-    <!-- ================== -->
-    <div class="container">
-      {{ content }}
+=======
     </div>
+  </div> -->
 
-    <!-- ================== -->
-    <!--    START content    -->
-    <!-- ================== -->
+  <div class="slider">
+    <ul class="slides">
+      {% for banner in site.data.default.banner.banner %}
+      <li>
+        <img src="assets/img/banner/{{banner.img-url}}" alt="">
 
-    <!-- ================== -->
-    <!--    START FOOTER    -->
-    <!-- ================== -->
-    <footer class="page-footer black">
+        <!-- bei bedarf aktivieren-->
+        <!--<div class="caption banner-text hoverable" style="text-align: justify;">
+          <p class="light grey-text text-lighten-3 flow-text">{{ banner.text3 }}</p>
+        </div> --> 
+>>>>>>> 857d8cdf6c6b659ea1bbe018db2356b2fc9bcfb3
+
+      </li>
+      {% endfor %}
+    </ul>
+  </div> 
+  
+  <!-- ================== -->
+  <!--     END BANNER     -->
+  <!-- ================== -->
+
+  <!-- ================== -->
+  <!--    START content    -->
+  <!-- ================== -->
+  <div class="container">
+    {{ content }}
+  </div>
+
+  <!-- ================== -->
+  <!--    START content    -->
+  <!-- ================== -->
+
+  <!-- ================== -->
+  <!--    START FOOTER    -->
+  <!-- ================== -->
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+          {% for item in site.data.default.footer.footer %}
+            <div class="col s12 m6">
+              <h6 class="footer-header white-text">{{ item.title }}</h6>
+              <ul>
+                {% for content in item.content %}
+                  <li>
+                    {% if content.type == internal %}
+                    <a href="{{ site.baseurl }}{{ content.url }}" class="footer-links grey-text text-lighten-3">{{ content.title }}</a>
+                    {% else %}
+                    <a href="{{ content.url }}" class="footer-links grey-text text-lighten-3" target="{{ content.target }}">{{ content.title }}</a>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endfor %}
+      </div>
+    </div>
+    <div class="footer-copyright">
       <div class="container">
-        <div class="row">
-            {% for item in site.data.default.footer.footer %}
-              <div class="col s12 m6">
-                <h6 class="footer-header white-text">{{ item.title }}</h6>
-                <ul>
-                  {% for content in item.content %}
-                    <li><a href="{{ site.baseurl }}{{ content.url }}" class="footer-links grey-text text-lighten-3">{{ content.title }}</a></li>
-                  {% endfor %}
-                </ul>
-              </div>
-            {% endfor %}
-        </div>
+        <a style= "margin-left: 10px; color: white;"> &copy; 2018 TM.BRAND.STORE GmbH - BRANDSTORE.TIROL </a>
       </div>
-      <div class="footer-copyright">
-        <div class="container">
-          <a style= "margin-left: 8px; color: white;"> &copy; 2018 TM.BRAND.STORE GmbH - BRANDSTORE.TIROL </a>
-        </div>
-      </div>
-    </footer>
-    <!-- ================== -->
-    <!--     END FOOTER     -->
-    <!-- ================== -->
+    </div>
+  </footer>
+  <!-- ================== -->
+  <!--     END FOOTER     -->
+  <!-- ================== -->
   </body>
 </html>
 
@@ -164,8 +193,8 @@
 
   // Slider
   var elem = document.querySelector('.slider');
-  var instance = M.Slider.init(elem, { height: 350, indicators: false });
-
+  var instance = M.Slider.init(elem, { height: 400, indicators: false });
+  
   $('.tabs').tabs();
 
 </script>

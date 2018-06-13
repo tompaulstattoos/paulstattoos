@@ -1,0 +1,14 @@
+# SUSI KIMMEL
+susi_kimmel:
+- title: SUSI KIMMEL
+  info: Zahme Vögel träumen von der Freiheit, wilde Vögel fliegen
+  info2: Zahme Vögel träumen von der Freiheit, wilde Vögel fliegen
+  url: susi_kimmel
+  hashtag: "<b>&#35;lebdeilebn</b>"
+  greetings:
+
+# IMPRESSIONEN
+impressionen_susi_kimmel:
+  - collections: "&#35;lebdeilebn"
+    id: aktuelles
+    albumID: "6559042804662625505"
