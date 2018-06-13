@@ -6999,7 +6999,7 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   width: 6px; }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #546E7A; }
+  background-color: rgb(0, 0, 0); }
 
 .slider .slides li .logo-banner {
   width: 70px; }
