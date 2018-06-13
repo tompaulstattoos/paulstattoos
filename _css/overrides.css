@@ -35,7 +35,8 @@
   border: 0; }
 
 .dropdown-content {
-  color: black; }
+  color: white; 
+  background-color: black; }
 
 nav {
   background-color: #fff;
