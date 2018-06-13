@@ -1,7 +1,7 @@
 ---
 layout: news
 title: Das große Opening
-img-url: /assets/img/logos/opening.jpg
+img-url: /assets/img/logos/opening.JPG
 info: Grand Opening
 date: 2018-10-13
 #author: Tom
