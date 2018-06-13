@@ -1,11 +1,11 @@
 ---
 layout: news
-title: Die große Eröffnungsfeier
+title: Das große Opening
 img-url: /assets/img/logos/bs_logo_black_hoch_neu.png
-info: Eröffnungsfeier
+info: Grand Opening
 date: 2018-10-13
 #author: Tom
-albumID: "6558372398095072897"
+albumID: "6566646122100832577"
 ---
 Liebe Freunde!
 
