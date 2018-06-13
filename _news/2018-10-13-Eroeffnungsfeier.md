@@ -1,7 +1,7 @@
 ---
 layout: news
 title: Das große Opening
-img-url: /assets/img/logos/bs_logo_black_hoch_neu.png
+img-url: /assets/img/logos/opening.jpg
 info: Grand Opening
 date: 2018-10-13
 #author: Tom
