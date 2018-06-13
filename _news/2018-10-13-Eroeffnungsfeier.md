@@ -1,6 +1,6 @@
 ---
 layout: news
-title: Eröffnungsfeier
+title: Die große Eröffnungsfeier
 img-url: /assets/img/logos/bs_logo_black_hoch_neu.png
 info: Eröffnungsfeier
 date: 2018-10-13
