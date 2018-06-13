@@ -3444,7 +3444,7 @@ small {
   .flow-text {
     font-size: 1.248rem; } }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 400px) {
   .flow-text {
     font-size: 1.272rem; } }
 
@@ -7071,39 +7071,39 @@ nav .sidenav-trigger i {
 
 @media only screen and (max-width: 1022px) {
   .slider {
-    height: 450px !important; }
+    height: 400px !important; }
   .slider .slides {
-    height: 450px !important; } }
+    height: 400px !important; } }
 
 @media only screen and (max-width: 799px) {
   .slider {
-    height: 450px !important; }
+    height: 400px !important; }
   .slider .slides {
-    height: 450px !important; } }
+    height: 400px !important; } }
 
 @media only screen and (max-width: 673px) {
   .slider {
-    height: 450px !important; }
+    height: 400px !important; }
   .slider .slides {
-    height: 450px !important; } }
+    height: 400px !important; } }
 
 @media only screen and (max-width: 567px) {
   .slider {
-    height: 450px !important; }
+    height: 400px !important; }
   .slider .slides {
-    height: 450px !important; } }
+    height: 400px !important; } }
 
 @media only screen and (max-width: 503px) {
   .slider {
-    height: 450px !important; }
+    height: 400px !important; }
   .slider .slides {
-    height: 450px !important; } }
+    height: 400px !important; } }
 
 @media only screen and (max-width: 461px) {
   .slider {
-    height: 450px !important; }
+    height: 400px !important; }
   .slider .slides {
-    height: 450px !important; } }
+    height: 400px !important; } }
 
 @media only screen and (max-width: 360px) {
   .brand-logo img {
