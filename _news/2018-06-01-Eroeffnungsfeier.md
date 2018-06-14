@@ -17,19 +17,22 @@ Programm für EUCH überlegt:</p>
 <div style="background-color:black; color:white;">
 
 <br>
-<p style="font-size: 16px">Kurze Eröffnungrede von Tom und Peter</p>
+<span style="font-size: 20px">Kurze Eröffnungsrede von Tom & Peter</span>
 <br>
-<b>(&#35;dream &#35;project &#35;brandstoretirol)</b>
-<br>
-<br>
-"Hinter den Kulissen", Martini Sportswear stellt sicht vor 
-<br>
-<b>(&#35;martinisportswear &#35;designyoursports)</b>
+(&#35;dream &#35;project &#35;brandstoretirol)
 <br>
 <br>
-Susi Kimmel "Die Leidenschaft zum Leben"
+<span style="font-size: 20px">"Hinter den Kulissen"</span>
+<span style="font-size: 12px">Martini Sportswear stellt sicht vor</span>
 <br>
-<b>(&#35;lebdeilebn)</b>
+(&#35;martinisportswear &#35;designyoursports)
+<br>
+<br>
+<span style="font-size: 20px">Susi Kimmel</span>
+<span style="font-size: 12px">"Die Leidenschaft zum Leben"</span> 
+<br>
+(&#35;lebdeilebn)
+<br>
 <br>
 </div>
 
