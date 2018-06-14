@@ -1,8 +1,8 @@
 ---
 layout: news
-title: Das große Opening
+title: DIE GROSSE ERÖFFNUNG
 img-url: /assets/img/logos/bs_logo_black_hoch_neu.png
-info: Grand Opening
+info: DIE GROSSE ERÖFFNUNG
 date: 2018-10-13
 #author: Tom
 active: ja
