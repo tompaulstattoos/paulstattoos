@@ -45,4 +45,4 @@ Programm für EUCH überlegt:</p>
 
 <p style="text-align: justify"><b>&#35;love &#35;passion &#35;enthusiasm &#35;dream &#35;project &#35;martinisportswear &#35;designyoursports &#35;aufaguadezeit &#35;brandstoretirol &#35;lebdeilebn</b></p>
 
-<p style="font-size: 12px"> PS. Bitte nicht böse sein, wenn ich jemanden aus den sozialen Medien nicht gleich erkenne - Wir werden vermutlich doch ziemlich aufgeregt sein &#9786;&#9786;</p>
+<p style="font-size: 12px; text-align: justify"> PS. Bitte nicht böse sein, wenn ich jemanden aus den sozialen Medien nicht gleich erkenne - Wir werden vermutlich doch ziemlich aufgeregt sein &#9786;&#9786;</p>
