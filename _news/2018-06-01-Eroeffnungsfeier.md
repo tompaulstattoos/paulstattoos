@@ -14,7 +14,7 @@ albumID: "6566646122100832577"
 Zeit mitenander zu haben <b>(&#35;aufaguadezeit)</b> und haben uns ab <b>10.30 Uhr</b> ein kleines
 Programm für EUCH überlegt:</p>
 
-<div style="background-color:black; color:white;">
+<div style="background-color:black; color:white; padding-left: 8px;padding-right: 8px;">
 <br>
 <span style="font-size: 20px">Kurze Eröffnungsrede</span>
 <br>
