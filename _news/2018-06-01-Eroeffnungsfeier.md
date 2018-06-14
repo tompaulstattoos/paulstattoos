@@ -11,17 +11,17 @@ albumID: "6566646122100832577"
 <b>Liebe Freunde!</b>
 
 um 10.00 Uhr öffnen wir unser "Tore". Wir freuen uns schon, eine richtig gute
-Zeit mitenander zu haben (#aufaguadezeit) und haben uns auch ab <b>10.30 Uhr</b> ein kleines
+Zeit mitenander zu haben <b>(&#35;aufaguadezeit)</b> und haben uns auch ab <b>10.30 Uhr</b> ein kleines
 Programm überlegt:
 
-&minus; Kurze Eröffnungrede von Tom und Peter <b>(&#35;brandstoretirol)</b>
+&minus; Kurze Eröffnungrede von Tom und Peter <b>(&#35;dream &#35;project &#35;brandstoretirol)</b>
 
 &minus; "Hinter den Kulissen" - Martini Sportswear stellt sicht vor <b>(&#35;martinisportswear &#35;designyoursports)</b>
 
 &minus; Susi Kimmel "Die Leidenschaft zum Leben" <b>(&#35;lebdeilebn)</b>
 
 <br>
-Musikalisch begleitet werden wir von Antoni Berza. Für das leibliche Wohl sorgt das mobile Auracheer Löchl.
+Musikalisch begleitet werden wir von Antoni Berza. Für das leibliche Wohl sorgt das mobile Auracher Löchl.
 
 Wir freuen uns schon wahnsinng auf EUCH und möchten euch jetzt schon ein unfassbar dickes Dankeschön aus tiefstem Herzen &#9825; schenken!
 
