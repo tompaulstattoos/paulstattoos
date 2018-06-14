@@ -14,7 +14,7 @@ albumID: "6566646122100832577"
 Zeit mitenander zu haben <b>(&#35;aufaguadezeit)</b> und haben uns ab <b>10.30 Uhr</b> ein kleines
 Programm für EUCH überlegt:</p>
 
-<div style="background-color:black;">
+<div style="background-color:black; color:white;">
 
 <br>
 Kurze Eröffnungrede von Tom und Peter
