@@ -8,7 +8,8 @@ permalink: /news_main
 <hr>
 
 <div class="row">  
-  	{% for item in site.news %}		
+		{% for item in site.news %}	
+			{%if item.active %}	
 		<a href="{{ item.url | prepend: site.baseurl }}"> 
 		<div class="col s12 m4">
 		  <div class="card">
@@ -22,5 +23,6 @@ permalink: /news_main
 		  </div>
 		</div>
 		</a>
+		{% endfor %}
 	{% endfor %}
 </div>
