@@ -39,7 +39,6 @@ Programm für EUCH überlegt:</p>
 <br>
 </div>
 
-
 <p style="text-align: justify">Musikalisch begleitet werden wir von Antoni Berza. Für das leibliche Wohl sorgt das mobile Auracher Löchl.</p>
 
 <p style="text-align: justify">Wir freuen uns schon wahnsinng auf EUCH und möchten euch jetzt schon ein unfassbar dickes Dankeschön aus tiefstem Herzen &#9825; schenken!</p>
