@@ -2,7 +2,8 @@
 shop_info:
 - title: UNSER SHOP
   url: shop
-  info: <span style="font-size: 14px">Eure Öffnungszeiten</span>
+  info: >
+       <span style="font-size: 14px">Eure Öffnungszeiten</span>
         <br>
         Mo - Fr von 10.00 - 19.00 Uhr,
         <br>
