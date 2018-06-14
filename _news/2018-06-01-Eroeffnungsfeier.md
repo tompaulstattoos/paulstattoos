@@ -21,6 +21,7 @@ Programm überlegt:
 &minus; &#35;lebdeilebn - Susi Kimmel "Die Leidenschaft zum Leben"
 
 
+
 Musikalisch begleitet werden wir von Antoni Berza. Für das leibliche Wohl sorgt das mobile Auracheer Löchl.
 
 Wir freuen uns schon wahnsinng auf EUCH und möchten euch jetzt schon ein unfassbar dickes Dankeschön aus tiefstem Herzen &#9825; schenken!
