@@ -20,7 +20,7 @@ Programm für EUCH überlegt:</p>
 <br>
 <span style="font-size: 16px">Tom &amp; Peter</span>
 <br>
-<span style="font-size: 12px">(&#35;dream &#35;project &#35;brandstoretirol)</span>
+<span style="font-size: 12px"><b>(&#35;dream &#35;project &#35;brandstoretirol)</b></span>
 <br>
 <br>
 <span style="font-size: 20px">"Hinter den Kulissen"</span>
