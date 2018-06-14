@@ -18,9 +18,9 @@ shop_info:
         <br>
         in 6341 Ebbs/Tirol
         <br>
-        Mobil&#058; 0043 699 18333891
+        Mobil&#058; <style="color:grey;">0043 699 18333891</style>
         <br>
-        Mail&#058; <u><a class="grey-text" href="mailto:info@brandstore.tirol">info@brandstore.tirol</a>
+        Mail&#058; <u><a class="grey-text" href="mailto:info@brandstore.tirol">info@brandstore.tirol</a></u>
         <br>
   info2: ''
   hashtag: 
