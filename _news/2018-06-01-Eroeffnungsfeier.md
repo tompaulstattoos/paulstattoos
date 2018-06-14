@@ -20,18 +20,18 @@ Programm für EUCH überlegt:</p>
 Kurze Eröffnungrede von Tom und Peter
 <br>
 <b>(&#35;dream &#35;project &#35;brandstoretirol)</b>
-
+<br>
 "Hinter den Kulissen", Martini Sportswear stellt sicht vor 
 <br>
 <b>(&#35;martinisportswear &#35;designyoursports)</b>
-
+<br>
 Susi Kimmel "Die Leidenschaft zum Leben"
 <br>
 <b>(&#35;lebdeilebn)</b>
 
 </div>
 
-<br>
+
 <p style="text-align: justify">Musikalisch begleitet werden wir von Antoni Berza. Für das leibliche Wohl sorgt das mobile Auracher Löchl.</p>
 
 <p style="text-align: justify">Wir freuen uns schon wahnsinng auf EUCH und möchten euch jetzt schon ein unfassbar dickes Dankeschön aus tiefstem Herzen &#9825; schenken!</p>
