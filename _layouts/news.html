@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-			(%if page.active %)
-      <div class="page post">
+			  <div class="page post">
+						{%if page.active %}
         <article>
           <header>
 						<h6 class="heading"><a href="{{ page.url | prepend: site.baseurl }}" style="color:black;">{{ page.info }}</a></h6>
@@ -41,6 +41,7 @@ layout: default
 			  </div>
 			</div>
 		  {% endif %}
-        </article>
+				</article>
+				{% endif %}
 			</div>
-			{% endif %}
+		
