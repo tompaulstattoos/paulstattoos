@@ -2,7 +2,7 @@
 shop_info:
 - title: UNSER SHOP
   url: shop
-  info: Eure Öffnungszeiten
+  info: <span style="font-size: 14px">Eure Öffnungszeiten</span>
         <br>
         Mo - Fr von 10.00 - 19.00 Uhr,
         <br>
@@ -20,7 +20,7 @@ shop_info:
         <br>
         Mobil&#058; <span class="grey-text"><u>0043 699 18333891</u></span>
         <br>
-        Mail&#058; <u><a class="grey-text" href="mailto:info@brandstore.tirol">info@brandstore.tirol</a></u>
+        Mail&#058; <u><a class="grey-text" href="mailto:hallo@brandstore.tirol">hallo@brandstore.tirol</a></u>
         <br>
   info2: ''
   hashtag: 
