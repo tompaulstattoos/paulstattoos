@@ -2,16 +2,13 @@
 <script>
 
   function hide_starter_text() {
-	$( ".show_hide_text *" ).effect( "blind", {}, 500, function(){
-		$(".show_hide_text").hide();
-		$(".less").hide();
-		$(".more").show();
-	});    
+    $(".show_hide_text").hide();
+    $(".less").hide();
+    $(".more").show();
   }
 
   function show_starter_text() {
-    $(".show_hide_text *").show();
-    $(".show_hide_text").show( 500 );
+    $(".show_hide_text").show();
     $(".more").hide();
     $(".less").show();
   }
