@@ -28,7 +28,7 @@ Wir freuen uns schon wahnsinng auf EUCH und möchten euch jetzt schon ein unfass
  <b>&#35;love &#35;passion &#35;enthusiasm &#35;dream &#35;project &#35;martinisportswear &#35;designyoursports &#35;aufaguadezeit &#35;brandstoretirol &#35;lebdeilebn</b>
 
 
-<p style="font-size: 10px,"> PS. Bitte nicht böse sein, wenn ich jemanden aus den sozialen Medien nicht gleich erkenne - Wir werden vermutlich doch ziemlich aufgeregt sein &#9786;&#9786;</style>
+<p style="font-size: 10px"> PS. Bitte nicht böse sein, wenn ich jemanden aus den sozialen Medien nicht gleich erkenne - Wir werden vermutlich doch ziemlich aufgeregt sein &#9786;&#9786;</p>
 
 
 
