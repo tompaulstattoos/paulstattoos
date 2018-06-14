@@ -10,9 +10,9 @@ albumID: "6566646122100832577"
 ---
 <b><span style="font-size:20px">Liebe Freunde!</span></b>
 
-<span text-align: "justify">um 10.00 Uhr öffnen wir unser "Tore". Wir freuen uns schon, eine richtig gute
-Zeit mitenander zu haben <b>(&#35;aufaguadezeit)</b> und haben uns auch ab <b>10.30 Uhr</b> ein kleines
-Programm überlegt:</span>
+<span style="text-align: justify">um 10.00 Uhr öffnen wir unser "Tore". Wir freuen uns schon, eine richtig gute
+Zeit mitenander zu haben <b>(&#35;aufaguadezeit)</b> und haben uns ab <b>10.30 Uhr</b> ein kleines
+Programm für EUCH überlegt:</span>
 
 <br>
 &minus; Kurze Eröffnungrede von Tom und Peter
