@@ -30,9 +30,9 @@ Programm für EUCH überlegt:</p>
 (&#35;martinisportswear &#35;designyoursports)
 <br>
 <br>
-<span style="font-size: 20px">Susi Kimmel</span>
+<span style="font-size: 20px">"Die Leidenschaft zum Leben"</span>
 <br>
-<span style="font-size: 12px">"Die Leidenschaft zum Leben"</span> 
+<span style="font-size: 12px">Susi Kimmel</span> 
 <br>
 (&#35;lebdeilebn)
 <br>
