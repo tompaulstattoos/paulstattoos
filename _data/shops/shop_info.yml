@@ -12,7 +12,7 @@ shop_info:
         <br>
         Shopping-Erlebnis! 
         <br>
-        Nähere Infos findest du unter <u><a class="grey-text" href="https://brandstoretirol.github.io/brandstore-tirol/your_shop">BESONDERES</a></u>
+        Nähere Infos findest du unter <a href="https://brandstoretirol.github.io/brandstore-tirol/your_shop">BESONDERES</a>
         <br>
         <br>
         Du findest uns in der
@@ -21,7 +21,7 @@ shop_info:
         <br>
         Mobil&#058; 0043 699 18333891
         <br>
-        Mail&#058; <u><a class="grey-text" href="mailto:info@brandstore.tirol">info@brandstore.tirol</a></u>
+        Mail&#058; <a href="mailto:info@brandstore.tirol">info@brandstore.tirol</a>
         <br>
   info2: ''
   hashtag: 
