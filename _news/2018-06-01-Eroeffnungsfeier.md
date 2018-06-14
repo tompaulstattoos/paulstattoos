@@ -18,21 +18,21 @@ Programm für EUCH überlegt:</p>
 <br>
 <span style="font-size: 20px">Kurze Eröffnungsrede</span>
 <br>
-<span style="font-size: 14px">Tom &amp; Peter</span>
+<span style="font-size: 16px">Tom &amp; Peter</span>
 <br>
 <span style="font-size: 12px">(&#35;dream &#35;project &#35;brandstoretirol)</span>
 <br>
 <br>
 <span style="font-size: 20px">"Hinter den Kulissen"</span>
 <br>
-<span style="font-size: 14px">Martini Sportswear stellt sicht vor</span>
+<span style="font-size: 16px">Martini Sportswear stellt sicht vor</span>
 <br>
 <span style="font-size: 12px">(&#35;martinisportswear &#35;designyoursports)</span>
 <br>
 <br>
 <span style="font-size: 20px">"Die Leidenschaft zum Leben"</span>
 <br>
-<span style="font-size: 14px">Susi Kimmel</span> 
+<span style="font-size: 16px">Susi Kimmel</span> 
 <br>
 <span style="font-size: 12px">(&#35;lebdeilebn)</span>
 <br>
