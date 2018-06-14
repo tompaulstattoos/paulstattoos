@@ -14,13 +14,12 @@ um 10.00 Uhr öffnen wir unser "Tore". Wir freuen uns schon, eine richtig gute
 Zeit mitenander zu haben (#aufaguadezeit) und haben uns auch ab <b>10.30 Uhr</b> ein kleines
 Programm überlegt:
 
-&minus; Kurze Eröffnungrede von Tom und Peter
+&minus; Kurze Eröffnungrede von Tom und Peter <b>(&#35;brandstoretirol)</b>
 
-&minus; "Hinter den Kulissen" - Martini Sportswear stellt sicht vor
+&minus; "Hinter den Kulissen" - Martini Sportswear stellt sicht vor <b>(&#35;martinisportswear &#35;designyoursports)</b>
 
-&minus; Susi Kimmel "Die Leidenschaft zum Leben" (&#35;lebdeilebn)
+&minus; Susi Kimmel "Die Leidenschaft zum Leben" <b>(&#35;lebdeilebn)</b>
 
-<br>
 <br>
 Musikalisch begleitet werden wir von Antoni Berza. Für das leibliche Wohl sorgt das mobile Auracheer Löchl.
 
