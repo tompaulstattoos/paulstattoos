@@ -10,25 +10,28 @@ albumID: "6566646122100832577"
 ---
 <b><span style="font-size:20px">Liebe Freunde!</span></b>
 
-<p style="text-align: justify">um 10.00 Uhr öffnen wir unser "Tore". Wir freuen uns schon, eine richtig gute
+<p style="text-align: justify">um 10.00 Uhr öffnen wir unsere "Tore". Wir freuen uns schon, eine richtig gute
 Zeit mitenander zu haben <b>(&#35;aufaguadezeit)</b> und haben uns ab <b>10.30 Uhr</b> ein kleines
 Programm für EUCH überlegt:</p>
 
 <div style="background-color:black; color:white;">
-
 <br>
-<span style="font-size: 20px">Kurze Eröffnungsrede von Tom & Peter</span>
+<span style="font-size: 20px">Kurze Eröffnungsrede</span>
+<br>
+<span style="font-size: 12px">Tom &amp; Peter</span>
 <br>
 (&#35;dream &#35;project &#35;brandstoretirol)
 <br>
 <br>
 <span style="font-size: 20px">"Hinter den Kulissen"</span>
+<br>
 <span style="font-size: 12px">Martini Sportswear stellt sicht vor</span>
 <br>
 (&#35;martinisportswear &#35;designyoursports)
 <br>
 <br>
 <span style="font-size: 20px">Susi Kimmel</span>
+<br>
 <span style="font-size: 12px">"Die Leidenschaft zum Leben"</span> 
 <br>
 (&#35;lebdeilebn)
