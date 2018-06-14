@@ -18,7 +18,7 @@ Programm überlegt:
 
 &minus; "Hinter den Kulissen" - Martini Sportswear stellt sicht vor
 
-&minus; &#35;lebdeilebn - Susi Kimmel "Die Leidenschaft zum Leben"
+&minus; Susi Kimmel "Die Leidenschaft zum Leben" (&#35;lebdeilebn)
 
 
 
