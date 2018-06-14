@@ -23,7 +23,7 @@ Programm überlegt:
 
 Musikalisch begleitet werden wir von Antoni Berza. Für das leibliche Wohl sorgt das mobile Auracheer Löchl.
 
-Wir freuen uns schon wahnsinng auf EUCH und möchten euch jetzt schon ein unfassbar dickes Dankeschön aus tiefstem Herzen schenken!
+Wir freuen uns schon wahnsinng auf EUCH und möchten euch jetzt schon ein unfassbar dickes Dankeschön aus tiefstem Herzen &#9825; schenken!
 
  <b>&#35;love &#35;passion &#35;enthusiasm &#35;dream &#35;project &#35;martinisportswear &#35;designyoursports &#35;aufaguadezeit &#35;brandstoretirol &#35;lebdeilebn</b>
 
