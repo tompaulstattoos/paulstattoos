@@ -1,6 +1,6 @@
 ---
 layout: news
-title: DIE GROSSE ERÖFFNUNG
+title: DIE ERÖFFNUNG
 img-url: /assets/img/logos/bs_logo_black_hoch_neu.png
 info: DIE GROSSE ERÖFFNUNG
 date: 2018-10-13
