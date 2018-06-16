@@ -21,12 +21,10 @@ banner:
           BRANDSTORE.TIROL <b>(&#35;brandstoretirol)</b>... eine Geschichte wird Programm <b>(&#35;lebdeilebn)</b>
           <br>
 
-    text3: 
-            Ankündigung
-            <br>
-            <br>
-            BRANDSTORE.TIROL <b>(&#35;brandstoretirol)</b>... eine Geschichte wird Programm <b>(&#35;lebdeilebn)</b>
-            <br>
+    text3: >
+             <span style="font-size: 20px">DIE GROSSE ERÖFFNUNG></span>
+             <br>
+             Nähere Infos findest du unter <u><a class="grey-text" href="https://brandstoretirol.github.io/brandstore-tirol/news/2018-06-01-Eroeffnungsfeier.html">PROGRAMM</a></u>
 
     img-url: banner_opening.png
 
