@@ -22,9 +22,10 @@ banner:
           <br>
 
     text3: >
-             <span style="font-size: 20px">DIE GROSSE ERÖFFNUNG></span>
-             <br>
-             Nähere Infos findest du unter <u><a class="grey-text" href="https://brandstoretirol.github.io/brandstore-tirol/news/2018-06-01-Eroeffnungsfeier.html">PROGRAMM</a></u>
+            <span style="font-size: 20px">DIE GROSSE ERÖFFNUNG></span>
+            <br>
+            Nähere Infos findest du im <u><a class="grey-text" href="https://brandstoretirol.github.io/brandstore-tirol/news/2018-06-01-Eroeffnungsfeier.html">PROGRAMM</a></u>
+            <br>
 
     img-url: banner_opening.png
 
