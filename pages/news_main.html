@@ -11,7 +11,7 @@ permalink: /news_main
 		{% for item in site.news %}	
 			{%if item.active %}	
 			<a href="{{ item.url | prepend: site.baseurl }}"> 
-			<div class="col s12 m4">
+			<div class="col s12 m6">
 				<div class="card">
 				<div class="card-image waves-effect waves-block waves-light">
 					<img class="activator" src="{{ item.img-url | prepend: site.baseurl }}">
