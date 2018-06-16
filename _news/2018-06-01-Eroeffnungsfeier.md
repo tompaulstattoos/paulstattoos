@@ -30,7 +30,7 @@ Programm für EUCH überlegt:</p>
 <span style="font-size: 12px"><b>(&#35;martinisportswear &#35;designyoursports)</b></span>
 <br>
 <br>
-<span style="font-size: 20px">"Die Leidenschaft zum Leben"</span>
+<span style="font-size: 20px">"Die Leidenschaft fürs Leben"</span>
 <br>
 <span style="font-size: 16px">Susi Kimmel</span> 
 <br>
@@ -41,8 +41,9 @@ Programm für EUCH überlegt:</p>
 
 <p style="text-align: justify">Musikalisch begleitet werden wir von Antoni Berza. Für das leibliche Wohl sorgt die mobile Stollenbar des Auracher Löchl.</p>
 
-<p style="text-align: justify">Wir freuen uns schon wahnsinng auf EUCH und möchten euch jetzt schon, aus tiefstem Herzen &#9825;, ein unfassbar dickes Dankeschön schenken!</p>
+<p style="text-align: justify">Wir freuen uns schon wahnsinng auf EUCH und möchten euch jetzt schon, aus tiefstem Herzen &#9825;, ein unfassbar dickes Dankeschön schicken!</p>
 
 <p style="text-align: justify"><b>&#35;love &#35;passion &#35;enthusiasm &#35;dream &#35;project &#35;martinisportswear &#35;designyoursports &#35;aufaguadezeit &#35;brandstoretirol &#35;lebdeilebn</b></p>
 
-<p style="font-size: 12px; text-align: justify"> PS. Bitte nicht böse sein, wenn ich jemanden aus den sozialen Medien nicht gleich erkenne - Wir werden vermutlich doch ziemlich aufgeregt sein &#9786;&#9786;</p>
+<p style="font-size: 12px; text-align: justify"> PS. Bitte nicht böse sein, wenn ich jemanden aus den sozialen Medien nicht gleich erkenne - Wir werden vermutlich doch ziemlich aufgeregt sein &#9786;&#9786; Und abgesehen davon, ist unser der persönliche Kontakt
+wesentlich lieber &#9825;</p>
