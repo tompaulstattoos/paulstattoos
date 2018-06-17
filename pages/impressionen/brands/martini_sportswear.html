@@ -10,7 +10,15 @@ brand: brands.martini_sportswear.martini_sportswear
   {% endcapture %}
 
   </div>
-  {% include teaser/brand-teaser.html brand=brand %}
+	{% include teaser/brand-teaser.html brand=brand %}
+	
+	<div class="row">
+  
+		{% assign specials = site.data.specials.specials %}
+		{% include card.html item=specials size="s12 m6" %}
+	
+	</div>
+
   <script>
 	function init_gallery(albumID){
 	
