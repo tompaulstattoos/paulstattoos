@@ -29,14 +29,18 @@ shop_info:
 
 # IMPRESSIONEN
 impressionen_shop: 
-  - collections: DAMEN
-    id: damen
-    albumID: "6560260242893629377"
+  - collections: IMPRESSIONEN
+    id: impressionen
+    albumID: "6568094183311223217"
 
-  - collections: HERREN
-    id: herren
-    albumID: "6560260344570582193"
+ # - collections: DAMEN
+ #   id: damen
+ #   albumID: "6560260242893629377"
 
-  - collections: KINDER
-    id: kinder
-    albumID: "6560260408849047905"
+ # - collections: HERREN
+ #   id: herren
+ #   albumID: "6560260344570582193"
+
+ # - collections: KINDER
+ #   id: kinder
+ #   albumID: "6560260408849047905"
