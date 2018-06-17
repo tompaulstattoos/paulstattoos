@@ -1,0 +1,11 @@
+- title: DAMEN
+  img-url: assets/img/logos/bs_logo_black_hoch_neu.png
+  url: women
+
+- title: HERREN
+  img-url: assets/img/logos/bs_logo_black_hoch_neu.png
+  url: men
+
+- title: KINDER
+  img-url: assets/img/logos/bs_logo_black_hoch_neu.png
+  url: kids
