@@ -23,6 +23,6 @@ ambassador:
 
 # IMPRESSIONEN
 impressionen_ambassador:
-  - collections: "BOTSCHAFTER"
+  - collections: "&#35;designyoursports"
     id: aktuelles
     albumID: "6565168299633493377"
