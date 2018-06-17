@@ -1,0 +1,14 @@
+# martini_sportswear_women
+martini_sportswear_women:
+- title: DAMENKOLLEKTION
+  info: Du
+  info2: 
+  url: martini_sportswear_women
+  hashtag: "<b>&#35;designyoursports</b>"
+  greetings:
+
+# IMPRESSIONEN
+impressionen_martini_sportswear_women:
+  - collections: "&#35;designyoursports"
+    id: aktuelles
+    albumID: "6565168299633493377"
