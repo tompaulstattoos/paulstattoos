@@ -20,17 +20,17 @@ martini_sportswear_women:
 # IMPRESSIONEN
 impressionen_martini_sportswear_women:
   - collections: "JACKEN"
-    id: aktuelles
+    id: jacken
     albumID: "6565168299633493377"
 
   - collections: "SHIRTS & SWEATERS"
-    id: aktuelles
+    id: shirts
     albumID: "6565168299633493377"
   
   - collections: "HOSEN"
-    id: aktuelles
+    id: hosen
     albumID: "6565168299633493377"
 
   - collections: "ACCESSOIRES"
-    id: aktuelles
+    id: accessoires
     albumID: "6565168299633493377"
