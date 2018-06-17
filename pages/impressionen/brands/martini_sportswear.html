@@ -53,15 +53,15 @@ brand: brands.martini_sportswear.martini_sportswear
 
 	</script>
 
-	<!-- klassifizierung -->
-	<div class="row">
-
-			{% assign martini_groups = site.data.brands.martini_groups %}
-			{% include card.html item=martini_groups size="s12 m4" %}
-		
-	</div>
-
   <div class="container" style="background-color: black; color: white">
+		
+		<!-- klassifizierung -->
+		<div class="row" style="background-color: white; color: black">
+
+				{% assign martini_groups = site.data.brands.martini_groups %}
+				{% include card.html item=martini_groups size="s12 m4" %}
+			
+		</div>
 
   <div class="row">
     <div class="col s12">
