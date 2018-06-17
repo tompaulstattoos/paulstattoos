@@ -1,0 +1,20 @@
+# martini_sportswear_kids
+martini_sportswear_kids:
+- title: KINDERKOLLEKTION
+  info: >
+        Kinder stellen im Winter hohe Anforderungen. Ganz spielerisch. Deshalb ist „Mini-Martini“, die Martini 
+        Sportswear-Kollektion für Kinder, so groß ausgestattet, dass Kälte und Nässe eine Kleinigkeit sind. 
+        Aufwendig verarbeitet, perfekt ausgestattet, in coolen Farbkombis. Leichtigkeit, tolle Verarbeitung und 
+        Top-Materialien, wie PrimaLoft® Gold – in der KIDS-Kollektion ist alles drinnen, damit draußen beim 
+        kindlichen Schneetreiben alles bestens ist.
+  info2: 
+  img-url: assets/img/banner/martini_sportswear_brandlogo.png
+  url: martini_sportswear_kids
+  hashtag: "&#35;designyoursports &#35;lebdeilebn"
+  greetings:
+
+# IMPRESSIONEN
+impressionen_martini_sportswear_kids:
+  - collections: "KIDS"
+    id: kids
+    albumID: "6565168299633493377"
