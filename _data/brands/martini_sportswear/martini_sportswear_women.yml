@@ -1,14 +1,23 @@
 # martini_sportswear_women
 martini_sportswear_women:
 - title: DAMENKOLLEKTION
-  info: Du
+  info: >
+        Martini Sportswear bietet EUCH individuelle, lässige und funktionelle Sportbekleidung für 
+        jede Jahreszeit. Während im Winter wärmende Jacken, funktionelle Hosen, modische Mützen und stylische 
+        Sweaters gefragt sind, punkten im Sommer leichten Jacken, lässigen Hosen, coolen Accessoires 
+        und funktionellen Shirts. Egal, ob du dich im alpinen Bereich oder im Tal aufhälts, funktionierende
+        Sportkleidung ist die Grundlage jedes sportlichen Erfolges. Deshalb verwenden Martini Sportswear
+        ausschließlich die besten Materialen. Trotz höchster Funktionalität und einem ausgefeilten Materialmix v
+        erlieren unseren Damenkollektionen nie ihre Femininität und überzeugen mit kompromisslosem Tragekomfort 
+        sowie optimaler Passform - mit Sportbekleidung von Martini Sportswear sind Sie sowohl am Berg als auch im 
+        Tal garantiert ein Blickfang!
   info2: 
   url: martini_sportswear_women
-  hashtag: "<b>&#35;designyoursports</b>"
+  hashtag: "&#35;designyoursports &#35;lebdeilebn"
   greetings:
 
 # IMPRESSIONEN
 impressionen_martini_sportswear_women:
-  - collections: "&#35;designyoursports"
+  - collections: "JACKEN"
     id: aktuelles
     albumID: "6565168299633493377"
