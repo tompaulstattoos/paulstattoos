@@ -29,7 +29,7 @@ shop_info:
 
 # IMPRESSIONEN
 impressionen_shop: 
-  - collections: IMPRESSIONEN
+  - collections: "&#35;aufaguadezeit"
     id: impressionen
     albumID: "6568094183311223217"
 
