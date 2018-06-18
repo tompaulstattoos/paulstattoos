@@ -919,11 +919,13 @@
 }
 
 .nGY2 .toolbar .ngbt {
-  font-size:1.5em;
+	/*font-size:1.5em;*/
+	font-size:1em;
 	display: table-cell;
 	cursor:pointer;
 	padding: 2px 5px;
 	vertical-align:middle;
+	text-align: justify;
 }
 
 .nGY2 .ngy2viewerToolAction {
