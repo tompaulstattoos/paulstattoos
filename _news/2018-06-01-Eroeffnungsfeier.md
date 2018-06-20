@@ -11,7 +11,7 @@ albumID: "6566646122100832577"
 <b><span style="font-size:20px">Liebe Freunde!</span></b>
 
 <p style="text-align: justify">um 10.00 Uhr öffnen wir unsere "Tore". Wir freuen uns schon, eine richtig gute
-Zeit miteinander zu verbringen <b>(&#35;aufaguadezeit)</b> und haben uns ab <b>10.30 Uhr</b> ein kleines
+Zeit miteinander zu verbringen <b>(&#35;aufaguadezeit)</b> und haben uns ab <b>13.00 Uhr</b> ein kleines
 Programm für EUCH überlegt:</p>
 
 <div style="background-color:black; color:white; padding-left: 8px;padding-right: 8px; text-align: center">
