@@ -6,13 +6,15 @@ ambassador:
         Dann werde unser Botschafter! Als Botschafter erhältst du, neben den zahlreichen anderen Vorteilen, pro Saison 
         ein komplettes Outfit zu absoluten Sonderkonditionen. Meld dich bei uns und zeig uns deine Begeisterung. 
         Stell uns deine Community und Vision vor. Die Details besprechen wir dann gemeinsam.
-  info2: Ansprechpartner &#058;
+        <br>
+        Ansprechpartner &#058;
         <br>
         Tom Moser
         <br>
         Mobil&#058; 0043 699 18333891
         <br>
         Mail&#058; <u><a class="grey-text" href="mailto:tom@brandstore.tirol">tom@brandstore.tirol</a></u>
+  info2: 
   url: ambassador
   hashtag: "<b>&#35;designyoursports</b>"
   links: 
