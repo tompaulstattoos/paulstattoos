@@ -8402,7 +8402,8 @@
           r += 'nGEvent" data-ngy2action="share">'+G.O.icons.viewerShare+'</div>';
           break;
         case 'label':
-          r += '"><div class="title nGEvent" itemprop="name"></div><div class="description nGEvent" itemprop="description"></div></div>';
+          //r += '"><div class="title nGEvent" itemprop="name"></div><div class="description nGEvent" itemprop="description"></div></div>';
+          r += '"><div class="title nGEvent" itemprop="name"></div></div>';
           break;
         default:
           // custom button
