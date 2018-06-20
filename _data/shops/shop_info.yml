@@ -31,7 +31,9 @@ shop_info:
 impressionen_shop: 
   - collections: AKTUELLES
     id: aktuelles
-    albumID: "6568094183311223217"
+    albumID: "6569144106452093697"
+ #   albumID: "6568094183311223217"
+
 
  # - collections: DAMEN
  #   id: damen
