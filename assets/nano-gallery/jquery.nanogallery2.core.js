@@ -1333,7 +1333,8 @@
       align :                     'center',
       autoMinimize :              0,
       standard :                  'minimizeButton,label',
-      minimized :                 'minimizeButton,label,infoButton,shareButton,downloadButton,linkOriginalButton,fullscreenButton'
+      //minimized :                 'minimizeButton,label,infoButton,shareButton,downloadButton,linkOriginalButton,fullscreenButton'
+      minimized :                 'minimizeButton,label,infoButton,shareButton,linkOriginalButton,fullscreenButton'
     },
     viewerTools : {
       topLeft :                   'pageCounter,playPauseButton',
