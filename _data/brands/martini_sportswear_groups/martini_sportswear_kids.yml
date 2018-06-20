@@ -20,4 +20,5 @@ martini_sportswear_kids:
 impressionen_martini_sportswear_kids:
   - collections: "KIDS"
     id: kids
-    albumID: "6565168299633493377"
+    #albumID: "6565168299633493377"
+    albumID: "6569144106452093697"

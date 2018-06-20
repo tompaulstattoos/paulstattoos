@@ -24,16 +24,20 @@ martini_sportswear_women:
 impressionen_martini_sportswear_women:
   - collections: "JACKEN"
     id: jacken
-    albumID: "6568492807137784609"
+    #albumID: "6568492807137784609"
+    albumID: "6569144106452093697"
 
   - collections: "SHIRTS & SWEATERS"
     id: shirts
-    albumID: "6565168299633493377"
+    #albumID: "6565168299633493377"
+    albumID: "6569144106452093697"
   
   - collections: "HOSEN"
     id: hosen
-    albumID: "6565168299633493377"
+    #albumID: "6565168299633493377"
+    albumID: "6569144106452093697"
 
   - collections: "ACCESSOIRES"
     id: accessoires
-    albumID: "6565168299633493377"
+    #albumID: "6565168299633493377"
+    albumID: "6569144106452093697"
