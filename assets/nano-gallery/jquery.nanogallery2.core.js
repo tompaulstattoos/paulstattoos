@@ -8321,8 +8321,8 @@
     function ItemDisplayInfo( item) {
 
       var content = '<div class="nGY2PopupOneItemText">' + item.title + '</div>';
-      var content1    = '<div class="nGY2PopupOneItemText">' + item.description + '</div>';
-
+      content    += '<div class="nGY2PopupOneItemText">' + item.description + '</div>';
+      
       //wird nicht benötig 180527 TM
       //if( item.author != '' ) {
       //  content  += '<div class="nGY2PopupOneItemText">' + G.O.icons.user + ' ' + item.author + '</div>';
@@ -8349,7 +8349,7 @@
         content += '<iframe width="300" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?&amp;t=m&amp;q='+encodeURIComponent( item.exif.location ) +'&amp;output=embed"></iframe>';  
       }
 
-      Popup(G.O.icons.viewerInfo, content, content1, 'Left');
+      Popup(G.O.icons.viewerInfo, content, 'Left');
    
     }
     
