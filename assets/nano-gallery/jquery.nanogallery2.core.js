@@ -1331,10 +1331,10 @@
       position :                  'bottomOverImage',
       fullWidth :                 true,
       align :                     'center',
-      autoMinimize :              0,
+      autoMinimize :              1,
       standard :                  'minimizeButton,label',
       //minimized :                 'minimizeButton,label,infoButton,shareButton,downloadButton,linkOriginalButton,fullscreenButton'
-      minimized :                 'minimizeButton,label,infoButton,shareButton,linkOriginalButton,fullscreenButton'
+      minimized :                 'infoButton,shareButton,linkOriginalButton,fullscreenButton'
     },
     viewerTools : {
       topLeft :                   'pageCounter,playPauseButton',
