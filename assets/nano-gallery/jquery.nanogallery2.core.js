@@ -1332,7 +1332,8 @@
       fullWidth :                 true,
       align :                     'center',
       autoMinimize :              1,
-      standard :                  'minimizeButton,label',
+      //standard :                  'minimizeButton,label',
+      standard :                  'infoButton,shareButton,linkOriginalButton,fullscreenButton',
       //minimized :                 'minimizeButton,label,infoButton,shareButton,downloadButton,linkOriginalButton,fullscreenButton'
       minimized :                 'infoButton,shareButton,linkOriginalButton,fullscreenButton'
     },
