@@ -1331,7 +1331,7 @@
       position :                  'bottomOverImage',
       fullWidth :                 true,
       align :                     'center',
-      autoMinimize :              1,
+      autoMinimize :              true,
       //standard :                  'minimizeButton,label',
       standard :                  'infoButton,shareButton,linkOriginalButton,fullscreenButton',
       //minimized :                 'minimizeButton,label,infoButton,shareButton,downloadButton,linkOriginalButton,fullscreenButton'
@@ -8321,7 +8321,8 @@
     function ItemDisplayInfo( item) {
 
       var content = '<div class="nGY2PopupOneItemText">' + item.title + '</div>';
-      content    += '<div class="nGY2PopupOneItemText">' + item.description + '</div>';
+      content = content + '<div class="nGY2PopupOneItemText">' + item.description + '</div>';
+      
       //wird nicht benötig 180527 TM
       //if( item.author != '' ) {
       //  content  += '<div class="nGY2PopupOneItemText">' + G.O.icons.user + ' ' + item.author + '</div>';
