@@ -1,7 +1,7 @@
 # BLACKCARD
-black_card:
-- title: THE BLACK CARD
-  info: TEXT BLACK CARD
+the_black:
+- title: THE BLACK
+  info: TEXT BLACK
         <br>
         <br>
         Ansprechpartner &#058;
@@ -21,7 +21,7 @@ black_card:
   greetings:
 
 # IMPRESSIONEN
-impressionen_black_card:
+impressionen_the_black:
   - collections: "&#35;passion"
     id: aktuelles
     #albumID: "6565168299633493377"

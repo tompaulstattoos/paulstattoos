@@ -1,16 +1,16 @@
 ---
 layout: default
-title: THE BLACK CARD
-permalink: /black_card
-your_shop: specials.black_card.black_card
+title: THE BLACK
+permalink: /the_black
+your_shop: specials.the_black.the_black
 ---
 
-{% capture black_card %}
-{{page.black_card}}
+{% capture the_black %}
+{{page.the_black}}
 {% endcapture %}
 
 </div>
-{% include teaser/black_card-teaser.html black_card=black_card %}
+{% include teaser/the_black-teaser.html the_black=the_black %}
 <script>
 	function init_gallery(albumID){
 	
@@ -55,7 +55,7 @@ your_shop: specials.black_card.black_card
 
 <div class="row">
   <div class="col s12">
-  {% for black_card in site.data.specials.black_card.black_card %}
+  {% for the_black in site.data.specials.the_black.the_black %}
     <h6>IMPRESSIONEN</h6>
     <hr style="margin-left: 0px;margin-right: 0px;">
   {% endfor %}
@@ -65,7 +65,7 @@ your_shop: specials.black_card.black_card
 <div class="row">
   <div class="col s12">
 			<div class="tabs" style="background-color: black;">
-      {% for impression in site.data.specials.black_card.impressionen_black_card %}
+      {% for impression in site.data.specials.black_card.impressionen_the_black %}
       <li class="tab col s3"><a id="anchor_{{impression.id}}" href="#galleryContainer" onclick="init_gallery('{{impression.albumID}}')" class="white-text" style="border-bottom-color: black;">{{impression.collections}}</a></li>
       {% endfor %}
     </div>    
