@@ -65,7 +65,7 @@ your_shop: specials.the_black.the_black
 <div class="row">
   <div class="col s12">
 			<div class="tabs" style="background-color: black;">
-      {% for impression in site.data.specials.black_card.impressionen_the_black %}
+      {% for impression in site.data.specials.the_black.impressionen_the_black %}
       <li class="tab col s3"><a id="anchor_{{impression.id}}" href="#galleryContainer" onclick="init_gallery('{{impression.albumID}}')" class="white-text" style="border-bottom-color: black;">{{impression.collections}}</a></li>
       {% endfor %}
     </div>    
