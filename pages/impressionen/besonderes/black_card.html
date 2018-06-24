@@ -1,0 +1,79 @@
+---
+layout: default
+title: THE BLACK CARD
+permalink: /black_card
+your_shop: specials.black_card.black_card
+---
+
+{% capture black_card %}
+{{page.black_card}}
+{% endcapture %}
+
+</div>
+{% include teaser/black_card-teaser.html black_card=black_card %}
+<script>
+	function init_gallery(albumID){
+	
+		if(typeof($('#nanogalleryGeneric')) != "undefined"){
+			$('#nanogalleryGeneric').nanogallery2("destroy");
+			$('#nanogalleryGeneric').remove();			
+		}
+		
+		var e = document.createElement("div");
+		$(e).attr('id','nanogalleryGeneric');
+		$('#galleryContainer').append(e);
+		
+		$("#nanogalleryGeneric").nanogallery2({
+			"userID": "102674011871822108337",
+			"kind": "google2",
+			"google2URL": "https://brandstore.tirol/nanogp/nanogp.php",
+			"album": albumID,
+			"thumbnailWidth": "auto",
+			  "thumbnailBorderVertical": 1,
+			  "thumbnailBorderHorizontal": 1,
+			  "colorScheme": {
+				"thumbnail": {
+				  "background": "rgba(0,0,0,1)"
+				}
+			  },
+			  "thumbnailLabel": {
+				"display": false
+			  },
+			  "galleryDisplayMode": "pagination",
+				"galleryMaxRows": 3,
+				"gallerySorting": "random",
+			  "thumbnailAlignment": "center"
+		});
+	}
+	
+	$( document ).ready(function(){
+		document.getElementById("anchor_aktuelles").click(); // first tab select
+	});
+
+  </script>
+<div class="container">
+
+<div class="row">
+  <div class="col s12">
+  {% for black_card in site.data.specials.black_card.black_card %}
+    <h6>IMPRESSIONEN</h6>
+    <hr style="margin-left: 0px;margin-right: 0px;">
+  {% endfor %}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col s12">
+			<div class="tabs" style="background-color: black;">
+      {% for impression in site.data.specials.black_card.impressionen_black_card %}
+      <li class="tab col s3"><a id="anchor_{{impression.id}}" href="#galleryContainer" onclick="init_gallery('{{impression.albumID}}')" class="white-text" style="border-bottom-color: black;">{{impression.collections}}</a></li>
+      {% endfor %}
+    </div>    
+  </div>
+  <div class="col s12 gallery-wrapper" id="galleryContainer">
+
+  </div>
+</div>
+
+</div>
+</div>
