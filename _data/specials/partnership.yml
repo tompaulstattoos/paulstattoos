@@ -1,7 +1,8 @@
 # PARTNERSHIP
 partnership:
 - title: BRANDSTORE.TIROL "STORES OF SPORTS"
-  info: Du bist egoistisch, falsch, gierig, leidenschaftslos und unmotiviert bei dem, was du tust? Glaubst, du kannst alles
+  info: >
+        Du bist egoistisch, falsch, gierig, leidenschaftslos und unmotiviert bei dem, was du tust? Glaubst, du kannst alles
         besser und bist der große Zampanova und aufs schnelle Geld aus? Dann bist du hier definitiv falsch!
         <br>
         Wenn du Lust hast, GEMEINSAM etwas zu erreichen, du Spaß und Leidenschaft für dein Business hast, stets
@@ -16,7 +17,7 @@ partnership:
         <br>
         Tom Moser
         <br>
-        Mobil&#058; 0043 699 18333891
+        Mobil&#058; <span class="grey-text"><u>0043 699 183 33 891</u></span>
         <br>
         Mail&#058; <u><a class="grey-text" href="mailto:tom@brandstore.tirol">tom@brandstore.tirol</a></u>
   info2: 

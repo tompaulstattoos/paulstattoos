@@ -1,7 +1,8 @@
 # AMBASSADOR
 ambassador:
 - title: WERDE BOTSCHAFTER
-  info: Du teilst unsere Liebe zur Natur und zum Sport, die Leidenschaft zur Marke und die Begeisterung für das Team 
+  info: >
+        Du teilst unsere Liebe zur Natur und zum Sport, die Leidenschaft zur Marke und die Begeisterung für das Team 
         und die Vision dahinter? Du bist stark in den sozialen Medien vertreten und pflegst eine große Community? 
         Dann werde unser Botschafter! Als Botschafter erhältst du, neben den zahlreichen anderen Vorteilen, pro Saison 
         ein komplettes Outfit zu absoluten Sonderkonditionen. Meld dich bei uns und zeig uns deine Begeisterung. 
@@ -12,7 +13,7 @@ ambassador:
         <br>
         Tom Moser
         <br>
-        Mobil&#058; 0043 699 18333891
+        Mobil&#058; <span class="grey-text"><u>0043 699 183 33 891</u></span>
         <br>
         Mail&#058; <u><a class="grey-text" href="mailto:tom@brandstore.tirol">tom@brandstore.tirol</a></u>
   info2: 
