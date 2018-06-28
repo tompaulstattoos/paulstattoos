@@ -1,7 +1,8 @@
 # BLACKCARD
 the_black:
 - title: THE BLACK
-  info: Das Highlight für richtig eingefleischte Martini Sportswear Fans!
+  info: >
+        Das Highlight für richtig eingefleischte Martini Sportswear Fans!
         Mit "THE BLACK" erhältst du 1 Jahr lang diese Vorteile&#58;
         <br>
         &ndash; 15% Rabatt auf nicht reduzierte Ware
@@ -10,11 +11,7 @@ the_black:
         <br>
         &ndash; fixer Platz bei unseren BRANDSTORE.TIROL Events
         <br>
-        #&ndash; frühest möglicher Zugriff auf die neuesten Kollektionsteile; somit sind dir die neuen
-        #Modelle so gut wie sicher
-        #<br>
-        &ndash; Zugang
-        #<br>
+        &ndash; Zugang  zum "THE BLACK CLUB" nur Mitglieder kennen ihn
         <br>
         Eine Bedingung gibt's - Deine Sonderkonditionen erhälts du erst, wenn dein Jahresebeitrag bezahlt wurde. Wenn 
         du bei deinem Einkauf "THE BLACK" bestellst, wird dir dein Rabatt als Gutschrift selbstverständloch auch 
