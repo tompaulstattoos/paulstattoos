@@ -43,6 +43,7 @@ Programm für EUCH überlegt:</p>
 <br>
 <span style="font-size: 12px"><b>(&#35;aufaguadezeit)</b></span>
 <br>
+<br>
 </div>
 
 <p style="text-align: justify">Musikalisch begleitet werden wir von Antoni Berza. Für das leibliche Wohl sorgt die mobile Stollenbar des Auracher Löchl.</p>
