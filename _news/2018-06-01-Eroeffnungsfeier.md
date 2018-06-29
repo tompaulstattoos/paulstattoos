@@ -37,7 +37,7 @@ Programm für EUCH überlegt:</p>
 <span style="font-size: 12px"><b>(&#35;lebdeilebn)</b></span>
 <br>
 <br>
-<span style="font-size: 20px">"Preisübergabe und eine kleine Überraschung"</span>
+<span style="font-size: 20px">"Preisübergaben und eine kleine Überraschung"</span>
 <br>
 <span style="font-size: 16px">Wir gemeinsam</span> 
 <br>
