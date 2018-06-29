@@ -1,4 +1,4 @@
-# martini_sportswear_kids
+# andi wiesinger
 ambassador_andi_wiesinger:
 - title: ANDI WIESINGER
   info: >
@@ -6,14 +6,14 @@ ambassador_andi_wiesinger:
   info2: 
   img-url: assets/img/banner/martini_sportswear_brandlogo.png
   url: ambassador_andi_wiesinger
-  hashtag: "&#35;designyoursports &#35;lebdeilebn"
+  hashtag: "&#35;lebdeilebn"
   links: 
         <u><a class="grey-text" href="https://brandstoretirol.github.io/brandstore-tirol/ambassador">BOTSCHAFTER</a></u>
   greetings:
 
 # IMPRESSIONEN
 impressionen_ambassador_andi_wiesinger:
-  - collections: "KIDS"
-    id: kids
+  - collections: "IMPRESSIONEN"
+    id: impressionen
     #albumID: "6565168299633493377"
     albumID: "6569144106452093697"
