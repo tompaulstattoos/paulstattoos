@@ -37,6 +37,11 @@ Programm für EUCH überlegt:</p>
 <span style="font-size: 12px"><b>(&#35;lebdeilebn)</b></span>
 <br>
 <br>
+<span style="font-size: 20px">"Preisübergabe und eine kleine Überraschung"</span>
+<br>
+<span style="font-size: 16px">Wir gemeinsam</span> 
+<br>
+<span style="font-size: 12px"><b>(&#35;aufaguadezeit)</b></span>
 </div>
 
 <p style="text-align: justify">Musikalisch begleitet werden wir von Antoni Berza. Für das leibliche Wohl sorgt die mobile Stollenbar des Auracher Löchl.</p>
