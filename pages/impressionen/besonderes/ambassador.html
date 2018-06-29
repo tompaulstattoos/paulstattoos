@@ -53,6 +53,14 @@ ambassador: specials.ambassador.ambassador
   </script>
 <div class="container">
 
+<!-- klassifizierung -->
+<div class="row" style="background-color: white; color: black">
+
+		{% assign ambassador_groups = site.data.specials.ambassador_groups %}
+		{% include card.html item=ambassador_groups size="s12 m4" %}
+	
+</div>
+
 <div class="row">
   <div class="col s12">
   {% for ambassador in site.data.specials.ambassador.ambassador %}
