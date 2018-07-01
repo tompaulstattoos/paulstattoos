@@ -56,12 +56,12 @@ banner:
           <br>
 
     text3: >
-            <span style="font-size: 30px">DIE GROSSE ERÖFFNUNG AM 13.10.2018</span>
+            <span style="font-size: 30px">TEST SEITE 2</span>
             <br>
             Nähere Infos findest du im <u><a class="white-text" href="https://brandstoretirol.github.io/brandstore-tirol/news/2018-06-01-Eroeffnungsfeier.html">PROGRAMM</a></u>
             <br>
 
-    img-url: banner_opening.png
+    img-url: banner_main.png
 
     hashtag: "<b>&#35;love &#35;passion &#35;enthusiasm &#35;dream &#35;project &#35;martinisportswear &#35;designyoursports &#35;aufaguadezeit &#35;brandstoretirol &#35;lebdeilebn</b>"
     
