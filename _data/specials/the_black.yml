@@ -2,24 +2,25 @@
 the_black:
 - title: THE BLACK
   info: >
-        Das Highlight für richtig eingefleischte Martini Sportswear Fans!
+        Das Highlight für richtig eingefleischte Sportswear Fans!
         <br>
         <br>
         Mit "THE BLACK" erhältst du 1 Jahr lang diese Vorteile&#58;
         <br>
-        &ndash; 15% Rabatt auf nicht reduzierte Ware
+        &bull;; 15% Rabatt auf nicht reduzierte Ware
         <br>
-        &ndash; 3 kostenlose <u><a class="grey-text" href="https://brandstoretirol.github.io/brandstore-tirol/your_shop" target="_blank">"Private Shopping Sessions"</a></u> für jeweils 3 Personen
+        &bull;; 3 kostenlose <u><a class="grey-text" href="https://brandstoretirol.github.io/brandstore-tirol/your_shop" target="_blank">"Private Shopping Sessions"</a></u> für jeweils 3 Personen
         <br>
-        &ndash; fixer Platz bei unseren BRANDSTORE.TIROL Events
+        &bull;; fixer Platz bei unseren BRANDSTORE.TIROL Events
         <br>
-        &ndash; Zugang zum "THE BLACK CLUB" (nur Mitglieder kennen ihn)
+        &bull;; Zugang zum "THE BLACK CLUB" (nur Mitglieder kennen ihn)
         <br>
         <br>
         Eine Bedingung gibt's - Deine Sonderkonditionen erhälts du erst, wenn dein Jahresebeitrag bezahlt wurde. Wenn 
         du bei deinem Einkauf "THE BLACK" bestellst, wird dir dein Rabatt als Gutschrift selbstverständlich auch 
         rückwirkend erstattet. "THE BLACK" ist eine exklusive Geschichte für seinen Besitzer.
         <br>
+        "THE BLACK" ist nicht per Mail erhältlich, sondern gibts nur exklusiv beim uns im Shop.
         <br>
   info2: 
   url: the_black
@@ -36,5 +37,5 @@ the_black:
 impressionen_the_black:
   - collections: "&#35;passion &#35;enthusiasm"
     id: aktuelles
-    albumID: "6558392027930808369"
-    #albumID: "6569144106452093697"
+    #albumID: "6558392027930808369"
+    albumID: "6569144106452093697"
