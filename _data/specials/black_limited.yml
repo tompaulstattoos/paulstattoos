@@ -1,5 +1,5 @@
 # BLACKCARD
-the_black:
+black_limited:
 - title: BLACK LIMITED
   info: >
         Das Highlight für richtig eingefleischte Sportswear Fans!
@@ -23,7 +23,7 @@ the_black:
         Die "BLACK LIMITED" ist nicht per Mail erhältlich, sondern gibts nur exklusiv bei uns im Shop.
         <br>
   info2: 
-  url: the_black
+  url: black_limited
   hashtag: "<b>&#35;passion &#35;enthusiasm</b>"
   links: 
         <u><a class="grey-text" href="https://brandstoretirol.github.io/brandstore-tirol/your_shop">DEIN SHOP</a></u>
@@ -34,7 +34,7 @@ the_black:
   greetings:
 
 # IMPRESSIONEN
-impressionen_the_black:
+impressionen_black_limited:
   - collections: "&#35;passion &#35;enthusiasm"
     id: aktuelles
     #albumID: "6558392027930808369"
