@@ -1,16 +1,16 @@
 ---
 layout: default
-title: SHOP
-permalink: /shop
-shop: shops.shop_info.shop_info
+title: KUNSTHAUS
+permalink: /kunsthaus
+shop: kunsthaus_allgemein.kunsthaus_info.kunsthaus_info
 ---
 
-  {% capture shop %}
-    {{page.shop}}
+  {% capture kunsthaus %}
+    {{page.kunsthaus}}
   {% endcapture %}
 
   </div>
-  {% include teaser/shop-teaser.html shop=shop %}
+  {% include teaser/kunsthaus-teaser.html kunsthaus=kunsthaus %}
   
    <script>
 	function init_gallery(albumID){

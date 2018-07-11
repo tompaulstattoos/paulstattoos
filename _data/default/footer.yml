@@ -2,21 +2,21 @@ footer:
   - title: Impressum
     content:
       - title: Impressum
-        url: /brandstore-tirol/impressum
+        url: /kunstmadreiter/impressum
         target: ''
         type: internal
       - title: Cookie-Richtlinie
-        url: /brandstore-tirol/cookie
+        url: /kunstmadreiter/cookie
         target: ''
         type: internal
     
   - title: Kontakt
     content:
       - title: Persönlich
-        url: /brandstore-tirol/shop
+        url: /kunstmadreiter/kunsthaus
         target: ''
         type: internal
       - title: Unpersönlich
-        url: https://www.facebook.com/tom.brandstore.tirol
+        url: https://de-de.facebook.com/Pauls-Tattoos-Kunst-Madreiter-123042891090313/
         target: _blank
         type: external

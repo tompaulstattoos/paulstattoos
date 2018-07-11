@@ -1,6 +1,6 @@
 # SHOP
-shop_info:
-- title: UNSER STUDIO
+kunsthaus_info:
+- title: DAS KUNSTHAUS
   url: kunsthaus
   info: >
         <span style="font-size: 20px">Eure Öffnungszeiten</span>
@@ -9,12 +9,6 @@ shop_info:
         Mo - Fr von 10.00 - 19.00 Uhr,
         <br>
         Sa von 08.00 - 12.00 Uhr,
-        <br>
-        <br>
-        oder komm zu deinem ganz persönlichen
-        Shopping-Erlebnis! 
-        <br>
-        Nähere Infos findest du unter <u><a class="grey-text" href="https://brandstoretirol.github.io/brandstore-tirol/your_shop">DEIN SHOP</a></u>
         <br>
         <br>
         Du findest uns in der Wildbichler Strasse 2D, in 6341 Ebbs/Tirol
@@ -28,21 +22,8 @@ shop_info:
   greetings: Euer Tom!
 
 # IMPRESSIONEN
-impressionen_shop: 
+impressionen_kunsthaus: 
   - collections: AKTUELLES
     id: aktuelles
     albumID: "6569144106452093697"
  #   albumID: "6568094183311223217"
-
-
- # - collections: DAMEN
- #   id: damen
- #   albumID: "6560260242893629377"
-
- # - collections: HERREN
- #   id: herren
- #   albumID: "6560260344570582193"
-
- # - collections: KINDER
- #   id: kinder
- #   albumID: "6560260408849047905"
