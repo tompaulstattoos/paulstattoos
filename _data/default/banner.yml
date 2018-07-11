@@ -8,8 +8,8 @@ banner:
            Ausfahrt Kirchbichl
            Adresse fürs Navi ist die - Burgstrasse 12
           (hinter dem Feuerwehrhaus)  
-    text2: >
-            <p>{% include map.html key="AIzaSyAbNd0_aUpH52S_onk4u93W9iEz30fX_cU" %}</p>
+    
+          text2: 
           
     text3: >
             <span style="font-size: 30px">DIE GROSSE ERÖFFNUNG AM 13.10.2018</span>
