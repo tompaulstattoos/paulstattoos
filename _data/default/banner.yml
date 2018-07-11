@@ -1,8 +1,15 @@
 banner:
   - title: Liebe Freunde!
     text: 
-           Daraus entstand der Wunsch, unseren Kunden die Möglichkeit zu bieten, Teil dieser Geschichte zu werden, sie mitzuschreiben und zu erleben.   
-    text2: 
+           NEUER STANDORT AB DIENSTAG, 25.5.2018
+           Schlossweg 2
+           6336 Langkampfen TIROL
+           Zwischen Kufstein und Wörgl
+           Ausfahrt Kirchbichl
+           Adresse fürs Navi ist die - Burgstrasse 12
+          (hinter dem Feuerwehrhaus)  
+    text2: >
+            <p>{% include map.html key="AIzaSyAbNd0_aUpH52S_onk4u93W9iEz30fX_cU" %}</p>
           
     text3: >
             <span style="font-size: 30px">DIE GROSSE ERÖFFNUNG AM 13.10.2018</span>
