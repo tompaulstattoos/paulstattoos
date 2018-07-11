@@ -17,7 +17,7 @@ title: Home
   <!-- home teaser   -->
   {% include teaser/home-teaser.html %}
 
-  <!-- BRANDS  -->
+  <!-- leistungen  -->
   <div class="row">
 
     <h5>KUNSTHAUS MADREITER</h5>
@@ -28,14 +28,14 @@ title: Home
     
   </div>
 
-  <!-- SHOPS -->
+  <!-- kunsthaus -->
 
   <div class="row">
 
     <h5>UNSER STUDIO</h5>
     <hr>
 
-    {% assign shop = site.data.shops.shop %}
-    {% include card.html item=shop size="s12 m6" %}
+    {% assign kunsthaus = site.data.kunsthaus_info.kunsthaus %}
+    {% include card.html item=kunsthaus size="s12 m6" %}
 
   </div>
