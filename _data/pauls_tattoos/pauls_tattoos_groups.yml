@@ -1,7 +1,11 @@
 - title: PAUL
-  img-url: assets/img/logos/bs_logo_black_hoch_neu.png
-  url: martini_sportswear_women
+  img-url: assets/img/logos/paul_team.png
+  url: pauls_tattoos_paul
 
 - title: ALEX
-  img-url: assets/img/logos/bs_logo_black_hoch_neu.png
-  url: martini_sportswear_men
+  img-url: assets/img/logos/alex_team.png
+  url: pauls_tattoos_alex
+
+- title: JENNY
+  img-url: assets/img/logos/jenny_team.png
+  url: pauls_tattoos_jenny
