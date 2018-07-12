@@ -9,16 +9,15 @@ pauls_tattoos_paul:
         kindlichen Schneetreiben alles bestens ist.
   info2: 
   img-url: assets/img/banner/martini_sportswear_brandlogo.png
-  url: martini_sportswear_kids
-  hashtag: "&#35;designyoursports &#35;lebdeilebn"
+  url: pauls_tattoos_paul
+  hashtag: 
   links: 
-        <u><a class="grey-text" href="https://brandstoretirol.github.io/brandstore-tirol/martini_sportswear_women">DAMEN</a></u>
-        <u><a class="grey-text" href="https://brandstoretirol.github.io/brandstore-tirol/martini_sportswear_men">HERREN</a></u>
+        <u><a class="grey-text" href="https://brandstoretirol.github.io/brandstore-tirol/martini_sportswear_women">ALEX</a></u>
+        <u><a class="grey-text" href="https://brandstoretirol.github.io/brandstore-tirol/martini_sportswear_men">JENNY</a></u>
   greetings:
 
 # IMPRESSIONEN
 impressionen_pauls_tattoos_paul:
   - collections: "PAUL"
     id: paul
-    #albumID: "6565168299633493377"
-    albumID: "6569144106452093697"
+    albumID: "6577197529828402625"
