@@ -1,16 +1,16 @@
 ---
 layout: default
-title: FÜR UNSERE HERREN
-permalink: /martini_sportswear_men
-ambassador: brands.martini_sportswear.martini_sportswear_men.martini_sportswear_men
+title: PAUL
+permalink: /pauls_tattoos_paul
+ambassador: brands.pauls_tattoos_paul.pauls_tattoos_paul.pauls_tattoos_paul
 ---
 
-{% capture martini_sportswear_men %}
-{{page.martini_sportswear_men}}
+{% capture pauls_tattoos_paul %}
+{{page.pauls_tattoos_paul}}
 {% endcapture %}
 
 </div>
-{% include teaser/martini_sportswear_men-teaser.html martini_sportswear_men=martini_sportswear_men %}
+{% include teaser/pauls_tattoos_paul-teaser.html pauls_tattoos_paul=pauls_tattoos_paul %}
  <script>
 	function init_gallery(albumID){
 	
@@ -24,9 +24,9 @@ ambassador: brands.martini_sportswear.martini_sportswear_men.martini_sportswear_
 		$('#galleryContainer').append(e);
 		
 		$("#nanogalleryGeneric").nanogallery2({
-			"userID": "102674011871822108337",
+			"userID": "116403475487081251072",
 			"kind": "google2",
-			"google2URL": "https://brandstore.tirol/nanogp/nanogp.php",
+			"google2URL": "https://kunst-madreiter.at/nanogp/nanogp.php",
 			"album": albumID,
 			"thumbnailWidth": "auto",
 			  "thumbnailBorderVertical": 1,
@@ -41,13 +41,13 @@ ambassador: brands.martini_sportswear.martini_sportswear_men.martini_sportswear_
 			  },
 			  "galleryDisplayMode": "pagination",
 				"galleryMaxRows": 3,
-				"gallerySorting": "titleAsc",
+				"gallerySorting": "random",
 			  "thumbnailAlignment": "center"
 		});
 	}
 	
 	$( document ).ready(function(){
-		document.getElementById("anchor_jacken").click(); // first tab select
+		document.getElementById("anchor_paul").click(); // first tab select
 	});
 
   </script>
@@ -55,8 +55,8 @@ ambassador: brands.martini_sportswear.martini_sportswear_men.martini_sportswear_
 
 <div class="row">
   <div class="col s12">
-	{% for martini_sportswear_men in site.data.brands.martini_sportswear_groups.martini_sportswear_men.martini_sportswear_men %}
-    <h6>HERRENKOLLEKTION</h6>
+  {% for pauls_tattoos_paul in site.data.pauls_tattoos_all.pauls_tattoos_paul.pauls_tattoos_paul %}
+    <h6>KINDERKOLLEKTION</h6>
     <hr style="margin-left: 0px;margin-right: 0px;">
   {% endfor %}
   </div>
@@ -64,7 +64,7 @@ ambassador: brands.martini_sportswear.martini_sportswear_men.martini_sportswear_
 <div class="row">
   <div class="col s12">
 			<div class="tabs" style="background-color: black;">
-      {% for impression in site.data.brands.martini_sportswear_groups.martini_sportswear_men.impressionen_martini_sportswear_men %}
+      {% for impression in ite.data.pauls_tattoos_all.pauls_tattoos_paul.impressionen_pauls_tattoos_paul %}
         <li class="tab col s3"><a id="anchor_{{impression.id}}" href="#galleryContainer" onclick="init_gallery('{{impression.albumID}}')" class="white-text" style="border-bottom-color: black;">{{impression.collections}}</a></li>
       {% endfor %}
     </div>    
