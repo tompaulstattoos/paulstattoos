@@ -7,20 +7,19 @@
         background-color: grey;
     }
 </style>
-
-  <script>
-    var map;
+<script>
     function initMap() {
-      map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 47.5383611, lng: 12.0823934},
-        zoom: 8
-      });
+    var uluru = {lat: 47.6230968, lng: 12.2132763};
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 15,
+        center: uluru
+    });
+    var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+    });
     }
-  </script>
-
-<!--<script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPMO9foWFeg1ryZMaEb3xYfB0gKeYZfc4&callback=initMap">
-</script>-->
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPMO9foWFeg1ryZMaEb3xYfB0gKeYZfc4&callback=initMap"
-    async defer></script>
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRgULXbJdk1VMPO9yjD9N_8NIwHXKBfQs&callback=initMap">
+</script>
