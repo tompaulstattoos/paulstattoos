@@ -63,6 +63,15 @@ brand: kunst_madreiter.pauls_tattoos.pauls_tattoos
 			
 		</div>
 
+		<!-- klassifizierung 2 -->
+		<div class="row" style="background-color: white; color: black">
+			
+			<h6>MODELS</h6>
+			{% assign pauls_tattoos_model_groups = site.data.pauls_tattoos_all.pauls_tattoos_model_groups %}
+			{% include card.html item=pauls_tattoos_model_groups size="s12 m3" %}
+		
+	</div>
+
   <div class="row">
     <div class="col s12">
     {% for pauls_tattoos in site.data.kunst_madreiter.pauls_tattoos.pauls_tattoos %}
