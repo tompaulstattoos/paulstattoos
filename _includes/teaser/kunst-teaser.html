@@ -20,9 +20,13 @@
 
 <div class="row starter_text" style="background-color: #000; color: #fff; padding: 10px 0; text-align: justify">
 
+  <!-- ein- ausblenden -->
+  <!-- <a style="font-size: 25px; color: #fff"; href="" onclick="javascript:show('divText'); return false;"> X</a> 
+  <div style="display: none" id="divText"> -->
+
   <div class="container">
     
-    {% for item in site.data.specials.your_shop.your_shop %}
+    {% for item in site.data.kunst_madreiter.kunst.kunst %}
     <div class="col s12 "style="padding-right: 0px;">
       <div class="col s10" style="padding-left: 0">
         <h6>{{ item.title }}</h6>
@@ -39,26 +43,18 @@
       <div class="col s12 m6">
         <p>{{ item.info }}</p>
       </div>
-      <!--<div class="col s12 m6">
-        <p>{{ item.info2 }}</p>-->
-      
-        <div class="col s12 m6">
-          <img src="/brandstore-tirol/assets/img/specials/your_shop.png" alt="" style="width: 100%;margin-top: 20px;">
+      <div class="col s12 m6">
+        <p>{{ item.info2 }}</p>
       </div>
-
       <div class="col s12">
-        <p style="font-size: 15px; text-align: center;">{{ item.hashtag }}</p>
+        <p style="font-size: 15px; text-align: justify;">{{ item.info3 }}</p>
       </div>
-      
       <div class="col s12">
-          <p style="font-size: 15px; text-align: left;">{{ item.links }}</p>
-      </div>
-
-     <div class="col s12">
-       <!-- <img src="{{ '/assets/img/logos/bs_symbol_white_transparent.png' | relative_url }}" alt="" style="width: 80px; float: right;">
-        <p style="float: right; margin-top: 47px;">{{ item.greetings }}</p>>-->
+        <!--<img src="{{ '/assets/img/logos/bs_symbol_white_transparent.png' | relative_url }}" alt="" style="width: 80px; float: right;">-->
+        <!--<p style="float: right; margin-top: 47px;">{{ item.greetings }}</p>-->
       </div>
     </div>
     {% endfor %}
-  </div>
+    <!--</div>-->
+   </div>
 </div>

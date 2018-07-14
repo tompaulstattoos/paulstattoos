@@ -1,0 +1,19 @@
+kunst:
+- title: KUNST
+  url: kunst
+  info: >
+        <span style="font-size: 25px">KUNST</span>
+    
+  info2: >
+          <span style="font-size: 25px">KUNST</span>
+  info3: 
+  
+# Impressionen
+impressionen_kunst:
+- collections: AKTUELL
+  id: aktuell
+  albumID: "6577197529828402625"
+
+#- collections: ACTION
+#  id: action
+#  albumID: "6577197529828402625" 
