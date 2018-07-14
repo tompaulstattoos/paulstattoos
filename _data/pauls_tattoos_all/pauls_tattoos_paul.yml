@@ -1,10 +1,8 @@
 pauls_tattoos_paul:
 - title: PAUL
-  info: >
-        TEXT
-  
+  info: 
   info2: 
-  img-url: assets/img/logos/paul_team.png
+  img-url: #assets/img/logos/paul_team.png
   url: pauls_tattoos_paul
   hashtag: 
   links: 
