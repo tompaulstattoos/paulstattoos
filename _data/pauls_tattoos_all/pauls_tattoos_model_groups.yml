@@ -1,3 +1,7 @@
-- title: JACKY
-  img-url: assets/img/logos/paul_grey.png
-  url: pauls_tattoos_model_jacky
+- title: JACKY MEXX
+  img-url: assets/img/logos/jacky_mexx_grey.png
+  url: pauls_tattoos_model_jacky_mexx
+
+- title: PRESSE
+  img-url: assets/img/logos/presse_grey.png
+  url: pauls_tattoos_presse
