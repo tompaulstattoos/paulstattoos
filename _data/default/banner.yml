@@ -1,6 +1,7 @@
 banner:
   - title: Hallo zusammen!
-    text: 
+    text: >
+          <span style="font-size: 20px">
            NEUER STANDORT AB DIENSTAG, 25.5.2018
            <br>
            Schlossweg 2
@@ -14,6 +15,7 @@ banner:
            Adresse fürs Navi ist die - Burgstrasse 12
            <br>
            (hinter dem Feuerwehrhaus)  
+           </span>
     text2: 
           
     text3: >
