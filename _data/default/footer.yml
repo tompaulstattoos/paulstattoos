@@ -16,14 +16,17 @@ footer:
         url: /kunstmadreiter/kunsthaus
         target: ''
         type: internal
+
       - title: Facebook
         url: https://de-de.facebook.com/Pauls-Tattoos-Kunst-Madreiter-123042891090313/
         target: _blank
         type: external
+
       - title: Facebook App
         url: fb://profile/123042891090313/
         target: _blank
         type: external
+        
       - title: Instagram
         url: https://www.instagram.com/pauls_tattoos/
         target: _blank
