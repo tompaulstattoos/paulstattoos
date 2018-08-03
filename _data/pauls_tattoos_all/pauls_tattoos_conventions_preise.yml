@@ -1,0 +1,18 @@
+pauls_tattoos_conventions_preise:
+- title: CONVENTIONS / PREISE
+  info: >
+  info2: >
+  img-url:
+  url: pauls_tattoos_conventions_preise
+  hashtag: 
+  links: 
+        <u><a class="grey-text" href="http://kunst-madreiter.at/pauls_tattoos_paul">PAUL</a></u>
+        <u><a class="grey-text" href="http://kunst-madreiter.at/pauls_tattoos_alex">ALEX</a></u>
+        <u><a class="grey-text" href="http://kunst-madreiter.at/pauls_tattoos_jenny">JENNY</a></u>
+  greetings:
+
+# IMPRESSIONEN
+impressionen_pauls_tattoos_conventions_preise:
+  - collections: "CONVENTIONS / PREISE"
+    id: conventions
+    albumID: "6585486624147152545"
