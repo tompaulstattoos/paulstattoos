@@ -12,8 +12,10 @@ kunst:
 impressionen_kunst:
 - collections: KUNSTMALEREI
   id: kunstmalerei
-  albumID: "6577980304007587089"
+  albumID: "AIR76qsovdeq1_fwSJ6-rvXwOoKOb-ML7cQyNVVEg0NzG9k1SmRbCkIQ4o-P3YHtQFDxkcpYHwNg"
+  #albumID: "6577980304007587089"
 
 - collections: HOLZARBEITEN
   id: holzarbeiten
-  albumID: "6577980480952325649"
+  albumID: "AIR76quFN11vVydJMauiBG5xtf3thjGmMF0uS-l_VmWA9dXLr6NRausvA1mdl0sf93GmcGbBU0uV"
+  #albumID: "6577980480952325649"
