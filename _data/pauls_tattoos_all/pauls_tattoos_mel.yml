@@ -1,9 +1,9 @@
-pauls_tattoos_alex:
-- title: ALEX
+pauls_tattoos_mel:
+- title: MEL
   info: 
   info2: 
   img-url:
-  url: pauls_tattoos_alex
+  url: pauls_tattoos_mel
   hashtag: 
   links: 
         <u><a class="grey-text" href="http://kunst-madreiter.at/pauls_tattoos_paul">PAUL</a></u>
@@ -12,8 +12,8 @@ pauls_tattoos_alex:
   greetings:
 
 # IMPRESSIONEN
-impressionen_pauls_tattoos_alex:
-  - collections: "ALEX"
-    id: alex
+impressionen_pauls_tattoos_mel:
+  - collections: "MEL"
+    id: mel
     albumID: "AIR76qvzCccHLfYV3CCuV1VdpeUfgdYz-K-QIYETSr0vHr1IDjn07EVxd03UUVc_I0dNi4omW72Q"
     #albumID: "6577025692968441489"

@@ -1,16 +1,16 @@
 ---
 layout: default
-title: ALEX
-permalink: /pauls_tattoos_alex
-ambassador: brands.pauls_tattoos_alex.pauls_tattoos_alex.pauls_tattoos_alex
+title: MEL
+permalink: /pauls_tattoos_mel
+ambassador: brands.pauls_tattoos_mel.pauls_tattoos_mel.pauls_tattoos_mel
 ---
 
-{% capture pauls_tattoos_alex %}
-{{page.pauls_tattoos_alex}}
+{% capture pauls_tattoos_mel %}
+{{page.pauls_tattoos_mel}}
 {% endcapture %}
 
 </div>
-{% include teaser/pauls_tattoos_alex-teaser.html pauls_tattoos_alex=pauls_tattoos_alex %}
+{% include teaser/pauls_tattoos_mel-teaser.html pauls_tattoos_mel=pauls_tattoos_mel %}
  <script>
 	function init_gallery(albumID){
 	
@@ -47,7 +47,7 @@ ambassador: brands.pauls_tattoos_alex.pauls_tattoos_alex.pauls_tattoos_alex
 	}
 	
 	$( document ).ready(function(){
-		document.getElementById("anchor_alex").click(); // first tab select
+		document.getElementById("anchor_mel").click(); // first tab select
 	});
 
   </script>
@@ -55,7 +55,7 @@ ambassador: brands.pauls_tattoos_alex.pauls_tattoos_alex.pauls_tattoos_alex
 
 <div class="row">
   <div class="col s12">
-  {% for pauls_tattoos_alex in site.data.pauls_tattoos_all.pauls_tattoos_alex.pauls_tattoos_alex %}
+  {% for pauls_tattoos_mel in site.data.pauls_tattoos_all.pauls_tattoos_mel.pauls_tattoos_mel %}
     <h6>GALERIE</h6>
     <hr style="margin-left: 0px;margin-right: 0px;">
   {% endfor %}
@@ -64,7 +64,7 @@ ambassador: brands.pauls_tattoos_alex.pauls_tattoos_alex.pauls_tattoos_alex
 <div class="row">
   <div class="col s12">
 			<div class="tabs" style="background-color: black;">
-      {% for impression in site.data.pauls_tattoos_all.pauls_tattoos_alex.impressionen_pauls_tattoos_alex %}
+      {% for impression in site.data.pauls_tattoos_all.pauls_tattoos_mel.impressionen_pauls_tattoos_mel %}
         <li class="tab col s3"><a id="anchor_{{impression.id}}" href="#galleryContainer" onclick="init_gallery('{{impression.albumID}}')" class="white-text" style="border-bottom-color: black;">{{impression.collections}}</a></li>
       {% endfor %}
     </div>    
